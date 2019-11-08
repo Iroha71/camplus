@@ -204,5 +204,5 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target=""  ]
 [s  ]
