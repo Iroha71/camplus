@@ -9,7 +9,7 @@
 [bg  storage="title.jpg"  ]
 *title
 
-[glink  color="black"  text="はじめから"  x="75"  y="370"  size="20"  target="*start"  ]
+[glink  color="black"  text="はじめから"  x="75"  y="370"  size="20"  target="*start"  storage="s1_1.ks"  ]
 [glink  color="black"  text="つづきから"  x="75"  y="470"  size="20"  target="*load"  ]
 [s  ]
 *start
@@ -18,6 +18,7 @@
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
+
 [s  ]
 *load
 
