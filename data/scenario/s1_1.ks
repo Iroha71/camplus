@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_s1_1.ks]
 
+*start
+
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
 [tb_show_message_window  ]
