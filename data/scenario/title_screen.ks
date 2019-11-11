@@ -18,7 +18,6 @@
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[jump  storage="s2_3.ks"  target=""  ]
 [s  ]
 *load
 
