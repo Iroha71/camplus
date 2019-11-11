@@ -12,16 +12,16 @@
 しすてむ開発とねっとわーく・せきゅりてぃか [r] ……どっちが先がいいとかあるかのぅ？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="システム開発分野"  target="*システム"  ]
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="ネットワーク・セキュリティ分野"  target="*ネットワーク"  ]
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="どっちでもいい"  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="システム開発分野"  target="*システム"  x="257"  y="504"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="ネットワーク・セキュリティ分野"  target="*ネットワーク"  x="516"  y="111"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="どっちでもいい"  target="*どっちでもいい"  ]
 [s  ]
 *システム
 
-[jump  storage="h2_5_1.ks"  target="*システム"  ]
+[jump  storage="h2_5_1.ks"  target=""  ]
 *ネットワーク
 
-[jump  storage="h2_5_2.ks"  target="*ネットワーク"  ]
+[jump  storage="h2_5_2.ks"  target=""  ]
 *どっちでもいい
 
 [jump  storage="h2_5_3.ks"  target=""  ]
