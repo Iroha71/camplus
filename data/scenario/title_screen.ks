@@ -18,7 +18,7 @@
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[jump  storage="scene1.ks"  target=""  ]
+
 [s  ]
 *load
 
