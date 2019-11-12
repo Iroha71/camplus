@@ -1,6 +1,9 @@
 [_tb_system_call storage=system/_h2_2.ks]
 
 [cm  ]
+*2-2start
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -388,7 +391,7 @@
 
 *h2_2終了
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="s2_3.ks"  target="*2-3start"  ]
 [tb_start_text mode=1 ]
 #
 そのあたりも動画や写真があるということで、飲み物を何度かおかわりしながらしばらく話をした。[p]

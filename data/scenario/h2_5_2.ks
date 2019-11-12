@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_h2_5_2.ks]
 
+[cm  ]
 *ネットワーク・セキュリティ分野
 
 [tb_show_message_window  ]
