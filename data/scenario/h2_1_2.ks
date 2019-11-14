@@ -350,4 +350,5 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="h2_2.ks"  target="*2-2start"  ]
 [s  ]
