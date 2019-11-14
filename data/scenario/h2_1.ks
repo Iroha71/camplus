@@ -4,7 +4,7 @@
 *迷った
 
 [bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常）.png"  width="986"  height="1394"  left="574"  top="197"  reflect="false"  ]
+[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常）.png"  width="720"  height="1016"  left="574"  top="197"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #会長

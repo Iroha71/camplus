@@ -82,8 +82,12 @@
 正気か？　転校生、正気か？[p]
 [_tb_end_text]
 
+[jump  storage="h2_4.ks"  target="*運動が出来る"  cond="f.undo=='true'"  ]
+[jump  storage="h2_4.ks"  target="*運動が出来ない"  cond="f.undo=='false'"  ]
+*運動が出来ない
+
 [tb_start_text mode=1 ]
-#運動が出来ない場合
+#
 自分もそう動けるわけではないと一歩引くと、ひーさんが一歩こちらに寄る。[p]
 #ひーさん
 ワシよりか？　自慢ではないがワシよりか？　お！？[p]
@@ -127,6 +131,10 @@
 [_tb_end_text]
 
 [jump  storage="h2_4.ks"  target="*ドローン入手後"  ]
+[jump  storage="h2_4.ks"  target=""  ]
+[s  ]
+*運動が出来る
+
 [tb_start_text mode=1 ]
 #ひーさん
 転校生運動できるんじゃろ？　やれるやれるがんばれがんばれ[p]

@@ -8,4 +8,5 @@
 [iscript] 
 f['name']=''; 
 f['is_maigo']=''; 
+f['undo']=''; 
 [endscript] 

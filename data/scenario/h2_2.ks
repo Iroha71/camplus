@@ -151,6 +151,7 @@
 [s  ]
 *運動-できる
 
+[tb_eval  exp="f.undo='true'"  name="undo"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 できるほうだと頷けば、ひーさんはとうとう机に突っ伏してしまった。[p]
@@ -164,6 +165,7 @@
 [jump  storage="h2_2.ks"  target="*パソコン閲覧-転倒前"  ]
 *運動-できない
 
+[tb_eval  exp="f.undo='false'"  name="undo"  cmd="="  op="t"  val="false"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 流石にひーさんほど過剰な反応はしない、と首を振れば [r] その顔は信じられないようなものを見るそれに変化していく。[p]
@@ -336,8 +338,12 @@
 深刻な顔で考え込み始めるひーさんに、そっと別の生徒会役員を頼ることを薦めた。[p]
 [_tb_end_text]
 
+[jump  storage="h2_2.ks"  target="*会長案内済み"  cond="f.is_maigo=='true'"  ]
+[jump  storage="h2_2.ks"  target="*会長案内なし"  cond="f.is_maigo=='false'"  ]
 [iscript]
 [endscript]
+
+*会長案内済み
 
 [tb_start_text mode=1 ]
 #
@@ -345,7 +351,8 @@
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*学園祭"  ]
-*会長案内済み
+[s  ]
+*会長案内なし
 
 [tb_start_text mode=1 ]
 #

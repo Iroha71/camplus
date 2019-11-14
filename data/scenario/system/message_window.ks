@@ -1,6 +1,6 @@
 ;メッセージレイヤの定義
 
-		[position width=1880 height=356 top=500 left=80 ]
+		[position width=1880 height=356 top=500 left=100 ]
 
 
 		
