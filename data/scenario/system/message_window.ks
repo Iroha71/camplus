@@ -21,7 +21,7 @@
 		
 
             
-            [button role="menu" graphic="button/menu.png" x="1094" y="652" width="70" height="25" visible="false" ]
+            [button role="sleepgame" graphic="button/フリーのギアアイコン.png" x="1132" y="645" width="32" height="33" visible="false" storage="config.ks"]
             
 
         
