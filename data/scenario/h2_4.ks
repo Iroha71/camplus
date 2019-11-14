@@ -190,3 +190,4 @@
 
 *h2_4終了
 
+[jump  storage="h2_5.ks"  target=""  ]
