@@ -4,7 +4,7 @@
 *迷った
 
 [bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常）.png"  width="720"  height="1016"  left="574"  top="197"  reflect="false"  ]
+[chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常）.png"  width="720"  height="1016"  left="337"  top="44"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #会長
@@ -20,21 +20,25 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic=""  storage=""  ]
+[mask  time="250"  effect="fadeIn"  color="0x000000"  graphic=""  storage=""  ]
 [chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="syoukouguchi2.jpg"  cross="false"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常ー口少し）.png"  width="986"  height="1394"  left="564"  top="174"  reflect="false"  ]
+[mask_off  time="250"  effect="fadeOut"  ]
+[chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常ー口少し）.png"  width="1028"  height="1453"  left="441"  top="-1"  reflect="false"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #会長
-はい、ここよ。[p]
-あそこで右往左往してるのがうちの副会長。[p]
-#
+はい、ここよ。
 
 [_tb_end_text]
 
-[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(驚き).png"  width="840"  height="1185"  left="96"  top="400"  reflect="false"  ]
+[chara_show  name="ひーさん"  time="520"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="478"  height="671"  left="-480"  top="183"  reflect="false"  ]
+[chara_move  name="ひーさん"  anim="true"  time="2000"  effect="easeInBounce"  wait="false"  left="31"  top="226"  width="478"  height="671"  ]
+[tb_start_text mode=1 ]
+あそこで右往左往してるのがうちの副会長。[p]
+#
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #？？？
 お、会長？[p]

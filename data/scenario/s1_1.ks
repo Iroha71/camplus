@@ -142,6 +142,10 @@
 [_tb_end_text]
 
 [chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（通常‐kuchi_）.png"  ]
+[tb_start_tyrano_code]
+[chara_config talk_focus#会長　]
+[_tb_end_tyrano_code]
+
 [tb_start_text mode=4 ]
 #会長
 「今回呼び出したのは他でもない。あなたがここに転校するにあたって、[r]専攻の選択に迷っているという話が耳に入ったからよ」[p]
