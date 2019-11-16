@@ -1,4 +1,6 @@
-[_tb_system_call storage=system/_h2_1.ks]
+[_tb_system_call storage=system/_h2-1.ks]
+
+[plugin name="url_query_loader"]
 
 [cm  ]
 *迷った
@@ -18,6 +20,13 @@
 どこの館に行きたいの？[p]
 #
 [_tb_end_text]
+
+[iscript]
+window.location.href="http://localhost:3001/senario/select"
+[endscript]
+
+[s  ]
+*hisan
 
 [tb_hide_message_window  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic=""  storage=""  ]
