@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/seitokai_hiru.jpg"  ]
+[preload  storage="./data/bgimage/corridor-day.jpg"  ]
 [return]

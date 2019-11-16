@@ -29,6 +29,9 @@
 [s  ]
 *プログラミング-好き
 
+[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.if='true'"  name="if"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
+[tb_eval  exp="f.study+='プログラミング.'"  name="study"  cmd="+="  op="t"  val="プログラミング."  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 そうかそうか。好きなものがあるのは良い[p]
@@ -80,6 +83,8 @@
 [s  ]
 *アジャイル-訂正する
 
+[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.study='開発.'"  name="study"  cmd="="  op="t"  val="開発."  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 アジャイル開発演習である。 [r] むしろそっちの方が何なんだ。[p]
@@ -184,9 +189,9 @@
 ひーさんが気を取り直すように、明るい声を出す。 [r] だが若干堅いような気もする。[p]
 [_tb_end_text]
 
-[iscript]
-alert('プログラミングが好きと答えた場合')
-[endscript]
+[jump  storage="h2_5_1.ks"  target="*プログラミング-好き"  cond="f.if=='true'"  ]
+[jump  storage="h2_5_1.ks"  target="*プログラム好きじゃない"  cond="f.if=='false'"  ]
+*プログラム好き
 
 [tb_start_text mode=1 ]
 #ひーさん
@@ -208,9 +213,7 @@ alert('三択程度の説明から一つ選択')
 [_tb_end_text]
 
 [jump  storage="h2_5_1.ks"  target="*h2-5-1終了"  ]
-[iscript]
-alert('プログラミングが好きではないと答えた場合')
-[endscript]
+*プログラム好きじゃない
 
 [tb_start_text mode=1 ]
 #ひーさん
@@ -228,21 +231,61 @@ alert('プログラミングが好きではないと答えた場合')
 えーと、何言ってたかのぅ[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  target="*どろーん"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  target="*ドローン"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  ]
+*どろーん
+
+[jump  storage="h2_5_1.ks"  target="*next1"  ]
+*ドローン
+
+[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+*next1
+
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  target="*はるみ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  target="*ぱるみ"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  ]
+*はるみ
+
+[jump  storage="h2_5_1.ks"  target="*next2"  ]
+*ぱるみ
+
+[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+*next2
+
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  target="*ITo"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  target="*IoT"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  ]
+*ITo
+
+[jump  storage="h2_5_1.ks"  target="*next3"  ]
+*IoT
+
+[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+*next3
+
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  target="*bure"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  target="*raz"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  ]
+*bure
+
+[jump  storage="h2_5_1.ks"  target="*rast"  ]
+*raz
+
+[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+*rast
+
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  target="*阿闍梨"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  target="*アジャイル"  ]
 [s  ]
+*阿闍梨
+
+[jump  storage="h2_5_1.ks"  target="*end"  ]
+*アジャイル
+
+[tb_eval  exp="f.sistemkaihatu+=2"  name="sistemkaihatu"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
+*end
+
 [tb_start_text mode=1 ]
 #ひーさん
 こんなところかのぅ[p]
@@ -257,17 +300,21 @@ alert('プログラミングが好きではないと答えた場合')
 
 *スマホを覗く
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  target="*視線を上げろ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  target="*視線を上げろ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  target="*視線を上げろ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  target="*回復"  ]
 [s  ]
+*視線を上げろ
+
 [tb_start_text mode=1 ]
 #
 視線を上げると、自分の分の飲み物も置いてあった。 [l][r] ……ひーさんはまだ休憩しているようだ。[p]
 [_tb_end_text]
 
 [jump  storage="h2_5_1.ks"  target="*スマホを覗く"  ]
+*回復
+
 [tb_start_text mode=1 ]
 #ひーさん
 ふぅ、生き返った心地じゃ [l][r] さて鯖の部屋に行くとするか[p]
@@ -275,3 +322,4 @@ alert('プログラミングが好きではないと答えた場合')
 ……そんなに生臭そうな部屋は流石にないのでは？[p]
 [_tb_end_text]
 
+[jump  storage="h2_6.ks"  target=""  ]
