@@ -1,7 +1,9 @@
 [_tb_system_call storage=system/_ed2.ks]
 
 [cm  ]
-[bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
+[mask  time="500"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="corridor-day.jpg"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん

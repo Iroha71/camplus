@@ -186,8 +186,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 手を貸してくれ[p]
 [_tb_end_text]
 
-[jump  storage="h2_4.ks"  target="*2-4start"  ]
-[s  ]
+[jump  storage="h2_4.ks"  target=""  ]
 *他には？
 
 [tb_start_text mode=1 ]
