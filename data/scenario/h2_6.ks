@@ -54,6 +54,7 @@
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *サーバを心配する
 
+[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「分かるが、いや分かるがワシの心配は？」[p]
@@ -73,6 +74,7 @@
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *両方を心配する
 
+[tb_eval  exp="f.HP-=1"  name="HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そうじゃよな [r] うん、もし何かあったら、ワシの貯金も吹き飛ぶしな」[p]
@@ -125,6 +127,7 @@
 ひーさんの腰の痛みが引いて見学が続行できるならこの際何でもいい。[p]
 [_tb_end_text]
 
+[jump  storage="ed2.ks"  target=""  cond="f.HP==0"  ]
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *周囲を観察する
 
@@ -149,6 +152,7 @@
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *離れる
 
+[tb_eval  exp="f.HP-=1"  name="HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「わ！？」[p]
@@ -170,6 +174,7 @@
 口から咄嗟に謝罪の言葉が出てきたが、不安定な体勢でそんなことをしてたらまたバランスを崩しそうなので、早いところ椅子に座ってほしい。[p]
 [_tb_end_text]
 
+[jump  storage="ed2.ks"  target=""  cond="f.HP==0"  ]
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *common1
 
@@ -201,9 +206,11 @@
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="370"  ]
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="440"  target="*ウェアラブルコンピュータ"  ]
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="サーバー"  y="510"  target="*サーバー"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  ]
 [s  ]
 *Linux
 
+[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「りなっくすと読むのか。」[p]
@@ -214,6 +221,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *シスコ
 
+[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「会社？　じゃあこれあれか、あのへんは全部しすことやらの機械ということか？」[p]
@@ -222,6 +230,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *ウェアラブルコンピュータ
 
+[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「ぇ、うぇあら、……言いにくいのぅ。何なんじゃそれ」[p]
@@ -231,6 +240,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *サーバー
 
+[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「鯖がおらんと思っておったらさーばー？　あの機械？　魚じゃなくて？　紛らわしい名前じゃなぁ」[p]
@@ -436,6 +446,7 @@
 [jump  storage="h2_6.ks"  target="*common5"  ]
 *見守る２
 
+[tb_eval  exp="f.HP-=2"  name="HP"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 幸い手摺りがある階段なのだから流石になんとかなるだろうと思って見守る。[p]
@@ -452,6 +463,7 @@
 そんなに大変なのか……。[p]
 [_tb_end_text]
 
+[jump  storage="ed2.ks"  target=""  cond="f.HP==0"  ]
 [jump  storage="h2_6.ks"  target="*common5"  ]
 *common5
 
@@ -540,4 +552,8 @@
 「ワシだって得意なことのひとつやふたつやみっつやよっつあるんじゃよ」[p]
 [_tb_end_text]
 
-[jump  storage="h2_6.ks"  target=""  ]
+[jump  storage="ed1.ks"  target=""  cond="f.densisistem>2"  ]
+[jump  storage="ed1.ks"  target=""  cond="f.sistemkaihatu>2"  ]
+[jump  storage="ed1.ks"  target=""  cond="f.network>2"  ]
+[jump  storage="ed3.ks"  target=""  ]
+[s  ]
