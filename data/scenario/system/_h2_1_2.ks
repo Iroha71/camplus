@@ -1,4 +1,5 @@
 [preload  storage="./data/bgimage/seitokai_hiru.jpg"  ]
+[preload  storage="./data/fgimage/chara/1/会長（通常）.png"  ]
 [preload  storage="./data/bgimage/syoukouguchi2.jpg"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（緊迫）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（通常ー口開け）.png"  ]

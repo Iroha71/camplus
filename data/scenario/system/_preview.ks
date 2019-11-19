@@ -1,3 +1,3 @@
-[preload  storage="./data/bgimage/syoukouguchi2-sd.jpg"  ]
-[preload  storage="./data/fgimage/default/SD/SD1.png"  ]
+[preload  storage="./data/fgimage/chara/2/ひーさん（焦り）.png"  ]
+[preload  storage="./data/fgimage/chara/2/ひーさん（悲）.png"  ]
 [return] 
