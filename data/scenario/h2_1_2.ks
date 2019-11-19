@@ -104,7 +104,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
-……しかしちゃんと見るとなじみのない顔じゃのぉ。しかも制服ですらないとは…[p]
+「……しかしちゃんと見るとなじみのない顔じゃのぉ。しかも制服ですらないとは…」[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
@@ -269,9 +269,9 @@
 
 [tb_hide_message_window  ]
 [mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
-[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[layermode  mode="soft-light"  color="0xffffff"  time="1000"  wait="true"  graphic=""  storage=""  ]
+[chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
+[bg  time="0"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
+[layermode  mode="soft-light"  color="0xffffff"  time="0"  wait="true"  graphic=""  storage=""  ]
 [mask_off  time="500"  effect="fadeOut"  ]
 [chara_show  name="会長"  time="600"  wait="true"  storage="chara/1/会長（通常‐kuchi_）.png"  width="827"  height="1167"  left="268"  top="-3"  reflect="false"  ]
 [tb_show_message_window  ]
@@ -282,10 +282,10 @@
 [_tb_end_text]
 
 [mask  time="500"  effect="fadeIn"  color="0xffffff"  ]
-[free_layermode  time="1000"  wait="true"  ]
-[chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
-[bg  time="500"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[chara_show  name="ひーさん"  time="600"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
+[free_layermode  time="0"  wait="true"  ]
+[chara_hide  name="会長"  time="0"  wait="true"  pos_mode="true"  ]
+[bg  time="0"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
+[chara_show  name="ひーさん"  time="0"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [mask_off  time="500"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 ……なるほど、[wait time=250]会長が苦労するわけだ。[p]あの言い方からすると会長もこの状態はある程度予想していそうだが、[r]このことは頭に留めておこう。[p]
