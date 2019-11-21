@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_s2_3.ks]
 
 [cm  ]
+*2-3start
+
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
@@ -18,9 +20,9 @@
 伊藤だか何だかってやつなんじゃろ?[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="350"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="450"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="伊藤？"  target="*伊藤？"  y="550"  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="231"  x="532"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="311"  x="542"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="伊藤？"  target="*伊藤？"  y="397"  x="546"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *ドローン？
 
@@ -163,7 +165,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 とは言わないでおいた。[p]
 [_tb_end_text]
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target="*2-4start"  ]
 *ひーさんは？
 
 [tb_start_text mode=1 ]
@@ -204,5 +206,5 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
-[jump  storage="h2_4.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target="*2-4start"  ]
 [s  ]

@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_h2_5_2.ks]
 
+[cm  ]
 *ネットワーク・セキュリティ分野
 
 [tb_eval  exp="f.network=1"  name="network"  cmd="="  op="t"  val="1"  val_2="undefined"  ]

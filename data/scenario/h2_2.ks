@@ -347,8 +347,12 @@
 深刻な顔で考え込み始めるひーさんに、そっと別の生徒会役員を頼ることを薦めた。[p]
 [_tb_end_text]
 
+[jump  storage="h2_2.ks"  target="*会長案内済み"  cond="f.is_maigo=='true'"  ]
+[jump  storage="h2_2.ks"  target="*会長案内なし"  cond="f.is_maigo=='false'"  ]
 [iscript]
 [endscript]
+
+*会長案内済み
 
 [tb_start_text mode=1 ]
 #
@@ -356,7 +360,8 @@
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*学園祭"  ]
-*会長案内済み
+[s  ]
+*会長案内なし
 
 [tb_start_text mode=1 ]
 #
@@ -399,7 +404,7 @@
 
 *h2_2終了
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="s2_3.ks"  target="*2-3start"  ]
 [tb_start_text mode=1 ]
 #
 そのあたりも動画や写真があるということで、飲み物を何度かおかわりしながらしばらく話をした。[p]

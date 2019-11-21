@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_h2_4.ks]
 
 [cm  ]
+*2-4start
+
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -212,4 +214,4 @@
 [jump  storage="h2_4.ks"  target="*h2_4終了"  ]
 *h2_4終了
 
-[jump  storage="h2_5.ks"  target=""  ]
+[jump  storage="h2_5.ks"  target="*2-5start"  ]
