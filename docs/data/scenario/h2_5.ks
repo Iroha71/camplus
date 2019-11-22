@@ -1,8 +1,6 @@
 [_tb_system_call storage=system/_h2_5.ks]
 
 [cm  ]
-*2-5start
-
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -20,10 +18,10 @@
 [s  ]
 *システム
 
-[jump  storage="h2_5_1.ks"  target="*システム開発分野"  ]
+[jump  storage="h2_5_1.ks"  target=""  ]
 *ネットワーク
 
-[jump  storage="h2_5_2.ks"  target="*ネットワーク・セキュリティ分野"  ]
+[jump  storage="h2_5_2.ks"  target=""  ]
 *どっちでもいい
 
-[jump  storage="h2_5_3.ks"  target="*どっちでもいい"  ]
+[jump  storage="h2_5_3.ks"  target=""  ]

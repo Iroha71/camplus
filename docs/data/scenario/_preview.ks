@@ -1,41 +1,30 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[tb_show_message_window] 
 [mask_off time=10]
-[tb_start_text mode=1 ]
-#会長
-「役員を割り振ったはいいけどその後の様子を確認していなかったでしょう？　丁度いいから転校生に任せていたのよ。でもひーさんに関しては想像通りで正直監査の必要性もなかったわね」[p]
-#
-[_tb_end_text]
+[hidemenubutton]
 
-[tb_start_text mode=1 ]
-#ひーさん
-「監査とは聞いておったが、え？　転校生？　え？」[p]
-#
-[_tb_end_text]
+[tb_clear_images]
 
-[tb_start_text mode=1 ]
-#会長
-「予告通り、今回の結果を踏まえて予算調整もするから。反省したならこれを機にちゃんと勉強しなさい」[p]
-#
-[_tb_end_text]
+[tb_keyconfig  flag="0"  ]
+[tb_hide_message_window  ]
+[bg  storage="title.jpg"  ]
+*title
 
-[tb_start_text mode=1 ]
-#ひーさん
-「そん、えっ、そんな、……転校生の裏切り者―っ！」[p]
-「……それはそれとして、ワシだけがこんなのも嫌じゃから――他の奴らの結果、ワシにも報告しておくれ」[p]
-#
-[_tb_end_text]
+[glink  color="black"  text="はじめから"  x="75"  y="370"  size="20"  target="*start"  storage="s1_1.ks"  ]
+[glink  color="black"  text="つづきから"  x="75"  y="470"  size="20"  target="*load"  ]
+[s  ]
+*start
 
-[iscript]
-$.ajax({
-url: 'http://localhost:3000/v1/player/'+f.player_id,
-type: 'PUT',
-data:{ "system": f.sistemkaihatu, "network": f.network, "embeded": f.densisistem }
-}).done(function(data){
-alert(JSON.parse(data))
-})
-[endscript]
+[showmenubutton]
 
+[cm  ]
+[tb_keyconfig  flag="1"  ]
+[s  ]
+*load
+
+[cm  ]
+[showload]
+
+[jump  target="*title"  storage=""  ]
+[s  ]

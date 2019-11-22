@@ -1,8 +1,6 @@
 [_tb_system_call storage=system/_h2_4.ks]
 
 [cm  ]
-*2-4start
-
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -35,7 +33,6 @@
 [jump  storage="h2_4.ks"  target="*電子システム"  ]
 *歩み寄る
 
-[tb_eval  exp="f.HP-=1"  name="HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 またすごい勢いだったなと思いながら床にべたりとくっついたひーさんに近寄る。[p]
@@ -85,15 +82,11 @@
 正気か？　転校生、正気か？[p]
 [_tb_end_text]
 
-[jump  storage="h2_4.ks"  target="*運動できない"  cond="f.undou=='false'"  ]
-[jump  storage="h2_4.ks"  target="*運動できる"  cond="f.undou=='true'"  ]
-*運動できない
-
 [tb_start_text mode=1 ]
+#運動が出来ない場合
 自分もそう動けるわけではないと一歩引くと、ひーさんが一歩こちらに寄る。[p]
 #ひーさん
 ワシよりか？　自慢ではないがワシよりか？　お！？[p]
-#
 [_tb_end_text]
 
 [glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="880"  y="137"  width=""  height=""  _clickable_img=""  target="*ドローン-ひーさん任せ-自分がやる"  ]
@@ -134,8 +127,6 @@
 [_tb_end_text]
 
 [jump  storage="h2_4.ks"  target="*ドローン入手後"  ]
-*運動できる
-
 [tb_start_text mode=1 ]
 #ひーさん
 転校生運動できるんじゃろ？　やれるやれるがんばれがんばれ[p]
@@ -163,9 +154,9 @@
 どれか気になるものはあったか？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*ドローン"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*ロボット"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*ラズパイ"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*h2_4終了"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*h2_4終了"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*h2_4終了"  ]
 [glink  color="black"  storage="h2_4.ks"  size="20"  text="迷う"  target="*興味あるもの-迷う"  ]
 [s  ]
 *興味あるもの-迷う
@@ -197,21 +188,6 @@
 じゃあ次……はどうするかのぅ[p]
 [_tb_end_text]
 
-*ドローン
-
-[tb_eval  exp="f.ED1='true'"  name="ED1"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
-[tb_eval  exp="f.study='ドローン.'"  name="study"  cmd="="  op="t"  val="ドローン."  val_2="undefined"  ]
-[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
-*ロボット
-
-[tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
-[tb_eval  exp="f.study='ロボット.'"  name="study"  cmd="="  op="t"  val="ロボット."  val_2="undefined"  ]
-[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
-*ラズパイ
-
-[tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
-[tb_eval  exp="f.study='ＲＯＭ.'"  name="study"  cmd="="  op="t"  val="ＲＯＭ."  val_2="undefined"  ]
-[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
 *h2_4終了
 
-[jump  storage="h2_5.ks"  target="*2-5start"  ]
+[jump  storage="h2_5.ks"  target=""  ]

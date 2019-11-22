@@ -1,7 +1,6 @@
 [_tb_system_call storage=system/_h2_2.ks]
 
 [cm  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -25,7 +24,6 @@
 [s  ]
 *緑茶
 
-[tb_eval  exp="f.drink='緑茶'"  name="drink"  cmd="="  op="t"  val="緑茶"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 煎茶でも大丈夫じゃよな？[p]
@@ -35,7 +33,6 @@
 [jump  storage="h2_2.ks"  target="*動機"  ]
 *コーヒー
 
-[tb_eval  exp="f.drink='コーヒー'"  name="drink"  cmd="="  op="t"  val="コーヒー"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 おお、いんすたんとならあるぞ。ぶらっく？　それともいろいろいるか？[p]
@@ -44,7 +41,6 @@
 [jump  storage="h2_2.ks"  target="*動機"  ]
 *紅茶
 
-[tb_eval  exp="f.drink='紅茶'"  name="drink"  cmd="="  op="t"  val="紅茶"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 紅茶か、……てぃーぱっくがあるな[p]
@@ -81,7 +77,6 @@
 [s  ]
 *動機-学科
 
-[tb_eval  exp="f.Interest='学科'"  name="Interest"  cmd="="  op="t"  val="学科"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 そうさな、選択肢が多いのはよいことじゃ[p]
@@ -91,7 +86,6 @@
 [jump  storage="h2_2.ks"  target="*イベント"  ]
 *動機-設備
 
-[tb_eval  exp="f.Interest='設備'"  name="Interest"  cmd="="  op="t"  val="設備"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 設備？　あー、そういえばそういうの結構おるなあ。ぱそこんやらなんやら[p]
@@ -102,7 +96,6 @@
 [jump  storage="h2_2.ks"  target="*イベント"  ]
 *動機-資格
 
-[tb_eval  exp="f.Interest='資格'"  name="Interest"  cmd="="  op="t"  val="資格"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 結構色々取れるらしいのぅ[p]
@@ -113,7 +106,6 @@
 [jump  storage="h2_2.ks"  target="*イベント"  ]
 *動機-気分
 
-[tb_eval  exp="f.Interest='気分'"  name="Interest"  cmd="="  op="t"  val="気分"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 気分か、そうか。……それなら仕方ないな！[p]
@@ -159,7 +151,6 @@
 [s  ]
 *運動-できる
 
-[tb_eval  exp="f.undou='true'"  name="undou"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 できるほうだと頷けば、ひーさんはとうとう机に突っ伏してしまった。[p]
@@ -173,7 +164,6 @@
 [jump  storage="h2_2.ks"  target="*パソコン閲覧-転倒前"  ]
 *運動-できない
 
-[tb_eval  exp="f.undou='false'"  name="undou"  cmd="="  op="t"  val="false"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 流石にひーさんほど過剰な反応はしない、と首を振れば [r] その顔は信じられないようなものを見るそれに変化していく。[p]
@@ -270,8 +260,7 @@
 [_tb_end_text]
 
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  ]
-[tb_eval  exp="f.HP-=2"  name="HP"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="508"  y="120"  width=""  height=""  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="508"  y="120"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *パソコン画面見る-持ち上げる
 
@@ -347,12 +336,8 @@
 深刻な顔で考え込み始めるひーさんに、そっと別の生徒会役員を頼ることを薦めた。[p]
 [_tb_end_text]
 
-[jump  storage="h2_2.ks"  target="*会長案内済み"  cond="f.is_maigo=='true'"  ]
-[jump  storage="h2_2.ks"  target="*会長案内なし"  cond="f.is_maigo=='false'"  ]
 [iscript]
 [endscript]
-
-*会長案内済み
 
 [tb_start_text mode=1 ]
 #
@@ -360,8 +345,7 @@
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*学園祭"  ]
-[s  ]
-*会長案内なし
+*会長案内済み
 
 [tb_start_text mode=1 ]
 #
@@ -404,7 +388,7 @@
 
 *h2_2終了
 
-[jump  storage="s2_3.ks"  target="*2-3start"  ]
+[jump  storage="s2_3.ks"  target=""  ]
 [tb_start_text mode=1 ]
 #
 そのあたりも動画や写真があるということで、飲み物を何度かおかわりしながらしばらく話をした。[p]
