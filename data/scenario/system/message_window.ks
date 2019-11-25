@@ -21,25 +21,25 @@
 		
 
             
-            [button role="menu" graphic="フリーのギアアイコン(3).png" x="1113" y="644" width="36" height="31" visible="false" ]
+            [button role="menu" graphic="フリーのギアアイコン(3).png" x="1113" y="642" width="32" height="36" visible="false" ]
             
 
         
 
             
-            [button role="save" graphic="8skip.png" x="616" y="495" width="70" height="25" visible="false" ]
+            [button role="save" graphic="saveButton.png" x="880" y="512" width="70" height="25" visible="false" ]
             
 
         
 
             
-            [button role="backlog" graphic="45skip.png" x="720" y="496" width="70" height="25" visible="false" ]
+            [button role="backlog" graphic="logButton.png" x="1040" y="512" width="70" height="25" visible="false" ]
             
 
         
 
             
-            [button role="sleepgame" graphic="143skip.png" x="818" y="495" width="70" height="25" visible="false" storage="config.ks"]
+            [button role="load" graphic="loadButton.png" x="960" y="512" width="70" height="25" visible="false" ]
             
 
         
