@@ -6,12 +6,19 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
-ここは、えーと、電子しすてむの部屋でな [r] ちょいと前までは「組み込み」だとかいうワシに優しい名前だったんじゃが[p]
-つまり他は、えーと[p]
+「ここは、えーと、電子しすてむの部屋でな [r] ちょいと前までは「組み込み」だとかいうワシに優しい名前だったんじゃが」[p]
+「つまり他は、えーと」[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 ひーさんがパンフレットをちらりと見る[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #ひーさん
-しすてむ開発とねっとわーく・せきゅりてぃか [r] ……どっちが先がいいとかあるかのぅ？[p]
+「しすてむ開発とねっとわーく・せきゅりてぃか [r] ……どっちが先がいいとかあるかのぅ？」[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="h2_5.ks"  size="20"  text="システム開発分野"  target="*システム"  x="257"  y="504"  width=""  height=""  _clickable_img=""  ]
