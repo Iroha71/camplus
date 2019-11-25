@@ -488,7 +488,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="ひーさん"  time="400"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="2894"  height="4093"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="400"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「あれ、無視？　転校生、ここで無視するのか？」[p]
