@@ -52,6 +52,9 @@
 #ひーさん
 「転校生、分かって言っておるな？[wait time=500]　ワシにはわかるぞ？[wait time=500] 　おい、転校生？」[p]
 #
+ひーさんがずりずりと引き摺って持ってきてくれた椅子に乗り、そっとドローンを手に取る。[p]
+側の机に置くと、なぜか距離をとっていたひーさんがおそるおそるといった体で[r]近づいてきた。[p]
+……もしかして自分が倒れるとでも思っていたのだろうか？[p]
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
@@ -226,3 +229,20 @@
 
 [jump  storage="s2_3.ks"  target="*2-3start"  ]
 [s  ]
+
+[tb_eval  exp="f.ED1='true'"  name="ED1"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
+[tb_eval  exp="f.study='ドローン.'"  name="study"  cmd="="  op="t"  val="ドローン."  val_2="undefined"  ]
+[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
+*ロボット
+
+[tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.study='ロボット.'"  name="study"  cmd="="  op="t"  val="ロボット."  val_2="undefined"  ]
+[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
+*ラズパイ
+
+[tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.study='ＲＯＭ.'"  name="study"  cmd="="  op="t"  val="ＲＯＭ."  val_2="undefined"  ]
+[jump  storage="h2_4.ks"  target="*h2_4終了"  ]
+*h2_4終了
+
+[jump  storage="h2_5.ks"  target="*2-5start"  ]
