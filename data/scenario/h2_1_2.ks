@@ -109,7 +109,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
-もしやもしや例の転校生だったりするか？？[p]
+「もしやもしや例の転校生だったりするか？？」[p]
 #
 
 [_tb_end_text]
@@ -369,7 +369,7 @@
 手を掴み、エレベーターへと自分を引っ張っていく……[p]というより、[p]手を繋いでなんとかバランスを取ろうとしているひーさんの背中は非常に頼りなく、[l][r]恐る恐るといった様子の歩みは極めてゆっくりだ[p]
 [_tb_end_text]
 
-[chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 ……[wait time=1000]なんだか、この後の見学がとても心配になった。[p]
 [_tb_end_text]

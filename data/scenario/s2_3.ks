@@ -3,7 +3,6 @@
 [cm  ]
 *2-3start
 
-[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #
