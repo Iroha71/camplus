@@ -8,4 +8,13 @@
 [iscript] 
 f['name']=''; 
 f['is_maigo']=''; 
+f['Interest']=''; 
+f['drink']=''; 
+f['HP']=4; 
+f['study']=''; 
+f['undou']=''; 
+f['densisistem']=''; 
+f['network']=''; 
+f['sistemkaihatu']=''; 
+f['if']='false'; 
 [endscript] 

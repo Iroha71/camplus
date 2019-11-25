@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_h2_5_1.ks]
 
 [cm  ]
+*システム開発分野
+
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -29,6 +31,9 @@
 [s  ]
 *プログラミング-好き
 
+[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.if='true'"  name="if"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
+[tb_eval  exp="f.study+='プログラミング.'"  name="study"  cmd="+="  op="t"  val="プログラミング."  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 そうかそうか。好きなものがあるのは良い[p]
@@ -80,6 +85,8 @@
 [s  ]
 *アジャイル-訂正する
 
+[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.study='開発.'"  name="study"  cmd="="  op="t"  val="開発."  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #
 アジャイル開発演習である。 [r] むしろそっちの方が何なんだ。[p]
@@ -184,9 +191,9 @@
 ひーさんが気を取り直すように、明るい声を出す。 [r] だが若干堅いような気もする。[p]
 [_tb_end_text]
 
-[iscript]
-alert('プログラミングが好きと答えた場合')
-[endscript]
+[jump  storage="h2_5_1.ks"  target="*プログラミング-好き"  cond="f.if=='true'"  ]
+[jump  storage="h2_5_1.ks"  target="*プログラム好きじゃない"  cond="f.if=='false'"  ]
+*プログラム好き
 
 [tb_start_text mode=1 ]
 #ひーさん
@@ -208,9 +215,7 @@ alert('三択程度の説明から一つ選択')
 [_tb_end_text]
 
 [jump  storage="h2_5_1.ks"  target="*h2-5-1終了"  ]
-[iscript]
-alert('プログラミングが好きではないと答えた場合')
-[endscript]
+*プログラム好きじゃない
 
 [tb_start_text mode=1 ]
 #ひーさん
@@ -243,6 +248,14 @@ alert('プログラミングが好きではないと答えた場合')
 [glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  x="550"  y="200"  ]
 [glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  x="550"  y="340"  ]
 [s  ]
+*阿闍梨
+
+[jump  storage="h2_5_1.ks"  target="*end"  ]
+*アジャイル
+
+[tb_eval  exp="f.sistemkaihatu+=2"  name="sistemkaihatu"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
+*end
+
 [tb_start_text mode=1 ]
 #ひーさん
 こんなところかのぅ[p]
@@ -262,12 +275,16 @@ alert('プログラミングが好きではないと答えた場合')
 [glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  x="550"  y="340"  ]
 [glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  x="550"  y="420"  ]
 [s  ]
+*視線を上げろ
+
 [tb_start_text mode=1 ]
 #
 視線を上げると、自分の分の飲み物も置いてあった。 [l][r] ……ひーさんはまだ休憩しているようだ。[p]
 [_tb_end_text]
 
 [jump  storage="h2_5_1.ks"  target="*スマホを覗く"  ]
+*回復
+
 [tb_start_text mode=1 ]
 #ひーさん
 ふぅ、生き返った心地じゃ [l][r] さて鯖の部屋に行くとするか[p]
@@ -275,3 +292,4 @@ alert('プログラミングが好きではないと答えた場合')
 ……そんなに生臭そうな部屋は流石にないのでは？[p]
 [_tb_end_text]
 
+[jump  storage="h2_6.ks"  target=""  ]

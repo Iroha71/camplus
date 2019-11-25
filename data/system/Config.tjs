@@ -70,7 +70,7 @@
 ;defaultBold=false
 ;defaultRubySize=10
 ;defaultRubyOffset=-2
-;defaultAntialiased=1
+;defaultAntialiased=2
 ;defaultShadow=false
 ;defaultShadowColor=0x000000
 ;defaultEdge=false

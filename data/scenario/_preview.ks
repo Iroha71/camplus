@@ -1,102 +1,12 @@
-[_tb_system_call storage=system/_h2_1_2.ks]
+[_tb_system_call storage=system/_preview.ks ]
 
-[cm  ]
-*迷わなかった
-
-[bg  time="500"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常‐kuchi_）.png"  width="827"  height="1167"  left="268"  top="-3"  reflect="false"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=1 ]
-#会長
-「私から生徒会役員には連絡しておくから[r]好きな館に行きなさい」[p]
-[_tb_end_text]
-
-[chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（通常）.png"  ]
-[tb_start_text mode=1 ]
-「大丈夫だろうけど迷わないように。時間の無駄だから」[p]
-#
-[_tb_end_text]
-
-[tb_hide_message_window  ]
-[chara_hide  name="会長"  time="500"  wait="true"  pos_mode="true"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[bg  time="500"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=1 ]
-一号館に向かい、ようやくその建物の入り口に辿り着こうというところで、[r]そこに誰かがいるのが見えた。[p]
-[_tb_end_text]
-
-[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="447"  height="627"  left="70"  top="204"  reflect="false"  ]
-[tb_start_tyrano_code]
-;------------keyframe の定義
-[keyframe name="animation1"]
-[frame p=20% x="100" ]
-[frame p=40% x="-100" ]
-[endkeyframe]
-
-;---------アニメーションの実行 5秒かけてキーフレームアニメーションを実行する
-[kanim layer=0 keyframe="animation1" time="5000" ]
-[wa]
-
-手元を覗き込みながら右往左往している。[p]
-[_tb_end_tyrano_code]
-
-[tb_start_text mode=1 ]
-#???
-「うーむ、むむ？」[p]「はて、どうすればめーるとやらが見れるんじゃったかのぉ」[p]
-#
-[_tb_end_text]
-
-[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  target="*話しかける"  x="550"  y="200"  width=""  height=""  _clickable_img=""  text="話しかける"  ]
-[glink  color="pink"  storage="h2_2.ks"  size="20"  target="*様子を見る"  x="520"  y="340"  width=""  height=""  _clickable_img=""  text="様子を見る"  ]
-[s  ]
-*話しかける
-
-[tb_start_text mode=1 ]
-メール、と聞こえたが、一体何に困っているのだろうか？[p]
-[_tb_end_text]
-
-[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#???
-「しばし待て、[r]ワシは今めーるを見なければならなくてだな……」[p]「む？」　[p]「誰じゃ？」　[p]「いやこの際誰でもいい！」[p]「今さっき届いためーるを見なければならんのじゃが、わかるか？」[p]「どうやればいいかわかるか?…[wait time=350]いやわかる！」[p]「自慢じゃないがワシよりすまーとふぉんを扱えん奴はここで会ったことがない！」[p]
-#
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
-[tb_start_text mode=1 ]
-色々と気になることも言っていたが、[r]反射的に目の前に差し出されたスマートフォンを掴んで画面を見る。[p]さっきの言葉が本当なら目の前の人物はメールを確認しようとしていたはずだが、[p]何故か開いていたのは地図アプリの上にカーソルが示しているのは...[wait time=500]インド洋だ。[p]何がどうしてそうなったのは分からないものの、[r]なるべく内容を見ないように通知センターを開いて相手にスマートフォンを返す。[p]
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
-[tb_start_text mode=3 ]
-#???
-「あ、[r]
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
-[tb_start_text mode=1 ]
-多分それじゃ。」[p]
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
-[tb_start_text mode=3 ]
-「ほい。[r]
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
-[tb_start_text mode=1 ]
-........む、字が小さいのぅ、これ。」[p]「えーと、あ、会長から？[p]転校生の見学？そういえばこんなことも行って....おったか？」[p]
-#
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-相手が随分と小柄なので、[r]背を丸めてスマートフォンの画面に顔を近付けていると顔が見えない。[p]そんな状態の子の人が見ている連絡が会長ーーー[wait time=500][r]生徒会長からの連絡だとすると、彼女が一号館を担当している生徒会役員なのだろうか。[p]
-[_tb_end_text]
-
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[mask time=10]
+[bg  time="10"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
+[tb_show_message_window] 
+[chara_mod  name="会長"  time="10"  cross="true"  storage="chara/1/会長（通常）.png"  ]
+[chara_mod  name="ひーさん"  time="10"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[chara_show  name="ひーさん"  time="10"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
+[mask_off time=10]
 [tb_start_text mode=1 ]
 #???
 「ともかく助かった。」[p]
@@ -109,7 +19,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
-もしやもしや例の転校生だったりするか？？[p]
+「もしやもしや例の転校生だったりするか？？」[p]
 #
 
 [_tb_end_text]

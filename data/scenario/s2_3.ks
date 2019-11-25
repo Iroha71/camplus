@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_s2_3.ks]
 
 [cm  ]
+*2-3start
+
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
@@ -163,7 +165,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 とは言わないでおいた。[p]
 [_tb_end_text]
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target="*2-4start"  ]
 *ひーさんは？
 
 [tb_start_text mode=1 ]
@@ -184,7 +186,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 手を貸してくれ[p]
 [_tb_end_text]
 
-[jump  storage="s2_3.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target=""  ]
 *他には？
 
 [tb_start_text mode=1 ]
@@ -204,5 +206,5 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
-[jump  storage="h2_4.ks"  target=""  ]
+[jump  storage="h2_4.ks"  target="*2-4start"  ]
 [s  ]
