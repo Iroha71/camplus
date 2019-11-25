@@ -24,8 +24,8 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好き"  target="*プログラミング-好き"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好きではない"  target="*プログラミング-好きではない"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好き"  target="*プログラミング-好き"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好きではない"  target="*プログラミング-好きではない"  x="550"  y="340"  ]
 [s  ]
 *プログラミング-好き
 
@@ -75,8 +75,8 @@
 片仮名多くない？　なんじゃこの、阿闍梨開発演習って[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="訂正する"  target="*アジャイル-訂正する"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="……阿闍梨開発演習？"  target="*アジャイル-阿闍梨開発演習？"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="訂正する"  target="*アジャイル-訂正する"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="……阿闍梨開発演習？"  target="*アジャイル-阿闍梨開発演習？"  x="550"  y="340"  ]
 [s  ]
 *アジャイル-訂正する
 
@@ -116,8 +116,8 @@
 えっ[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="止める"  target="*スマホ落下-止める"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="驚く"  target="*スマホ落下-驚く"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="止める"  target="*スマホ落下-止める"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="驚く"  target="*スマホ落下-驚く"  x="550"  y="340"  ]
 [s  ]
 *スマホ落下-止める
 
@@ -228,20 +228,20 @@ alert('プログラミングが好きではないと答えた場合')
 えーと、何言ってたかのぅ[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  x="550"  y="340"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  x="550"  y="340"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  x="550"  y="340"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  x="550"  y="340"  ]
 [s  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  x="550"  y="200"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  x="550"  y="340"  ]
 [s  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -257,10 +257,10 @@ alert('プログラミングが好きではないと答えた場合')
 
 *スマホを覗く
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  x="550"  y="180"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  x="550"  y="260"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  x="550"  y="340"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  x="550"  y="420"  ]
 [s  ]
 [tb_start_text mode=1 ]
 #
