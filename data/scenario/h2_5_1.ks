@@ -1,327 +1,66 @@
 [_tb_system_call storage=system/_h2_5_1.ks]
 
 [cm  ]
-*システム開発分野
-
 [tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-しすてむ開発……ううむ、何かあったかのぅ[p]
+「さてさて。これで一応、一通り、たぶん、一号館の説明は終わりなんじゃが」[p]
 #
-ひーさんがぽんと手を叩く。[p]
-#ひーさん
-あ、そういえば玄関ほーるのところで上を見たりは？[p]
-見てない？　あそこはな、資格合格者をぱーっと載せておるんじゃよ[p]
-一階に降りて…… [l][r] あ、そうするとねっとわーくの見学でまた上がってくる必要があるか[p]
-#
-うんうんと考え込むひーさんがぶつぶつと続ける。[p]
-#ひーさん
-本当はあの、ぷろぐらみんぐ、を見せてやれば良かったんじゃが[p]
-ワシはそのあたり全然駄目でな[p]
-#
-それはそうだろうなと深く頷く。[p]
-パソコンのログインにあれだけ手間取る人間が日常的にプログラミングなどしているはずがない。[p]
-#ひーさん
-転校生、ぱそこんとか……あと、ぷ、ぷろぐらみんぐ好きか？[p]
 
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好き"  target="*プログラミング-好き"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好きではない"  target="*プログラミング-好きではない"  ]
-[s  ]
-*プログラミング-好き
-
-[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
-[tb_eval  exp="f.if='true'"  name="if"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
-[tb_eval  exp="f.study+='プログラミング.'"  name="study"  cmd="+="  op="t"  val="プログラミング."  val_2="undefined"  ]
 [tb_start_text mode=1 ]
-#ひーさん
-そうかそうか。好きなものがあるのは良い[p]
-じゃがそうなると、ワシがその方面に明るくないのが余計によくないな[p]
-[_tb_end_text]
-
-[jump  storage="h2_5_1.ks"  target="*アプリ起動"  ]
-*プログラミング-好きではない
-
-[tb_start_text mode=1 ]
-#ひーさん
-そうか？　ちょっと気になるとかもないか？ [l][r] むしろ全然知らん感じか？[p]
-ふむ……ちょっと待て[p]
-[_tb_end_text]
-
-*アプリ起動
-
-[tb_start_text mode=1 ]
-#
-難しい顔をしたひーさんがスマートフォンを手繰る。[p]
-不躾ながら横から様子を伺っていると、 [r] それに気付いたひーさんがスマートフォンを見やすいように傾けた。[p]
-#ひーさん
-会長とニコと、あとゴトウあたりで、……あの、えーと、そら、しろ、しら？　えーと、時間割？[p]
-かり……かりんとう？　そういうアレをまとめたとか、どうとか[p]
-#
-……もしかしてシラバスやカリキュラムなんかのことだろうか。[p]
-#ひーさん
-あっそれじゃ、しらばす、な。それをまとめてるらしいんじゃよ [r] 何もないよりはいいじゃろ？[p]
-#
-そう言ってスマートフォンを操作するひーさんの指が、[p]
-濃い青に「ＡＳＯ」という白い文字が映える一つのアイコンをタップする。 [r] ……アプリ？[p]
-#ひーさん
-あぷり？　ワシには分らんのじゃが、他になにか種類があるのか？[p]
-何せこのすまーとふぉんの設定やらなんやらも会長たちがぱっぱとやってしまうし、[p]
-その後もニコやらが勝手に操作しておるしで、どれが何なのか未だに全然理解できておらん[p]
-#
-確かに目に入ったスマホの画面は、形や整然と、片や雑然としていて一人の人物が使っているとするとかなり違和感のあるものだ。[p]
-最初だけ会長が設定などをしたというのなら、[r] 会長の手から離れた後はひーさんではない他の誰かの手でアプリは増えるだけ増えて整理もされずにいたのだろう。[p]
-#ひーさん
-あ、これじゃこれ。これがしすてむ開発のじゃ[p]
-#
-横にパンフレットも並べて二人で覗き込む。[p]
-#ひーさん
-片仮名多くない？　なんじゃこの、阿闍梨開発演習って[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="訂正する"  target="*アジャイル-訂正する"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="……阿闍梨開発演習？"  target="*アジャイル-阿闍梨開発演習？"  ]
-[s  ]
-*アジャイル-訂正する
-
-[tb_eval  exp="f.sistemkaihatu=2"  name="sistemkaihatu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
-[tb_eval  exp="f.study='開発.'"  name="study"  cmd="="  op="t"  val="開発."  val_2="undefined"  ]
-[tb_start_text mode=1 ]
-#
-アジャイル開発演習である。 [r] むしろそっちの方が何なんだ。[p]
-#ひーさん
-転校生は知っておるか？[p]
-じゃあこっちは何じゃ？　くろうどって、 [r] 玄人の亜種か何かか？　ずいぶん苦労してそうな名前じゃが[p]
-[_tb_end_text]
-
-[jump  storage="h2_5_1.ks"  target="*スマホ落下"  ]
-*アジャイル-阿闍梨開発演習？
-
-[tb_start_text mode=1 ]
-#ひーさん
-え？　だって書いておるじゃろ [l][r]……なに？あじゃいる開発演習？[p]
-えっ、じゃあこっちは？　玄人演習ではない？[p]
-#
-少なくともそうではないことは分かる。[p]
-[_tb_end_text]
-
-*スマホ落下
-
-[tb_start_text mode=1 ]
-#ひーさん
-そうか……[p]
-#
-心なしかしょんぼりとしたひーさんがパンフレットをめくり、 [r] その次にスマートフォンの画面をスクロールしようとした。[p]
-そう。「しようとした」のである。[p]
-一体どれだけ力を入れて指を動かしたのかは定かではないが、 [r] ひーさんの指がスマートフォンの画面下部から上部を滑った瞬間、[p]
-スマートフォンが勢いよく机の上を滑っていく。[p]
+あんなに距離をとって見ていたというのに、首が疲れると顔を上げることを早々に止め、玄関ホールの脇に並べられていた椅子に腰掛けていたひーさんがぽつりと呟く。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ひーさん
-えっ[p]
+「ワシあんまり働けてなくない？」[p]
+#
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="止める"  target="*スマホ落下-止める"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="驚く"  target="*スマホ落下-驚く"  ]
-[s  ]
-*スマホ落下-止める
-
 [tb_start_text mode=1 ]
-#
-驚くよりも前に、咄嗟に手を出してスマートフォンを止める。[p]
-一拍遅れて、ぱちぱちと乾いた音。 [r] 驚いた顔のままひーさんが手を叩いていた。[p]
+今更の言葉に、つい半目でひーさんを見てしまう。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ひーさん
-お、お見事……いや助かった……[p]
-落として割ろうものならまた会長に怒られるところじゃった……[p]
+「いや分野が悪かったって言ったじゃろ。正直他の館の説明のほうができるぞワシは」[p]
 #
-また、ということは、どうやら今までにスマートフォンの画面なりなんなり割ったことがあるのだろう。[p]
-なぜだかその場面がありありと思い浮かぶ。[p]
 [_tb_end_text]
 
-[jump  storage="h2_5_1.ks"  target="*用語解説"  ]
-*スマホ落下-驚く
-
 [tb_start_text mode=1 ]
-#
-完全に予想していなかった出来事、[p]
-ついでにひーさんがスクロールという動作ができたことに驚いていた間 [r] （なにせダブルクリックすらままならなかったのだ）に、[p]
-スマートフォンは机から飛び出し、運悪く伸ばされていたひーさんの脚に運悪く直撃した。[p]
+一切の説得力がない。そう思っていたのがわかったのか、ひーさんが立ち上がってこちらにやってくる。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ひーさん
-いった！？[p]
+「本当じゃからな。本当にワシ結構物知りじゃし得意なこともいっぱいあるからな。なんなら任意で茶柱を立てたりできるからな！　今日もずっと立ててたからな！」[p]
 #
-ひーさんの足にぶつかったことで衝撃が軽減されたらしいスマートフォンは [r] あまり音を立てることなく床に辿り着いたが、ひーさんは無事では済まなかった。[p]
-机におでこをくっつけ、手を握りしめてぷるぷると震えているし、[r] ちらりと見た横顔は七割くらい泣いている。[p]
-正直今日一日どころか数時間でこれだけ踏んだり蹴ったりなのは [r] 何か憑いているのかと思わないでもないレベルだ。[p]
-あまりにもあんまりなので、大丈夫かと気遣うために出した声も若干震えている気がする。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+茶柱が立ってもなおあんなに運がないのか……。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ひーさん
-う……うう……あれか……？[p]
-今日はヨウコは「いたいのいたいのとんでいけ」を連発しておるのか……？ [r] ワシに向けて………？[p]
+「他にはなあーー」[p]
 #
-それはどんな状態だ。[p]
-だが字面のコミカルさに反してひーさんは割と真面目に怯えている。 [r] スマートフォンを受け取った手が僅かに震えていることがわかるくらいには。[p]
-……本当に大丈夫だろうか？　お祓いにでも行った方がいいのでは？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+そこでひーさんの言葉は途切れた。正確には別の音で塗り潰されたというほうが正しい。言い表すなら、ばん、と何かが弾け飛ぶ音。しかし存外鈍い音で、布や硝子などが爆ぜるような音ではなかった。距離的にはそう遠くない。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ひーさん
-……いや、大丈夫じゃ[p]
-……うん、大丈夫…… [r] 転校生の見学だけはしっかりやり遂げるからの……[p]
-ここで投げ出したほうが後が怖いからの……[p]
+「なんじゃなんじゃ！？」[p]
 #
-……本当に大丈夫だろうか？[p]
 [_tb_end_text]
-
-*用語解説
 
 [tb_start_text mode=1 ]
-#ひーさん
-……さて、次じゃな！[p]
-#
-ひーさんが気を取り直すように、明るい声を出す。 [r] だが若干堅いような気もする。[p]
+一号館から近い館はいくつかあるが、その筆頭は隣接している四号館である。四号館の前にはそれを表す看板があり、それで中の施設などが分かるようになっているのだが――その看板が、真ん中から吹き飛んでいた。[p]
 [_tb_end_text]
 
-[jump  storage="h2_5_1.ks"  target="*プログラミング-好き"  cond="f.if=='true'"  ]
-[jump  storage="h2_5_1.ks"  target="*プログラム好きじゃない"  cond="f.if=='false'"  ]
-*プログラム好き
-
-[tb_start_text mode=1 ]
-#ひーさん
-転校生、ぱそこんが好きならこれ分かるか？[p]
-おぶじぇくと、指向、ぷろぐらみんぐ……とのことじゃが[p]
-[_tb_end_text]
-
-[iscript]
-alert('三択程度の説明から一つ選択')
-[endscript]
-
-[tb_start_text mode=1 ]
-#ひーさん
-ふむ[p]
-#
-ひーさんが恐る恐る画面の一部をタップすると。用語解説のページに遷移する。[p]
-会長や他複数人の生徒会役員がまとめたと言っていたが、シラバス管理の機能だけではないらしい。[p]
-
-[_tb_end_text]
-
-[jump  storage="h2_5_1.ks"  target="*h2-5-1終了"  ]
-*プログラム好きじゃない
-
-[tb_start_text mode=1 ]
-#ひーさん
-えーと。このおぶ……おぶじ……くと……？　指向ぷろぐらみんぐ [r] ……というのは、ええと[p]
-#
-手当たり次第にタップしているように見えたが、運良く当たりを引き当てたらしい。[p]
-画面が用語解説のページに変化した。（※解説表示）[p]
-[_tb_end_text]
-
-*h2-5-1終了
-
-[tb_start_text mode=1 ]
-#ひーさん
-ほー、こんなのもあるのか。あ、どうせなら色々確認しておくか[p]
-えーと、何言ってたかのぅ[p]
-[_tb_end_text]
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  target="*どろーん"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  target="*ドローン"  ]
-[s  ]
-*どろーん
-
-[jump  storage="h2_5_1.ks"  target="*next1"  ]
-*ドローン
-
-[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-*next1
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  target="*はるみ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  target="*ぱるみ"  ]
-[s  ]
-*はるみ
-
-[jump  storage="h2_5_1.ks"  target="*next2"  ]
-*ぱるみ
-
-[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-*next2
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  target="*ITo"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  target="*IoT"  ]
-[s  ]
-*ITo
-
-[jump  storage="h2_5_1.ks"  target="*next3"  ]
-*IoT
-
-[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-*next3
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  target="*bure"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  target="*raz"  ]
-[s  ]
-*bure
-
-[jump  storage="h2_5_1.ks"  target="*rast"  ]
-*raz
-
-[tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
-*rast
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  target="*阿闍梨"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  target="*アジャイル"  ]
-[s  ]
-*阿闍梨
-
-[jump  storage="h2_5_1.ks"  target="*end"  ]
-*アジャイル
-
-[tb_eval  exp="f.sistemkaihatu+=2"  name="sistemkaihatu"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
-*end
-
-[tb_start_text mode=1 ]
-#ひーさん
-こんなところかのぅ[p]
-……お、一覧もあるぞ。 [r] いっぱい……いやいっぱいすぎんか？　なんじゃこれ[p]
-ううむ……転校生、気になるのとかあるか？ [r] 見ていいぞ、ワシちょっと休む[p]
-#
-そう言ってひーさんはスマートフォンをぽいっと渡すと、教室の奥へふらりと向かっていく。[p]
-戻ってきたその手にはまたポットと茶缶。 [r] ひーさんはもしかしてすべての教室にお茶のセットを置いているのだろうか？[p]
-経費の面と会長の真面目さから鑑みて、流石にありえないとは思うが……。[p]
-気を取り直して、手元のスマートフォンに視線を移す。[p]
-[_tb_end_text]
-
-*スマホを覗く
-
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  target="*回復"  ]
-[s  ]
-*視線を上げろ
-
-[tb_start_text mode=1 ]
-#
-視線を上げると、自分の分の飲み物も置いてあった。 [l][r] ……ひーさんはまだ休憩しているようだ。[p]
-[_tb_end_text]
-
-[jump  storage="h2_5_1.ks"  target="*スマホを覗く"  ]
-*回復
-
-[tb_start_text mode=1 ]
-#ひーさん
-ふぅ、生き返った心地じゃ [l][r] さて鯖の部屋に行くとするか[p]
-#
-……そんなに生臭そうな部屋は流石にないのでは？[p]
-[_tb_end_text]
-
-[jump  storage="h2_6.ks"  target=""  ]

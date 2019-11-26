@@ -4,6 +4,8 @@
 *2-4start
 
 [tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="190"  width=""  height=""  _clickable_img=""  target="*ドローン-自分がやる"  ]
 [tb_start_text mode=1 ]
 #
 ひーさんに急かされてエレベータから降り立ったのは上のほうのフロアだ。[p]
@@ -26,8 +28,8 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="駆け寄る"  target="*駆け寄る"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="歩み寄る"  target="*歩み寄る"  x="496"  y="127"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="駆け寄る"  target="*駆け寄る"  x="550"  y="300"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="歩み寄る"  target="*歩み寄る"  x="550"  y="410"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *駆け寄る
 
@@ -93,8 +95,7 @@
 ひーさんと自分の間になんともいえない空気が流れた。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="746"  y="147"  width=""  height=""  _clickable_img=""  target="*ドローン-自分がやる"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんに任せる"  target="*ドローン-ひーさん任せ"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんに任せる"  target="*ドローン-ひーさん任せ"  x="550"  y="220"  ]
 [s  ]
 *ドローン-自分がやる
 
@@ -146,8 +147,8 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="880"  y="137"  width=""  height=""  _clickable_img=""  target="*ドローン-ひーさん任せ-自分がやる"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんを担ぐ"  target="*ドローン-ひーさん任せ-担ぐ"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="200"  width=""  height=""  _clickable_img=""  target="*ドローン-ひーさん任せ-自分がやる"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんを担ぐ"  target="*ドローン-ひーさん任せ-担ぐ"  x="550"  y="340"  ]
 [s  ]
 *ドローン-ひーさん任せ-自分がやる
 
@@ -264,10 +265,10 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*ドローン"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*ロボット"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*ラズパイ"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="迷う"  target="*興味あるもの-迷う"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*h2_4終了"  x="550"  y="180"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*h2_4終了"  x="550"  y="260"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*h2_4終了"  x="550"  y="340"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="迷う"  target="*興味あるもの-迷う"  x="550"  y="420"  ]
 [s  ]
 *興味あるもの-迷う
 
@@ -283,8 +284,8 @@
 全く論点が違う。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="それぞれの特徴を思い出す"  target="*興味あるもの-特徴を思い出す"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="全部そうでもない"  target="*興味あるもの-なし"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="それぞれの特徴を思い出す"  target="*興味あるもの-特徴を思い出す"  x="550"  y="200"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="全部そうでもない"  target="*興味あるもの-なし"  x="550"  y="340"  ]
 [s  ]
 *興味あるもの-特徴を思い出す
 
