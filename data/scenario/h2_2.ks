@@ -18,10 +18,10 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="600"  y="180"  width=""  height=""  _clickable_img="room.jpg"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  x="600"  y="260"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="600"  y="340"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="その他"  target="*その他"  y="420"  x="600"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="540"  y="180&nbsp;"  width="200"  height="20"  _clickable_img="room.jpg"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  x="540"  y="260"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="その他"  target="*その他"  y="420"  x="540"  width="200"  height="20"  ]
 [s  ]
 *緑茶
 
@@ -74,10 +74,10 @@
 わしはたまの移動教室でひぃひぃいっておるからなぁ、わかるぞ[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="学科"  target="*動機-学科"  x="600"  y="180"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="設備"  target="*動機-設備"  x="600"  y="260"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="資格"  target="*動機-資格"  x="600"  y="340"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="気分"  target="*動機-気分"  x="600"  y="420"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="学科"  target="*動機-学科"  x="540"  y="180"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="設備"  target="*動機-設備"  x="540"  y="260"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="資格"  target="*動機-資格"  x="540"  y="340"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="気分"  target="*動機-気分"  x="540"  y="420"  width="200"  height="20"  ]
 [s  ]
 *動機-学科
 
@@ -154,8 +154,8 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="できる"  target="*運動-できる"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="できない"  target="*運動-できない"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="できる"  target="*運動-できる"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="できない"  target="*運動-できない"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *運動-できる
 
@@ -217,8 +217,8 @@
 ていうかワシ頭割れてない？　足折れたり腰曲がったりしてない？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  target="*ノートパソコン持ち上げ"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンの画面を見る"  x="787"  y="102"  width=""  height=""  _clickable_img=""  target="*パソコン画面見る"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  target="*ノートパソコン持ち上げ"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンの画面を見る"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  target="*パソコン画面見る"  ]
 [s  ]
 *ノートパソコン持ち上げ
 
@@ -227,8 +227,8 @@
 持ち上げたノートパソコンを近くの机に一旦置き、よっこいしょと声を出しながら起き上がったひーさんの方に姿勢を戻した。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="手を貸す"  target="*パソコン持ち上げ-手を貸す"  x="436"  y="160"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  target="*パソコン持ち上げ-しゃがむ"  text="しゃがむ"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="手を貸す"  target="*パソコン持ち上げ-手を貸す"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  target="*パソコン持ち上げ-しゃがむ"  text="しゃがむ"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *パソコン持ち上げ-手を貸す
 
@@ -269,9 +269,9 @@
 あれ、無視？　転校生、ここで無視するのか？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  x="540"  y="200"  width="200"  height="20"  ]
 [tb_eval  exp="f.HP-=2"  name="HP"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="508"  y="120"  width=""  height=""  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
 [s  ]
 *パソコン画面見る-持ち上げる
 
@@ -311,8 +311,8 @@
 ぱすわーど……ええと、なんじゃったか…… [r] いち、……？[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="見守る"  target="*ログイン-見守る"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="声をかける"  target="*ログイン-声かけ"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="見守る"  target="*ログイン-見守る"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="声をかける"  target="*ログイン-声かけ"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *ログイン-見守る
 
@@ -384,8 +384,8 @@
 組ごとに店を出したり、ばんどの発表があったり…… [r] なかなか賑やかなんじゃが、学園全体でやるからワシはほとんど回れんのが残念じゃ[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="店というと・・・・"  target="*学園祭-店"  x="600"  y="200"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="バンド？"  target="*学園祭-バンド"  x="600"  y="340"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="店というと・・・・"  target="*学園祭-店"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="バンド？"  target="*学園祭-バンド"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
 [s  ]
 *学園祭-店
 

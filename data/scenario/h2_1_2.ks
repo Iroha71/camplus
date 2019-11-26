@@ -49,8 +49,8 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  target="*話しかける"  x="550"  y="200"  width=""  height=""  _clickable_img=""  text="話しかける"  ]
-[glink  color="pink"  storage="h2_2.ks"  size="20"  target="*様子を見る"  x="520"  y="340"  width=""  height=""  _clickable_img=""  text="様子を見る"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  target="*話しかける"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  text="話しかける"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  target="*様子を見る"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  text="様子を見る"  ]
 [s  ]
 *話しかける
 
