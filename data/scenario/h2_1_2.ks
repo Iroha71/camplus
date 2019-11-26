@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_h2_1_2.ks]
 
+[hidemenubutton]
+
 [cm  ]
 *迷わなかった
 
@@ -18,10 +20,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[mask  time="500"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [chara_hide  name="会長"  time="500"  wait="true"  pos_mode="true"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="500"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="500"  effect="slideOutRight"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 一号館に向かい、ようやくその建物の入り口に辿り着こうというところで、[r]そこに誰かがいるのが見えた。[p]
@@ -114,7 +116,7 @@
 
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [jump  storage="h2_1_2.ks"  target="*common"  ]
 [s  ]
@@ -203,13 +205,13 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
+[mask  time="800"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
+[chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
 [jump  storage="h2_1_2.ks"  target="*common"  ]
 *common
 
-[bg  time="1000"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[bg  time="0"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [chara_show  name="ひーさん"  time="600"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1112"  left="270"  top="114"  ]
 [tb_start_text mode=3 ]
@@ -374,6 +376,6 @@
 ……[wait time=1000]なんだか、この後の見学がとても心配になった。[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="700"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_2.ks"  target=""  ]
 [s  ]

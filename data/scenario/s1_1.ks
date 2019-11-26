@@ -2,6 +2,7 @@
 
 *start
 
+[chara_hide_all  time="400"  wait="true"  ]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
 [tb_show_message_window  ]

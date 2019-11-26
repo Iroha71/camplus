@@ -1,10 +1,12 @@
 [_tb_system_call storage=system/_h2_2.ks]
 
 [cm  ]
+[hidemenubutton]
+
 [bg  time="1000"  method="crossfade"  storage="pc教室.png"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="1000"  effect="vanishOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="490"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「さてと」[p]
@@ -43,7 +45,7 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [jump  storage="h2_2.ks"  target="*動機"  ]
 *コーヒー
 
@@ -59,7 +61,7 @@
 それともいろいろいるか？」[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_2.ks"  target="*動機"  ]
 *紅茶
 
@@ -76,7 +78,7 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_2.ks"  target="*動機"  ]
 *その他
 
@@ -101,11 +103,11 @@
 「……流石にいかんか」[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="bounceIn"  color="0x000000"  graphic="転換/転換.png"  ]
 *動機
 
 [chara_mod  name="ひーさん"  time="0"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="1000"  effect="vanishOut"  ]
 [tb_start_text mode=1 ]
 一服して一息ついたところで、おもむろにひーさんが口を開いた。[p]
 [_tb_end_text]
@@ -528,7 +530,7 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="800"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_2.ks"  target="*ログイン"  ]
 *パソコン画面見る-声かけ
 
@@ -548,7 +550,7 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="fadeInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 *ログイン
 
 [chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
@@ -698,5 +700,7 @@
 そのあたりも動画や写真があるということで、飲み物を何度かおかわりしながらしばらく話をした。[p]
 [_tb_end_text]
 
+[mask  time="1500"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
 [jump  storage="s2_3.ks"  target="*2-3start"  ]
 [s  ]
