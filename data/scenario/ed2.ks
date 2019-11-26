@@ -5,6 +5,8 @@
 [bg  time="1000"  method="crossfade"  storage="corridor-day.jpg"  ]
 [mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+*ed2
+
 [tb_start_text mode=1 ]
 #ひーさん
 「むり」[p]
