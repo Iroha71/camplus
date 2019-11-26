@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_h2_1.ks]
 
+[hidemenubutton]
+
 [cm  ]
 *迷った
 
@@ -20,10 +22,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[mask  time="250"  effect="fadeIn"  color="0x000000"  graphic=""  storage=""  ]
+[mask  time="700"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="syoukouguchi2.jpg"  cross="false"  ]
-[mask_off  time="250"  effect="fadeOut"  ]
+[mask_off  time="500"  effect="slideOutRight"  ]
 [chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常ー口少し）.png"  width="1028"  height="1453"  left="441"  top="-1"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
@@ -80,7 +82,7 @@
 [camera time=0 x=250 y=160 zoom=2]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="0"  storage="default/集中線2.png"  width="639"  height="360"  x="570"  y="19"  _clickable_img=""  name="img_34"  ]
+[tb_image_show  time="0"  storage="default/集中線2.png"  width="639"  height="360"  x="570"  y="19"  _clickable_img=""  name="img_35"  ]
 [font  size="50"  color="0x666666"  face="mgenplus-1cp-black"  bold="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
@@ -95,7 +97,7 @@
 [camera time=0  zoom=3]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="0"  storage="default/集中線2.png"  width="463"  height="260"  x="671"  y="61"  _clickable_img=""  name="img_41"  ]
+[tb_image_show  time="0"  storage="default/集中線2.png"  width="463"  height="260"  x="671"  y="61"  _clickable_img=""  name="img_42"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 「一段落したの！」[p]
@@ -153,7 +155,7 @@
 
 [chara_hide_all  time="300"  wait="true"  ]
 [bg  time="500"  method="crossfade"  storage="syoukouguchi2-sd.jpg"  ]
-[tb_image_show  time="500"  storage="default/SD/SD1.png"  width="690"  height="470"  x="315"  y="39"  _clickable_img=""  name="img_61"  ]
+[tb_image_show  time="500"  storage="default/SD/SD1.png"  width="690"  height="470"  x="315"  y="39"  _clickable_img=""  name="img_62"  ]
 [tb_start_text mode=4 ]
 #会長
 「これから先は彼女に任せるけれど、
@@ -179,10 +181,10 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[tb_image_hide  time="1000"  ]
-[chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
+[mask  time="1000"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[tb_image_hide  time="0"  ]
+[chara_hide  name="会長"  time="0"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [jump  storage="h2_1_2.ks"  target="*common"  ]
 [s  ]

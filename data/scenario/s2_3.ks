@@ -1,9 +1,13 @@
 [_tb_system_call storage=system/_s2_3.ks]
 
 [cm  ]
+[hidemenubutton]
+
 *2-3start
 
+[mask_off  time="1500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="pc教室.png"  ]
 [tb_start_text mode=4 ]
 #
 麻生の行事にまつわる雑談も落ち着いてきたころ。[p]
@@ -11,21 +15,25 @@
 
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「えーと、まず、何から説明するべきか……」[p]
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #
 唸りながらパンフレットを捲るひーさんが、ぴたりととあるページで視線を止めた。[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="pc教室sd.png"  ]
+[tb_image_show  time="500"  storage="default/SD/3.png"  width="690"  height="470"  x="314"  y="16"  _clickable_img=""  name="img_11"  ]
 [tb_start_text mode=4 ]
 #ひーさん
-「あっ、これ前ミッツが騒いでるおったやつじゃ、どろーん！」[p]
+「あっ、これ前『ミッツ』が騒いでるおったやつじゃ、[wait time=500]『どろーん』！」[p]
 「あれじゃろ？[r]
-伊藤だか何だかってやつなんじゃろ?」
+『伊藤』だか何だかってやつなんじゃろ?」
 [_tb_end_text]
 
 [glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="231"  x="532"  width=""  height=""  _clickable_img=""  ]
@@ -48,8 +56,8 @@
 「あ、もしかしてそういう由来だったりするか？」[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="否定する"  y="400"  target="*否定する"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="由来を教える"  y="500"  target="*由来を教える"  ]
+[glink  color="pink"  storage="s2_3.ks"  size="20"  text="否定する"  y="331"  target="*否定する"  x="540"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="pink"  storage="s2_3.ks"  size="20"  text="由来を教える"  y="249"  target="*由来を教える"  width="200"  height="20"  x="539"  _clickable_img=""  ]
 [s  ]
 *否定する
 
@@ -194,18 +202,20 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 [s  ]
 *common
 
+[tb_image_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="pc教室.png"  ]
 [tb_start_text mode=1 ]
 #
 相変わらず力が入っていないために、手を引いているというよりは手首を持っているだけのひーさんが扉のほうに近付いていく。[p]
-多少の不自然さはあるものの、当初に比べるとどうやら自分にこの学校を案内しようと[l][r]ひーさんなりに張り切っているようだ。[p]
+多少の不自然さはあるものの、当初に比べるとどうやら自分にこの学校を案内しようと[r]ひーさんなりに張り切っているようだ。[p]
 先程の会話の途中、不自然にやる気になったことといい、面倒見がいいというか、[p]
 お節介焼きというか、年長者ぶりたがっているというか。[p]
 いや、実際に年長者なのかもしれないが。[p]
 
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="行く"  y="400"  target="*行く１"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ひーさんは？"  y="500"  target="*ひーさんは？"  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="行く"  y="226"  target="*行く１"  x="540"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ひーさんは？"  y="323"  target="*ひーさんは？"  x="538"  width="200"  height="20"  _clickable_img=""  ]
 [s  ]
 *行く１
 
@@ -215,9 +225,15 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[tb_start_text mode=4 ]
 #ひーさん
-「よしよし。上の階じゃからエレベーターを使うぞ」[p]
+「よしよし。
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+上の階じゃからエレベーターを使うぞ」[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -227,35 +243,58 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
+[mask  time="1000"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_4.ks"  target="*2-4start"  ]
 *ひーさんは？
 
+[chara_show  name="ひーさん"  time="250"  wait="true"  left="270"  top="114"  storage="chara/2/ひーさん(驚き).png"  width="804"  height="1122"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「なんじゃ心配しておるのか？」[p]
-「いや、正直腰は相変わらず不穏じゃが。手を貸してくれるなら大丈夫じゃから[l][r]気にしなくていいぞ。」[p]
+
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  target="*行く２"  text="行く"  y="400"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="他には？"  y="500"  target="*他には？"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+「いや、正直腰は相変わらず不穏じゃが。手を貸してくれるなら大丈夫じゃから[r]気にしなくていいぞ?」[p]
+[_tb_end_text]
+
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  target="*行く２"  text="行く"  y="265"  x="541"  width="200"  height="20"  _clickable_img=""  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="他には？"  y="358"  target="*他には？"  x="540"  width="200"  height="20"  _clickable_img=""  ]
 [s  ]
 *行く２
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=4 ]
 #ひーさん
-「よしよしじゃあ行くか。[l][r]
-上の階じゃからエレベーターを使うぞ。」[p]
+「よしよし、[wait time=500]じゃあ行くかの。上の階じゃからエレベーターを使うぞ。」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
 「手を貸してくれ」[p]
 [_tb_end_text]
 
-[jump  storage="h2_4.ks"  target=""  ]
+[mask  time="500"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[jump  storage="h2_4.ks"  target="*2-4start"  ]
 *他には？
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「他？　ドローンやら以外ということか？」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[tb_start_text mode=1 ]
 「ふむ。」[p]
 「あの、洋菓子の……たると？  たるとだったか？　違う？」[p]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
+[tb_start_text mode=1 ]
 「あの、いちごの仲間の……べりーたると？　とかたしか……」[p]
 
 [_tb_end_text]
@@ -266,12 +305,19 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 疑問を示しているとひーさんが痺れを切らしたように声を上げた。[p]
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「とにかく行くぞ転校生！[l][r]
-案ずるより産むが易し、じゃ！」[p]
+
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=4 ]
+案ずるより産むが易し、じゃ！」[p]
+[_tb_end_text]
+
+[mask  time="500"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_4.ks"  target="*2-4start"  ]
 [s  ]
