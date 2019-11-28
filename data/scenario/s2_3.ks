@@ -28,7 +28,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="pc教室sd.png"  ]
-[tb_image_show  time="500"  storage="default/SD/3.png"  width="690"  height="470"  x="314"  y="16"  _clickable_img=""  name="img_11"  ]
+[tb_image_show  time="500"  storage="default/SD/3.png"  width="690"  height="470"  x="314"  y="16"  _clickable_img=""  name="img_12"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「あっ、これ前『ミッツ』が騒いでるおったやつじゃ、[wait time=500]『どろーん』！」[p]
@@ -243,7 +243,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 
 [_tb_end_text]
 
-[mask  time="1000"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[mask  time="1000"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_4.ks"  target="*2-4start"  ]
 *ひーさんは？
 
@@ -276,7 +276,7 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 「手を貸してくれ」[p]
 [_tb_end_text]
 
-[mask  time="500"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[mask  time="500"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_4.ks"  target="*2-4start"  ]
 *他には？
 
@@ -318,6 +318,6 @@ I、T、O――並びが違うが、もしやIOTのことではないだろう�
 案ずるより産むが易し、じゃ！」[p]
 [_tb_end_text]
 
-[mask  time="500"  effect="slideInUp"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[mask  time="500"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_4.ks"  target="*2-4start"  ]
 [s  ]

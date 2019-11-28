@@ -3,6 +3,7 @@
 [cm  ]
 *システム開発分野
 
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
