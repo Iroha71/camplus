@@ -1,6 +1,8 @@
 [_tb_system_call storage=system/_h2_4.ks]
 
 [cm  ]
+[bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
+[mask_off  time="1000"  effect="slideOutUp"  ]
 *2-4start
 
 [tb_show_message_window  ]
@@ -10,6 +12,7 @@
 先ほどお茶をした教室のあるフロアとはまた違う雰囲気であり、 [r] こちらのほうがより自分が知る学校のイメージに近い。[p]
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「えーと、確かここの……」[p]
@@ -20,12 +23,15 @@
 つるり [l][r] あ、と思うのと同時に、勢いよくひーさんが滑った。[p]
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="400"  cross="false"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 [font size=50] 「ふぎゃあ！？」 [resetfont][p]
 #
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [glink  color="black"  storage="h2_4.ks"  size="20"  text="駆け寄る"  target="*駆け寄る"  ]
 [glink  color="black"  storage="h2_4.ks"  size="20"  text="歩み寄る"  target="*歩み寄る"  x="496"  y="127"  width=""  height=""  _clickable_img=""  ]
 [s  ]
@@ -37,6 +43,7 @@
 
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（焦り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「うう……またか……[r][l]
@@ -48,12 +55,14 @@
 どうやら怪我はないらしい。少しほっとしてひーさんに手を貸す。[p]
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="550"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「こう頻繁に転んでいては、そのうち本当に腰がぎっくりいってしまいそうじゃな……」[p]
-
+#
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="800"  wait="true"  pos_mode="true"  ]
 [jump  storage="h2_4.ks"  target="*電子システム"  ]
 *歩み寄る
 
@@ -67,13 +76,16 @@
 
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（泣き睨み）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生、だんだん遠慮がなくなってきたのぅ [r] あいたたた……」[p]
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 *電子システム
 
+[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_start_text mode=1 ]
 #
 気を取り直して入った教室は、背の高いロッカーや棚に三方を囲まれていた。[r] 残る一方には黒板。[p]
@@ -81,6 +93,7 @@
 
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「あれじゃよ、どろーん」[p]
@@ -98,12 +111,14 @@
 [s  ]
 *ドローン-自分がやる
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「まあ妥当じゃな。どうする？　椅子を使うかのぅ？」[p]
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #
 ひーさんがずりずりと引き摺って持ってきてくれた椅子に乗り、そっとドローンを手に取る。[p]
@@ -111,6 +126,7 @@
 ……もしかして自分が倒れるとでも思っていたのだろうか？[p]
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いや違うぞ？　転校生が倒れたりどろーんが落ちてきたら避けきれないと[r]逃げていたわけではないぞ？」[p]
@@ -125,6 +141,7 @@
 [jump  storage="h2_4.ks"  target="*ドローン入手後"  ]
 *ドローン-ひーさん任せ
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「正気か？　転校生、正気か？」[p]
@@ -134,12 +151,17 @@
 [jump  storage="h2_4.ks"  target="*運動できる"  cond="f.undou=='true'"  ]
 *運動できない
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #
-自分もそう動けるわけではないと一歩引くと、ひーさんが一歩こちらに寄る。[p]
-
+自分もそう動けるわけではないと一歩引くと、
 [_tb_end_text]
 
+[chara_move  name="ひーさん"  anim="true"  time="300"  effect="linear"  wait="true"  left="270"  top="114"  width="847"  height="1184"  ]
+[tb_start_text mode=1 ]
+ひーさんが一歩こちらに寄る。[p]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（驚きー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「ワシよりか？　自慢ではないがワシよりか？　お！？」[p]
@@ -151,6 +173,7 @@
 [s  ]
 *ドローン-ひーさん任せ-自分がやる
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「よし任せたぞ。ほれこの椅子を使うといい」[p]
@@ -164,6 +187,7 @@
 ……もしかして自分が倒れるとでも思っていたのだろうか？[p]
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いや違うぞ？　転校生が倒れたりどろーんが落ちてきたら避けきれないと[r]逃げていたわけではないぞ？」[p]
@@ -187,6 +211,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（泣き睨み）.png"  ]
 [tb_start_text mode=1 ]
 
 #ひーさん
@@ -194,6 +219,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #
 
@@ -202,6 +228,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（怒り泣き）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いやつらい！　転校生、ワシこれつらい！　勘弁してくれ！」[p]
@@ -218,23 +245,40 @@
 [jump  storage="h2_4.ks"  target="*ドローン入手後"  ]
 *運動できる
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生運動できるんじゃろ？　やれるやれるがんばれがんばれ」[p]
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #
 説得が雑。[p]
-というか、じわじわとドローンの棚と自分から距離をとり、ついでに目も合わせない。 [r] つまり進行方向を見ていないということだ。[p]
-……これまでのひーさんの行動からして嫌な予感がする。[p]
-危ないからちゃんと前を見るように言おうとしたその時、すっかり聞き慣れた[r]ごんという音がした。[p]
 [_tb_end_text]
 
+[chara_move  name="ひーさん"  anim="true"  time="1000"  effect="linear"  wait="true"  left="-63"  top="138"  width="804"  height="1122"  ]
+[chara_move  name="ひーさん"  anim="true"  time="3000"  effect="linear"  wait="false"  left="190"  top="306"  width="202"  height="294"  ]
+[tb_start_text mode=1 ]
+というか、じわじわとドローンの棚と自分から距離をとり、ついでに目も合わせない。 [r] つまり進行方向を見ていないということだ。[p]
+……これまでのひーさんの行動からして嫌な予感がする。[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+危ないからちゃんと前を見るように言おうとしたその時、
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="300"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
+[tb_start_text mode=1 ]
+すっかり聞き慣れた[r]ごんという音がした。[p]
+[_tb_end_text]
+
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「いったあ！？」[p]
+[font size=50]「いったあ！？」[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -249,6 +293,7 @@
 
 *ドローン入手後
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
 [tb_start_text mode=1 ]
 #
 事態が七転八転したりしなかったりしたが、無事にドローンが手元にやってきた。[p]
@@ -258,6 +303,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「どれか気になるものはあったか？」[p]
@@ -271,9 +317,15 @@
 [s  ]
 *興味あるもの-迷う
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「なんじゃ？　一つを選べんか？　それとも全部そうでもない感じか？」[p]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="500"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[tb_start_text mode=1 ]
+
 「ちなみにワシはらずべりーぱいじゃな。[r]特にたるとじゃなかったところがいい。   たるとは固いからのぅ」[p]
 
 [_tb_end_text]
@@ -296,6 +348,7 @@
 
 *興味あるもの-なし
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そうかそうか。まあそういうこともあろう」[p]
