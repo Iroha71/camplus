@@ -3,11 +3,11 @@
 ;System.title=camplus
 ;projectID=camplus
 ;game_version=0.0
-;ScreenRatio=normal
+;ScreenRatio=fix
 ;patch_apply_auto=true
 ;ScreenCentering=true
 ;useCamera=true
-;scWidth=1270
+;scWidth=1280
 ;scHeight=720
 ;chSpeed=30
 ;chSpeeds.fast=10
