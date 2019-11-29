@@ -3,11 +3,11 @@
 ;System.title=camplus
 ;projectID=camplus
 ;game_version=0.0
-;ScreenRatio=fix
+;ScreenRatio=normal
 ;patch_apply_auto=true
 ;ScreenCentering=true
 ;useCamera=true
-;scWidth=1280
+;scWidth=1270
 ;scHeight=720
 ;chSpeed=30
 ;chSpeeds.fast=10
@@ -70,7 +70,7 @@
 ;defaultBold=false
 ;defaultRubySize=10
 ;defaultRubyOffset=-2
-;defaultAntialiased=1
+;defaultAntialiased=2
 ;defaultShadow=false
 ;defaultShadowColor=0x000000
 ;defaultEdge=false
