@@ -6,8 +6,6 @@
 *2-4start
 
 [tb_show_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="190"  width=""  height=""  _clickable_img=""  target="*ドローン-自分がやる"  ]
 [tb_start_text mode=1 ]
 #
 ひーさんに急かされてエレベータから降り立ったのは上のほうのフロアだ。[p]
@@ -108,6 +106,7 @@
 ひーさんと自分の間になんともいえない空気が流れた。[p]
 [_tb_end_text]
 
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="190"  width=""  height=""  _clickable_img=""  target="*ドローン-自分がやる"  ]
 [glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんに任せる"  target="*ドローン-ひーさん任せ"  x="550"  y="220"  ]
 [s  ]
 *ドローン-自分がやる
