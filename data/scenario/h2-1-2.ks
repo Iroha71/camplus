@@ -1,4 +1,6 @@
-[_tb_system_call storage=system/_h2_1_2.ks]
+[_tb_system_call storage=system/_h2-1-2.ks]
+
+[plugin name="url_query_loader"]
 
 [hidemenubutton]
 
@@ -18,6 +20,13 @@
 「大丈夫だろうけど迷わないように。時間の無駄だから」[p]
 #
 [_tb_end_text]
+
+[iscript]
+location.href="http://localhost:3001/senario/select?is_maigo=false"
+[endscript]
+
+[s  ]
+*selected
 
 [tb_hide_message_window  ]
 [mask  time="500"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]

@@ -24,11 +24,11 @@
 [_tb_end_text]
 
 [iscript]
-window.location.href="http://localhost:3001/senario/select"
+location.href="http://localhost:3001/senario/select?is_maigo=true"
 [endscript]
 
 [s  ]
-*hisan
+*selected
 
 [tb_hide_message_window  ]
 [mask  time="700"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
