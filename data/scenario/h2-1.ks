@@ -4,6 +4,7 @@
 
 [hidemenubutton]
 
+[mask_off  time="1000"  effect="fadeOut"  ]
 [cm  ]
 *迷った
 
