@@ -6,7 +6,7 @@
 [bg  time="1000"  method="crossfade"  storage="pc教室.png"  ]
 [mask_off  time="1000"  effect="vanishOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="ひーさん"  time="490"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="490"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「さてと」[p]
@@ -15,7 +15,7 @@
 ひーさんがどこからともなく急須と湯飲みを取り出し、[r]慣れた様子で準備をするその手の向こうにはポットや茶缶も見える。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生はお客さんじゃからな、座っておいてくれ」[p]
@@ -25,6 +25,7 @@
 [tb_start_text mode=1 ]
 「あ、これ緑茶なんじゃが、こーひーとか紅茶がよかったりするかのぅ？」[p]
 [_tb_end_text]
+
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="540"  y="180&nbsp;"  width="200"  height="20"  _clickable_img="room.jpg"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  x="540"  y="260"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
@@ -74,7 +75,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
-「だーじぇ……？[wait time=500]えある……？[wait time=500] 会長が置いていったんかのぅ、これ」[p]
+「だーじぇ……？[wait time=500]　えある……？[wait time=500] 　会長が置いていったんかのぅ、これ」[p]
 #
 [_tb_end_text]
 
@@ -101,6 +102,7 @@
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 「……流石にいかんか」[p]
+#
 [_tb_end_text]
 
 [mask  time="1000"  effect="bounceIn"  color="0x000000"  graphic="転換/転換.png"  ]
@@ -115,15 +117,21 @@
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生はなんでまた麻生学園を選んだんじゃ？」[p]
-「いや、言いたくないならいいぞ？」[p]
-「でもこの学園、正直立地というか建物の配置がアレじゃろ？」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
-[tb_start_text mode=1 ]
-「わしはたまの移動教室でひぃひぃいっておるからなぁ、わかるぞ」[p]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
+[tb_start_text mode=3 ]
+「いや、言いたくないならいいぞ？」[p][r]
+
 [_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
+[tb_start_text mode=3 ]
+「でもこの学園、正直立地というか建物の配置がアレじゃろ？」[p][r]
+「わしはたまの移動教室でひぃひぃいっておるからなぁ、わかるぞ」[l][r]
+[_tb_end_text]
+
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="学科"  target="*動機-学科"  x="540"  y="180"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="設備"  target="*動機-設備"  x="540"  y="260"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="資格"  target="*動機-資格"  x="540"  y="340"  width="200"  height="20"  ]
@@ -146,7 +154,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
-やりたいことが決まっているにしろ、決まってないにしろ、未来が拓けているのはよい[p]
+やりたいことが決まっているにしろ、決まってないにしろ、未来が拓けているのはよい」[p]
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*イベント"  ]
@@ -156,7 +164,7 @@
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=4 ]
 #ひーさん
-「設備？[wait time=500]
+「設備？　[wait time=500]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
@@ -168,6 +176,11 @@
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 「……ワシもそろそろ覚える必要があるんじゃよな」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
+[tb_start_text mode=1 ]
 「自分ではできなくとも、ここでできることぐらいは把握しておかんと……」[p]
 [_tb_end_text]
 
@@ -269,9 +282,9 @@
 [camera time=0 x=0 y=50 zoom=2]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="100"  storage="default/集中線2.png"  width="649"  height="365"  x="320"  y="128"  _clickable_img=""  name="img_109"  ]
+[tb_image_show  time="100"  storage="default/集中線2.png"  width="649"  height="365"  x="320"  y="128"  _clickable_img=""  name="img_114"  ]
 [tb_image_hide  time="100"  ]
-[tb_image_show  time="100"  storage="default/集中線2.png"  width="649"  height="365"  x="320"  y="128"  _clickable_img=""  name="img_111"  ]
+[tb_image_show  time="100"  storage="default/集中線2.png"  width="649"  height="365"  x="320"  y="128"  _clickable_img=""  name="img_116"  ]
 [tb_start_text mode=1 ]
 [font size=30] スポーツ大会が！」 [resetfont][p]
 #
@@ -312,7 +325,7 @@
 [tb_start_text mode=1 ]
 #ひーさん
 「なんなんじゃ……一号館はぱそこんばっかりやってるようなところなんじゃぞ……」[p]
-「もっとこう……運動全然できません大嫌いですみたいなやつが来るんじゃろ……」[p]
+「もっとこう……運動全然できません大嫌いですみたいなやつが来るじゃろ……」[p]
 #
 さすがにそれは偏見なのでは。[p]
 [_tb_end_text]
@@ -342,8 +355,9 @@
 [font  size="30"  color="0x666666"  face="mgenplus-1cp-black"  bold="false"  ]
 [chara_mod  name="ひーさん"  time="0"  cross="true"  storage="chara/2/ひーさん（怒り泣き）.png"  ]
 [tb_start_text mode=1 ]
+#ひーさん
 [quake count=5 time=300 hmax=20]「だってすぽーつ大会なんぞいってもほぼこすぷれ大会じゃぞ！？」[p]
-[quake count=5 time=300 hmax=20]「なんかもう目的が違うじゃろ！ワシそう参加したことないが！ 」[resetfont][p]
+[quake count=5 time=300 hmax=20]「なんかもう目的が違うじゃろ！　ワシそう参加したことないが！ 」[resetfont][p]
 #
 
 
@@ -360,29 +374,33 @@
 [tb_start_text mode=1 ]
 ひーさんにキッと睨まれた。[p]
 「えっと、コスプレ？」[p]
-露骨な話題転換にじとりとした目を向けたひーさんが、むっすりとした表情のまま口を開く。[p]
+露骨な話題転換にじとりとした目を向けたひーさんが、[p]むっすりとした表情のまま口を開く。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ひーさん
+「こすぷれしてすぽーつするんじゃよ [r] それで、こすぷれしておる奴が多いほど加点になるんじゃ」[p]
+
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
-#ひーさん
-「こすぷれしてすぽーつするんじゃよ [r] それで、こすぷれしておる奴が多いほど加点になるんじゃ」[p]
-「あとは、まあ、すごいやつはすぽーつの結果とは別に表彰される年もあったりしてな」[p]
+「……あとは、まあ、[r]すごいやつはすぽーつの結果とは別に表彰される年もあったりしてな」[p]
 #
-確かどっかで過去の写真が見れたはず [r] そう呟いて立ち上がったひーさんの視線の先には白いキャビネットがある。[p]
+確かどっかで過去の写真が見れたはず…… [r] そう呟いて立ち上がったひーさんの視線の先には白いキャビネットがある。[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-ここのぱそこんなら……鯖？か何かで見れると会長が……[p]
+ここのぱそこんなら……鯖？　か何かで見れると会長が……[p]
 #
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-その瞬間。それなりにしっかりと歩いていたひーさんの動きが不自然に前のめりになり――。[p]
+その瞬間。[r]それなりにしっかりと歩いていたひーさんの体勢が不自然に前のめりになり――。[p]
 [_tb_end_text]
 
 [chara_show  name="ひーさん"  time="200"  wait="true"  storage="chara/2/ひーさん(驚き).png"  width="1646"  height="2328"  left="-147"  top="-70"  reflect="false"  ]
@@ -395,7 +413,7 @@
 [quake  time="300"  count="3"  hmax="70"  wait="true"  ]
 [chara_hide  name="ひーさん"  time="150"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-ばたんと倒れる音、少しの間の後にごとんと何かが落ちる音、続いてごとんと痛そうな音。[p]
+ばたんと倒れる音。[p]少しの間の後にごとんと何かが落ちる音。[p]続いてごとんと痛そうな音。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -403,11 +421,11 @@
 [_tb_end_text]
 
 [bg  time="500"  method="crossfade"  storage="pc教室sd.png"  ]
-[tb_image_show  time="500"  storage="default/SD/2mk2.png"  width="690"  height="470"  x="315"  y="21"  name="img_155"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/SD/2mk2.png"  width="690"  height="470"  x="315"  y="21"  name="img_161"  _clickable_img=""  ]
 [tb_start_text mode=1 ]
 膝を曲げた脚をそのまま上に向けた不思議な体勢で床に倒れているひーさんと [r] その頭の上に鎮座したノートパソコンの姿があった。[p]
 濃い灰色のノートパソコンは器用にも開いた状態でうまくバランスがとれている。[p]
-・・・・一体何をしてそうなったんだろうか。[p]
+……一体何をしてそうなったんだろうか。[p]
 助け起こすことも忘れ、立ったまま床のひーさんを見下ろして声をかける。[p]
 #ひーさん
 「て、転校生、とにかく頭の上のをとってくれんか？」[p]
@@ -467,6 +485,8 @@
 [jump  storage="h2_2.ks"  target="*ログイン"  ]
 *パソコン持ち上げ-しゃがむ
 
+[tb_image_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="pc教室.png"  ]
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（焦り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -494,7 +514,7 @@
 「あれ、無視？　転校生、ここで無視するのか？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  x="540"  y="200"  width="200"  height="20"  target="*パソコン画面見る-持ち上げる"  ]
 [tb_eval  exp="f.HP-=2"  name="HP"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
 [s  ]
@@ -537,7 +557,7 @@
 [tb_start_text mode=4 ]
 #
 パソコンは大丈夫らしい、と声をかけると[p]
-ひーさんはそろそろとぎこちない手つきで頭上のパソコンを退かすと、[]
+ひーさんはそろそろとぎこちない手つきで頭上のパソコンを退かし、[p]
 
 [_tb_end_text]
 
@@ -545,7 +565,7 @@
 [tb_start_text mode=1 ]
 若干疲れたような顔をこちらに向ける。[p]
 #ひーさん
-「転校生、それ素か？…[wait time=500]そうか」[p]
+「転校生、それ素か？　[wait time=500]……そうか」[p]
 「まあワシもちょっと打っただけじゃし、いいんじゃが……」[p]
 #
 [_tb_end_text]
@@ -575,8 +595,8 @@
 
 [tb_start_text mode=1 ]
 #
-メモやスクリーンショットでも残しているのだろうか[p]
-今度はスマートフォンの画面と睨めっこするひーさんの様子を見守ることしばし[p]
+メモやスクリーンショットでも残しているのだろうか。[p]
+今度はスマートフォンの画面と睨めっこするひーさんの様子を見守ることしばし。[p]
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*スポーツ大会"  ]
@@ -584,14 +604,14 @@
 
 [tb_start_text mode=1 ]
 #
-目線をひーさんの人差し指からすっとずらしながら、ひーさんを注意する [l][r] パスワードを口にしながら入力するのは流石にあまりよろしくない。[p]
+目線をひーさんの人差し指からすっとずらしながら、ひーさんを注意する。 [l][r] パスワードを口にしながら入力するのは流石にあまりよろしくない。[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=4 ]
 #ひーさん
-「あっ、 [wait time=500]そうじゃない [wait time=500]
+「あっ、 [wait time=500]そうじゃな [wait time=500]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
@@ -604,7 +624,7 @@
 *スポーツ大会
 
 [tb_start_text mode=1 ]
-・・・[p]
+……[p]
 
 [_tb_end_text]
 
@@ -631,7 +651,7 @@
 
 [tb_start_text mode=1 ]
 #
-すぐさま会長に電話しようとするひーさんを留め、[r]一号館の近くにある二号館からちょうど訪れていたニコという生徒会役員に [p] 手助けしてもらいながらなんとか写真を見ることができた。[p]
+すぐさま会長に電話しようとするひーさんを留め、[r]一号館の近くにある二号館からちょうど訪れていた[p]ニコという生徒会役員に手助けしてもらいながら、[r]なんとか写真を見ることができた。[p]
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*学園祭"  ]
@@ -640,7 +660,7 @@
 
 [tb_start_text mode=1 ]
 #
-分かっていたかのようにワンコールで電話に出た会長に教えてもらいながら手早く進める。[p]
+分かっていたかのようにワンコールで電話に出た会長に教えてもらいながら[r]手早く進める。[p]
 ちなみに会長の鶴の一声により操作は自分が代わった。[p]
 [_tb_end_text]
 
@@ -663,9 +683,22 @@
 [tb_start_text mode=1 ]
 カチカチと操作しながらひーさんと一緒にスポーツ大会の写真を見ていく。[p]
 年度別にフォルダ分けされていたものを見ていたのだが、ひーさんが「見覚えがある」と言っているものがかなりの数あり本当に何歳なんだと改めて疑問になってくる。[p]
-ある程度見終わってフォルダを遡っていくとスポーツ大会というフォルダの横に「麻生学園祭」というフォルダがあるのを見つけた。[p]
+ある程度見終わってフォルダを遡っていくとスポーツ大会というフォルダの横に[r]「麻生祭」というフォルダがあるのを見つけた。[p]
 ……祭というのだから、学園祭のようなものなのだろうか？[p]
 
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ひーさん
+「お、麻生祭か。学園祭みたいなもんじゃよ。[p]
+組ごとに店を出したり、[r]ばんどの発表があったり……」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
+[tb_start_text mode=1 ]
+「なかなか賑やかなんじゃが、[r]学園内全体でやるからワシはほとんど回れんのが残念じゃ」[p]
+#
 [_tb_end_text]
 
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="店というと・・・・"  target="*学園祭-店"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  ]
@@ -681,7 +714,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
-あとはほら、うちは製菓あるしのぅ」[p]
+あとはほら、うちは製菓があるしのぅ」[p]
 [_tb_end_text]
 
 [jump  storage="h2_2.ks"  target="*h2_2終了"  ]
@@ -690,14 +723,16 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
+#ひーさん
 「うむ、ワシは今の音楽は分らんが、それなりの人数が見ておるらしい」[p]
+#
 [_tb_end_text]
 
 *h2_2終了
 
 [tb_start_text mode=1 ]
 #
-そのあたりも動画や写真があるということで、飲み物を何度かおかわりしながらしばらく話をした。[p]
+そのあたりも動画や写真があるということで、[r]飲み物を何度かおかわりしながらしばらく話をした。[p]
 [_tb_end_text]
 
 [mask  time="1500"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]

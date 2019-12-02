@@ -73,6 +73,7 @@ location.href="http://localhost:3001/senario/select?is_maigo=true"
 #
 [_tb_end_text]
 
+[chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（照-lv.1）.png"  ]
 [tb_start_text mode=1 ]
 ……[p]
 [_tb_end_text]
@@ -81,7 +82,6 @@ location.href="http://localhost:3001/senario/select?is_maigo=true"
 隣の会長の顔を反射的に見る。[p]
 [_tb_end_text]
 
-[chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（照-lv.1）.png"  ]
 [tb_start_text mode=1 ]
 相変わらずつんとした顔だが、徐々に赤くなっているために迫力がない。[p]
 [_tb_end_text]
@@ -154,12 +154,12 @@ location.href="http://localhost:3001/senario/select?is_maigo=true"
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-いくつかの言葉を交わし、また何度か会長が顔を明るくしたところで、[p]
+いくつかの言葉を交わし、また何度か会長が顔を赤くしたところで、[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-いい加減耐えられなくなったらしい会長が、勢い良くこちらを見た。[p]
+いい加減耐えられなくなったらしい会長が勢い良くこちらを見た。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="300"  wait="true"  ]
@@ -167,12 +167,12 @@ location.href="http://localhost:3001/senario/select?is_maigo=true"
 [tb_image_show  time="500"  storage="default/SD/SD1.png"  width="690"  height="470"  x="315"  y="39"  _clickable_img=""  name="img_62"  ]
 [tb_start_text mode=4 ]
 #会長
-「これから先は彼女に任せるけれど、
+「これから先は彼女に任せるけれど、[r]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-何かあったら面倒なことになる前に私に相談しなさい？」[p]
+何かあったら面倒なことになる前に私に相談しなさい！」[p]
 [_tb_end_text]
 
 [font  size="40"  color="0x666666"  face="mgenplus-1cp-black"  bold="true"  ]
