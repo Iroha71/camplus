@@ -1,15 +1,16 @@
 [_tb_system_call storage=system/_ed1.ks]
 
 [cm  ]
-[tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 最初は一人で歩いていたせいか、清潔さだけが印象強かった廊下が、[r]今は随分温かみを感じる。[p]
 二人で歩いていることによる気分のものか、隣でふわふわ揺れるひーさんの髪による[r]視覚効果かなにかかまでは分からないが。[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（楽）.png"  width="720"  height="1016"  left="337"  top="44"  ]
+[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常ー口少し）.png"  width="827"  height="1167"  left="268"  top="-3"  ]
 [tb_start_text mode=1 ]
 #会長
 「お疲れ様、大変だったでしょう」[p]
@@ -25,8 +26,8 @@
 
 [_tb_end_text]
 
-[chara_move  name="会長"  anim="true"  time="700"  effect="linear"  wait="true"  left="8"  top="44"  width="720"  height="1016"  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  top="114"  left="626"  reflect="false"  ]
+[chara_move  name="会長"  anim="true"  time="700"  effect="linear"  wait="true"  left="588"  top="59"  width="650"  height="917"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="574"  height="802"  top="219"  left="124"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「会長！？　違うじゃろ！　そこはワシじゃろ！　労るべきはワシじゃろ！？」[p]
@@ -48,7 +49,7 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_move  name="会長"  anim="true"  time="700"  effect="linear"  wait="true"  left="337"  top="44"  width="720"  height="1016"  ]
+[chara_move  name="会長"  anim="true"  time="400"  effect="linear"  wait="true"  left="268"  top="-3"  width="827"  height="1167"  ]
 [chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（通常）.png"  ]
 [tb_start_text mode=1 ]
 #会長
@@ -68,15 +69,15 @@
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
-軽く説明し終わったところでひーさんの声に呼ばれて給湯室に向かうと、
+軽く説明し終わったところでひーさんの声に呼ばれて給湯室に向かうと、[r]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+簡易的なシンクの上、お盆にお茶が乗っていた。　ああ、なるほど。[p]
 [_tb_end_text]
 
 [chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_start_text mode=1 ]
-簡易的なシンクの上、お盆にお茶が乗っていた。  ああ、なるほど。[p]
-[_tb_end_text]
-
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（緊迫ー口大開け）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「なるほど、みたいな顔をやめい。転校生もこぼれるの嫌じゃろ」[p]
@@ -89,7 +90,7 @@
 それは非常にありがたいのだが、会長の目線がなんだか生暖かい。[p]
 [_tb_end_text]
 
-[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常‐kuchi_）.png"  width="720"  height="1016"  left="337"  top="44"  ]
+[chara_show  name="会長"  time="1000"  wait="true"  storage="chara/1/会長（通常‐kuchi_）.png"  width="827"  height="1167"  left="268"  top="-3"  ]
 [tb_start_text mode=1 ]
 #会長
 「ひーさんに随分慣れたわね。」[p]
@@ -97,8 +98,8 @@
 #
 [_tb_end_text]
 
-[chara_move  name="会長"  anim="true"  time="700"  effect="linear"  wait="true"  left="8"  top="44"  width="720"  height="1016"  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="626"  top="114"  ]
+[chara_move  name="会長"  anim="true"  time="700"  effect="linear"  wait="true"  left="588"  top="59"  width="650"  height="917"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="574"  height="802"  left="124"  top="219"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いやでも今日は絶対に厄日じゃったぞ。本当に」[p]
@@ -137,7 +138,7 @@
 [jump  storage="ed1.ks"  target="*ed1comon"  ]
 *頑張っていた
 
-[chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（喜）.png"  ]
+[chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（楽）.png"  ]
 [tb_start_text mode=1 ]
 #会長
 「そう、頑張っていたのね。でも、頑張っていただけでしょう？」[p]
@@ -179,7 +180,8 @@
 #
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（怒り泣き）.png"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そん、えっ、そんな、……転校生の裏切り者―っ！」[p]
@@ -187,3 +189,4 @@
 #
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]

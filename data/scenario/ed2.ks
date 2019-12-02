@@ -23,11 +23,18 @@
 #
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 いやそんな無茶苦茶な、と抗議するものの、ひーさんは意にも介さない。[p]
-しかもその手はなぜかスマートフォンを取り出して、[r]少々手間取りながらも電話をかけだしていた。[p]
+しかもその手はなぜかスマートフォンを取り出して、[r]少々手間取りながらも
 [_tb_end_text]
 
+[playse  volume="100"  time="300"  buf="0"  storage="Telephone-Signal_Tone02-1(Ringback)_(online-audio-converter.com).ogg"  loop="true"  ]
+[tb_start_text mode=1 ]
+電話をかけだしていた。[p]
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「あっ、会長？　いや申し訳ないんじゃがちょっと今日はもう無理じゃこれ。[r]別の日にするとか、別のところの見学に変えよう。な！」[p]
