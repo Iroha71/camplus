@@ -22,7 +22,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=4 ]
-「見てない？[wait time=500]
+「見てない？　[wait time=500]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
@@ -30,18 +30,23 @@
 あそこはな、資格合格者をぱーっと載せておるんじゃよ」[p]
 「一階に降りて…… [r] あ、そうするとねっとわーくの見学でまた上がってくる必要があるか」[p]
 #
-うんうんと考え込むひーさんがぶつぶつと続ける。[p]
-#ひーさん
-「本当はあの、ぷろぐらみんぐ、を見せてやれば良かったんじゃが」[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
+うんうんと考え込むひーさんがうんうんと考え込むひーさんがぶつぶつと続ける。[p]
+#ひーさん
+「本当はあの、ぷろぐらみんぐ、を見せてやれれば良かったんじゃが」[p]
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 「ワシはそのあたり全然駄目でな」[p]
 #
 それはそうだろうなと深く頷く。[p]
-パソコンのログインにあれだけ手間取る人間が日常的にプログラミングなどしているはずがない。[p]
+パソコンのログインにあれだけ手間取る人間が[r]日常的にプログラミングなどしているはずがない。[p]
 
 
 [_tb_end_text]
@@ -97,10 +102,10 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_35"  ]
+[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_36"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「会長とニコと、あとゴトウあたりで、……あの、えーと、そら、しろ、しら？　えーと、時間割？」[p]
+「会長とニコと、あとゴトウあたりで、[r]……あの、えーと、そら、しろ、しら？　えーと、時間割？」[p]
 「かり……かりんとう？　そういうアレをまとめたとか、どうとか」[p]
 #
 ……もしかしてシラバスやカリキュラムなんかのことだろうか。[p]
@@ -113,7 +118,7 @@
 
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
-「……アプリなの？」[p]
+「アプリなのか？」[p]
 [_tb_end_text]
 
 [chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
@@ -129,17 +134,17 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
-「その後もニコやらが勝手に操作しておるしで、どれが何なのか未だに全然理解できておらん」[p]
+「その後もニコやらが勝手に操作しておるしで、[r]どれが何なのか未だに全然理解できておらん」[p]
 #
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_45"  ]
+[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_46"  ]
 [tb_start_text mode=1 ]
-確かに目に入ったスマホの画面は、形や整然と、片や雑然としていて一人の人物が使っているとするとかなり違和感のあるものだ。[p]
-最初だけ会長が設定などをしたというのなら、[p]会長の手から離れた後はひーさんではない他の誰かの手でアプリは増えるだけ増えて整理もされずにいたのだろう。[p]
+確かに目に入ったスマホの画面は、形や整然と、片や雑然としていて[r]一人の人物が使っているとするとかなり違和感のあるものだ。[p]
+最初だけ会長が設定などをしたというのなら、[p]会長の手から離れた後はひーさんではない他の誰かの手で[r]アプリは増えるだけ増えて整理もされずにいたのだろう。[p]
 
 [_tb_end_text]
 
@@ -197,14 +202,13 @@
 *アジャイル-阿闍梨開発演習？
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
-[tb_start_text mode=4 ]
+[tb_start_text mode=1 ]
 #ひーさん
-「え？
+「え？」[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
-だって書いておるじゃろ [wait time=500]……なに？あじゃいる開発演習？」[p]
+「だって書いておるじゃろ [wait time=500]……なに？あじゃいる開発演習？」[p]
 「えっ、じゃあこっちは？　玄人演習ではない？」[p]
 #
 少なくともそうではないことは分かる。[p]
@@ -252,11 +256,11 @@
 「お、お見事……」[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 「いや助かった……[wait time=500]落として割ろうものならまた会長に怒られるところじゃった……」[p]
 #
-また、ということは、どうやら今までにスマートフォンの画面なりなんなり割ったことがあるのだろう。[p]
+また、ということは、どうやら今までに[r]スマートフォンの画面なりなんなり割ったことがあるらしい。[p]
 なぜだかその場面がありありと思い浮かぶ。[p]
 [_tb_end_text]
 
@@ -270,11 +274,11 @@
 #
 完全に予想していなかった出来事、[p]
 ついでにひーさんがスクロールという動作ができたことに驚いていた間 [r] （なにせダブルクリックすらままならなかったのだ）に、[p]
-スマートフォンは机から飛び出し、運悪く伸ばされていたひーさんの脚に運悪く直撃した。[p]
+スマートフォンは机から飛び出し、[r]運悪く伸ばされていたひーさんの脚に運悪く直撃した。[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[chara_show  name="ひーさん"  time="400"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="400"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いった！？」[p]
@@ -337,7 +341,7 @@
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生、ぱそこんが好きならこれ分かるか？」[p]
-「おぶじぇくと、指向、ぷろぐらみんぐ……とのことじゃが…」[p]
+「おぶじぇくと、指向、ぷろぐらみんぐ……とのことじゃが……」[p]
 #
 [_tb_end_text]
 
