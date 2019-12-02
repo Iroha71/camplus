@@ -4,6 +4,8 @@
 
 [tb_clear_images]
 
+[plugin name="url_query_loader"]
+
 [playbgm  volume="100"  time="1000"  loop="true"  storage="OP).ogg"  fadein="true"  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
