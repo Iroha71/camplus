@@ -24,6 +24,8 @@
 #
 [_tb_end_text]
 
+*選択画面
+
 [iscript]
 location.href="http://localhost:3001/senario/select?is_maigo=true"
 [endscript]

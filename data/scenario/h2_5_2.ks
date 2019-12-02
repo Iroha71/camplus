@@ -34,6 +34,12 @@
 
 [_tb_end_text]
 
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  text="ドローン"  target="*そこのやつ名前"  x="540"  y="190"  width="200"  ]
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  text="ぱるみ"  target="*そこのやつ名前"  x="540"  y="300"  width="200"  ]
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  text="ラズベリーパイ"  target="*そこのやつ名前"  x="540"  y="410"  width="200"  ]
+[s  ]
+*そこのやつ名前
+
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん

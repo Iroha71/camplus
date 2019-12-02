@@ -45,4 +45,5 @@
 もちろん、こちらの耳にも届くほどの怒号が響いた。[p]
 [_tb_end_text]
 
-[s  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="title_screen.ks"  target="*title_start"  ]

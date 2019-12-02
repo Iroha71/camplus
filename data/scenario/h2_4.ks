@@ -1,10 +1,10 @@
 [_tb_system_call storage=system/_h2_4.ks]
 
 [cm  ]
-[bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
-[mask_off  time="1000"  effect="slideOutUp"  ]
 *2-4start
 
+[bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
+[mask_off  time="1000"  effect="puffOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
