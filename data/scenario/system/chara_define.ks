@@ -7,6 +7,8 @@
 [chara_new  name="タイトル"  jname="タイトル"  storage="chara/4/CAMPLUS!!!!.png"  ]
 ;タイトルキャラ
 [chara_new  name="タイトルキャラ"  jname="タイトルキャラ"  storage="chara/5/ハチベエ.png"  ]
+;影
+[chara_new  name="影"  jname="影"  storage="chara/6/ハチベエ影.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

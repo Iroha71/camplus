@@ -9,4 +9,5 @@
 [preload  storage="./data/fgimage/chara/2/ひーさん（悲）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（悲ー口閉じ）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（困り）.png"  ]
+[preload  storage="./data/fgimage/chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [return]

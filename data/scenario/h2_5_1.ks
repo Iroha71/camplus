@@ -97,7 +97,7 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_36"  ]
+[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_35"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「会長とニコと、あとゴトウあたりで、……あの、えーと、そら、しろ、しら？　えーと、時間割？」[p]
@@ -136,7 +136,7 @@
 
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_46"  ]
+[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="248"  height="521"  x="531"  y="5"  _clickable_img=""  name="img_45"  ]
 [tb_start_text mode=1 ]
 確かに目に入ったスマホの画面は、形や整然と、片や雑然としていて一人の人物が使っているとするとかなり違和感のあるものだ。[p]
 最初だけ会長が設定などをしたというのなら、[p]会長の手から離れた後はひーさんではない他の誰かの手でアプリは増えるだけ増えて整理もされずにいたのだろう。[p]
@@ -374,9 +374,15 @@
 
 *h2-5-1終了
 
-[tb_start_text mode=1 ]
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[tb_start_text mode=4 ]
 #ひーさん
-「ほー、こんなのもあるのか。あ、どうせなら色々確認しておくか」[p]
+「ほー、
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[tb_start_text mode=1 ]
+こんなのもあるのか。あ、どうせなら色々確認しておくか」[p]
 「えーと、何言ってたかのぅ」[p]
 [_tb_end_text]
 
@@ -437,10 +443,39 @@
 
 [tb_start_text mode=1 ]
 #ひーさん
-こんなところかのぅ[p]
-……お、一覧もあるぞ。 [r] いっぱい……いやいっぱいすぎんか？　なんじゃこれ[p]
-ううむ……転校生、気になるのとかあるか？ [r] 見ていいぞ、ワシちょっと休む[p]
+「こんなところかのぅ」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
+[tb_start_text mode=4 ]
+「……お、
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+一覧もあるぞ。」[p]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+「いっぱい……
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
+[tb_start_text mode=1 ]
+いやいっぱいすぎんか？　なんじゃこれ」[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[tb_start_text mode=1 ]
+「ううむ……転校生、気になるのとかあるか？ [r] 見ていいぞ、ワシちょっと休む」[p]
 #
+[_tb_end_text]
+
+[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
 そう言ってひーさんはスマートフォンをぽいっと渡すと、教室の奥へふらりと向かっていく。[p]
 戻ってきたその手にはまたポットと茶缶。 [r] ひーさんはもしかしてすべての教室にお茶のセットを置いているのだろうか？[p]
 経費の面と会長の真面目さから鑑みて、流石にありえないとは思うが……。[p]
@@ -464,11 +499,18 @@
 [jump  storage="h2_5_1.ks"  target="*スマホを覗く"  ]
 *回復
 
-[tb_start_text mode=1 ]
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
+[tb_start_text mode=4 ]
 #ひーさん
-ふぅ、生き返った心地じゃ [l][r] さて鯖の部屋に行くとするか[p]
+「ふぅ、生き返った心地じゃ。
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
+[tb_start_text mode=1 ]
+さて鯖の部屋に行くとするか」[p]
 #
 ……そんなに生臭そうな部屋は流石にないのでは？[p]
 [_tb_end_text]
 
+[mask  time="500"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_6.ks"  target=""  ]

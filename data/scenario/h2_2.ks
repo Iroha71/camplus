@@ -25,6 +25,7 @@
 [tb_start_text mode=1 ]
 「あ、これ緑茶なんじゃが、こーひーとか紅茶がよかったりするかのぅ？」[p]
 [_tb_end_text]
+
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="540"  y="180&nbsp;"  width="200"  height="20"  _clickable_img="room.jpg"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  x="540"  y="260"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
@@ -124,6 +125,7 @@
 [tb_start_text mode=1 ]
 「わしはたまの移動教室でひぃひぃいっておるからなぁ、わかるぞ」[p]
 [_tb_end_text]
+
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="学科"  target="*動機-学科"  x="540"  y="180"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="設備"  target="*動機-設備"  x="540"  y="260"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="資格"  target="*動機-資格"  x="540"  y="340"  width="200"  height="20"  ]
