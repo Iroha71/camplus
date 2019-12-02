@@ -21,6 +21,8 @@
 
 [tb_start_text mode=1 ]
 #
+神妙な顔で頷いたひーさんの姿勢はほぼほぼへっぴり腰と言われるそれだ。 [r] 逆に危ない。[p]
+[_tb_end_text]
 
 *ひーさんに注意を促す
 
@@ -37,14 +39,20 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-あんなに距離をとって見ていたというのに、首が疲れると顔を上げることを早々に止め、玄関ホールの脇に並べられていた椅子に腰掛けていたひーさんがぽつりと呟く。[p]
+#
+なんとか腰を真っ直ぐ伸ばし、お約束のようにバランスを崩しかける。[p]
+元からひーさんの動きには気をつけていたので、すぐに支えて体勢を持ち直させた。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「ワシあんまり働けてなくない？」[p]
+「……ワシ、もう杖とか持ったほうがいいかのぅ」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
+それはそれで杖を各所にひっかけて転びそうだとは言わないでおいた。[p]
 [_tb_end_text]
 
 [jump  storage="h2_6.ks"  target="*common1"  ]
@@ -53,7 +61,11 @@
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
-今更の言葉に、つい半目でひーさんを見てしまう。[p]
+#ひーさん
+「分かるが、いや分かるがワシの心配は？」[p]
+「ここまで一緒に見学した仲じゃろ？」[p]
+
+
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
@@ -77,10 +89,15 @@
 
 [tb_start_text mode=1 ]
 #
+自分で言って顔を青くしたひーさんが支えを求めて壁に手を伸ばしかけ、[r]サーバに覆われていることに気がついてそれはそれは勢い良く手を引っ込めた。[p]
+――重心が僅かに後ろに移動し、お約束のようにひーさんがぐらりと体勢を崩す。[p]
+咄嗟中に腕を伸ばし、後ろに倒れることは阻止できた。[p]
+……が、どうやら守られたのはサーバだったようだ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-一切の説得力がない。そう思っていたのがわかったのか、ひーさんが立ち上がってこちらにやってくる。[p]
+#ひーさん
+「～～！！」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -93,12 +110,20 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「本当じゃからな。本当にワシ結構物知りじゃし得意なこともいっぱいあるからな。なんなら任意で茶柱を立てたりできるからな！　今日もずっと立ててたからな！」[p]
-#
+「こ、腰がっ……」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-茶柱が立ってもなおあんなに運がないのか……。[p]
+#
+そのまま床に座らせることも考えたが、本当にぎっくり腰だった場合のことを考えて横にさせる。[p]
+……とはいえ、どうすればいいのだろうか？[p]
+休んでいれば治るものなのか、冷やすなりなんなりするべきなのか……。[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ひーさん
+「よ、ヨウコを……ヨウコを呼んでくれえ……」[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（楽）.png"  ]
@@ -141,13 +166,18 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（驚きー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「他にはなあーー」[p]
+「わ！？」[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
+念のために距離をとろうと後ろに下がると、背中に軽い衝撃を感じた。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（怒）.png"  ]
 [tb_start_text mode=1 ]
-そこでひーさんの言葉は途切れた。正確には別の音で塗り潰されたというほうが正しい。言い表すなら、ばん、と何かが弾け飛ぶ音。しかし存外鈍い音で、布や硝子などが爆ぜるような音ではなかった。距離的にはそう遠くない。[p]
+#ひーさん
+「あっぶな！　あっぶなかったぞ転校生！？」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

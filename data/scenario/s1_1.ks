@@ -2,9 +2,9 @@
 
 *start
 
-[chara_hide_all  time="400"  wait="true"  ]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
+[mask_off  time="2000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 ともすれば神経質なほど綺麗に掃除されている廊下だ。[p]
