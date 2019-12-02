@@ -3,6 +3,8 @@
 *start
 
 [cm  ]
+[plugin name="url_query_loader"]
+
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
 [mask_off  time="2000"  effect="fadeOut"  ]
 [tb_show_message_window  ]

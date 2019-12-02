@@ -1,7 +1,5 @@
 [_tb_system_call storage=system/_h2-1-2.ks]
 
-[plugin name="url_query_loader"]
-
 [hidemenubutton]
 
 [mask_off  time="1000"  effect="fadeOut"  ]
