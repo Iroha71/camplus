@@ -26,7 +26,7 @@
 「あ、これ緑茶なんじゃが、こーひーとか紅茶がよかったりするかのぅ？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="540"  y="180&nbsp;"  width="200"  height="20"  _clickable_img="room.jpg"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="540"  y="180"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  x="540"  y="260"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="その他"  target="*その他"  y="420"  x="540"  width="200"  height="20"  ]
@@ -432,8 +432,8 @@
 「ていうかワシ頭割れてない？　足折れたり腰曲がったりしてない？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  target="*ノートパソコン持ち上げ"  x="540"  y="200"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンの画面を見る"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  target="*パソコン画面見る"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  target="*ノートパソコン持ち上げ"  x="540"  y="200"  width="250"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンの画面を見る"  x="540"  y="340"  width="250"  height="20"  _clickable_img=""  target="*パソコン画面見る"  ]
 [s  ]
 *ノートパソコン持ち上げ
 
@@ -514,9 +514,9 @@
 「あれ、無視？　転校生、ここで無視するのか？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  x="540"  y="200"  width="200"  height="20"  target="*パソコン画面見る-持ち上げる"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ノートパソコンを持ち上げる"  x="540"  y="200"  width="250"  height="20"  target="*パソコン画面見る-持ち上げる"  ]
 [tb_eval  exp="f.HP-=2"  name="HP"  cmd="-="  op="t"  val="2"  val_2="undefined"  ]
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="ひーさんに声をかける"  x="540"  y="340"  width="250"  height="20"  _clickable_img=""  target="*パソコン画面見る-声かけ"  ]
 [s  ]
 *パソコン画面見る-持ち上げる
 

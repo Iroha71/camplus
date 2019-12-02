@@ -52,8 +52,8 @@
 「転校生、ぱそこんとか……あと、ぷ、ぷろぐらみんぐ好きか？」[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="好き"  target="*プログラミング-好き"  x="540"  width="200"  height="20"  y="250"  _clickable_img=""  ]
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="好きではない"  target="*プログラミング-好きではない"  x="540"  width="200"  height="20"  y="328"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好き"  target="*プログラミング-好き"  x="540"  width="200"  height="20"  y="200"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="好きではない"  target="*プログラミング-好きではない"  x="540"  width="200"  height="20"  y="340"  _clickable_img=""  ]
 [s  ]
 *プログラミング-好き
 
@@ -169,8 +169,8 @@
 「片仮名多くない？　なんじゃこの、阿闍梨開発演習って」[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="訂正する"  target="*アジャイル-訂正する"  x="539"  width="200"  height="20"  y="273"  _clickable_img=""  ]
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="……阿闍梨開発演習？"  target="*アジャイル-阿闍梨開発演習？"  x="537"  width="200"  height="20"  y="355"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="訂正する"  target="*アジャイル-訂正する"  x="540"  width="200"  height="20"  y="200"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="……阿闍梨開発演習？"  target="*アジャイル-阿闍梨開発演習？"  x="540"  width="200"  height="20"  y="340"  _clickable_img=""  ]
 [s  ]
 *アジャイル-訂正する
 
@@ -234,8 +234,8 @@
 「えっ」[p]
 [_tb_end_text]
 
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="止める"  target="*スマホ落下-止める"  x="520"  width="200"  height="20"  y="261"  _clickable_img=""  ]
-[glink  color="rosy"  storage="h2_5_1.ks"  size="20"  text="驚く"  target="*スマホ落下-驚く"  x="521"  width="200"  height="20"  y="328"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="止める"  target="*スマホ落下-止める"  x="540"  width="200"  height="20"  y="200"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="驚く"  target="*スマホ落下-驚く"  x="540"  width="200"  height="20"  y="340"  _clickable_img=""  ]
 [s  ]
 *スマホ落下-止める
 
@@ -386,8 +386,8 @@
 「えーと、何言ってたかのぅ」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  target="*どろーん"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  target="*ドローン"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="どろーん"  target="*どろーん"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ドローン"  target="*ドローン"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *どろーん
 
@@ -397,8 +397,8 @@
 [tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 *next1
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  target="*はるみ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  target="*ぱるみ"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="はるみ"  target="*はるみ"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ぱるみ"  target="*ぱるみ"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *はるみ
 
@@ -408,8 +408,8 @@
 [tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 *next2
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  target="*ITo"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  target="*IoT"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ITo"  target="*ITo"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="IoT"  target="*IoT"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *ITo
 
@@ -419,8 +419,8 @@
 [tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 *next3
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  target="*bure"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  target="*raz"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ブルーベリータルト"  target="*bure"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="ラズベリーパイ"  target="*raz"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *bure
 
@@ -430,8 +430,8 @@
 [tb_eval  exp="f.densisistem+=1"  name="densisistem"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 *rast
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  target="*阿闍梨"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  target="*アジャイル"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャリ開発"  target="*阿闍梨"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アジャイル開発"  target="*アジャイル"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *阿闍梨
 
@@ -484,10 +484,10 @@
 
 *スマホを覗く
 
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  target="*視線を上げろ"  ]
-[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  target="*回復"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="用語の一覧を見る"  target="*視線を上げろ"  x="540"  y="180"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="カリキュラムを見る"  target="*視線を上げろ"  x="540"  y="260"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="アイコンを整理する"  target="*視線を上げろ"  y="340"  x="540"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_5_1.ks"  size="20"  text="自分のスマートフォンを出す"  target="*回復"  y="420"  x="540"  width="250"  height="20"  ]
 [s  ]
 *視線を上げろ
 
