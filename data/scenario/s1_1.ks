@@ -99,8 +99,8 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="s1_1.ks"  size="20"  target="*迷った"  text="迷った"  y="200"  ]
-[glink  color="black"  storage="s1_1.ks"  size="20"  target="*迷わなかった"  text="迷わなかった"  ]
+[glink  color="black"  storage="s1_1.ks"  size="20"  target="*迷った"  text="迷った"  y="200"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s1_1.ks"  size="20"  target="*迷わなかった"  text="迷わなかった"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *迷った
 

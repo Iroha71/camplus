@@ -28,7 +28,7 @@
 伊藤だか何だかってやつなんじゃろ?」
 [_tb_end_text]
 
-[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="231"  x="532"  width=""  height=""  _clickable_img=""  ]
+[glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="190"  x="540"  width="200"  height="20"  _clickable_img=""  ]
 [glink  color="rosy"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="311"  x="542"  width=""  height=""  _clickable_img=""  ]
 [glink  color="rosy"  storage="s2_3.ks"  size="20"  text="伊藤？"  target="*伊藤？"  y="397"  x="546"  width=""  height=""  _clickable_img=""  ]
 [s  ]

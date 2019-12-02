@@ -24,7 +24,7 @@
 「あ、これ緑茶なんじゃが、こーひーとか紅茶がよかったりするかのぅ？」[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="765"  y="210"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_2.ks"  size="20"  text="緑茶"  target="*緑茶"  x="549"  y="210"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="コーヒー"  target="*コーヒー"  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="紅茶"  target="*紅茶"  x="582"  y="367"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="h2_2.ks"  size="20"  text="その他"  target="*その他"  ]
