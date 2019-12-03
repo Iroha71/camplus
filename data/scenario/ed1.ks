@@ -121,8 +121,8 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="ed1.ks"  size="20"  text="全然だった"  target="*全然だった"  x="550"  y="200"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="ed1.ks"  size="20"  text="頑張っていた"  target="*頑張っていた"  x="550"  y="340"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="ed1.ks"  size="20"  text="全然だった"  target="*全然だった"  x="540"  y="200"  width="200"  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="ed1.ks"  size="20"  text="頑張っていた"  target="*頑張っていた"  x="540"  y="340"  width="200"  height=""  _clickable_img=""  ]
 [s  ]
 *全然だった
 
