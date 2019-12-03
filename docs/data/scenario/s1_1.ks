@@ -4,6 +4,7 @@
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 ともすれば神経質なほど綺麗に掃除されている廊下だ。[p]
