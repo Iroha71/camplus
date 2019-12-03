@@ -1,19 +1,22 @@
 [_tb_system_call storage=system/_h2_6.ks]
 
-[mask_off  time="1000"  effect="fadeOut"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [cm  ]
-[tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="493790f4fe9dff61.jpg"  ]
+[tb_show_message_window  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=1 ]
 #
-ひーさん曰く「鯖の部屋」はもちろん、鯖が山ほどいるような生贄や漁船のごとき部屋ではなかった。[p]
-漁船に散らばる網のようにコードが散らばっている部屋、と言えば似ていないこともないかもしれないが、まあ似ていない。[p]
+ひーさん曰く「鯖の部屋」はもちろん、[r]鯖が山ほどいるような生贄や漁船のごとき部屋ではなかった。[p]
+漁船に散らばる網のようにコードが散らばっている部屋、と言えば[r]似ていないこともないかもしれないが、……まあ似ていない。[p]
 [_tb_end_text]
 
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="ひーさんに注意を促す"  target="*ひーさんに注意を促す"  y="200"  x="540"  width="200"  height="20"  ]
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="周囲を観察する"  target="*周囲を観察する"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+*ひーさんに注意を促す
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「うむ。[wait time=500]ワシもここまでくると流石に気をつける」[p]
@@ -23,8 +26,6 @@
 #
 神妙な顔で頷いたひーさんの姿勢はほぼほぼへっぴり腰と言われるそれだ。 [r] 逆に危ない。[p]
 [_tb_end_text]
-
-*ひーさんに注意を促す
 
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="ひーさんを心配する"  target="*ひーさんを心配する"  y="190"  x="540"  width="200"  height="20"  ]
 [glink  color="blue"  storage="h2_6.ks"  size="20"  text="サーバを心配する"  target="*サーバを心配する"  y="300"  x="540"  width="200"  height="20"  ]
@@ -68,13 +69,18 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
-[tb_start_text mode=1 ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
+[tb_start_text mode=4 ]
 #
 支えになるものがどこにもないひーさんが、こちらに向かって手をおそるおそる伸ばす。[p]
 流石に手を前に伸ばすだけで重心を崩すレベルの体幹だとは思いたくないのだが……。[p]
-念のためその手を取って部屋の中心にあった机と椅子まで導くと、ひーさんは露骨にほっとして息を漏らした。[p]
+念のためその手を取って部屋の中心にあった机と椅子まで導くと、[r]
 
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+ひーさんは露骨にほっとして息を漏らした。[p]
 [_tb_end_text]
 
 [jump  storage="h2_6.ks"  target="*common1"  ]
@@ -92,7 +98,7 @@
 自分で言って顔を青くしたひーさんが支えを求めて壁に手を伸ばしかけ、[r]サーバに覆われていることに気がついてそれはそれは勢い良く手を引っ込めた。[p]
 ――重心が僅かに後ろに移動し、お約束のようにひーさんがぐらりと体勢を崩す。[p]
 咄嗟中に腕を伸ばし、後ろに倒れることは阻止できた。[p]
-……が、どうやら守られたのはサーバだったようだ。[p]
+……が、どうやら守られたのはサーバだけだったようだ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -115,7 +121,7 @@
 
 [tb_start_text mode=1 ]
 #
-そのまま床に座らせることも考えたが、本当にぎっくり腰だった場合のことを考えて横にさせる。[p]
+そのまま床に座らせることも考えたが、[r]本当にぎっくり腰だった場合のことを考えて横にさせる。[p]
 ……とはいえ、どうすればいいのだろうか？[p]
 休んでいれば治るものなのか、冷やすなりなんなりするべきなのか……。[p]
 
@@ -124,23 +130,24 @@
 [tb_start_text mode=1 ]
 #ひーさん
 「よ、ヨウコを……ヨウコを呼んでくれえ……」[p]
+#
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（楽）.png"  ]
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-#
-急に呼び出されたにもかかわらず、「いたいのいたいのとんでいけ」でなんとか痛みが治まったらしい。[p]
-ひーさんが無事に椅子に座ったのを確認し、[r]慣れたようにそそくさと戻っていったヨウコという生徒会役員を見送る。[p]
-実際に「いたいのいたいのとんでいけ」で痛みがとんでいってしまったり、ヨウコが机の上に置いていたぬいぐるみの腹が[p]
-突然弾け飛んでしまったりしたが、深く考えないことにした。[p]
+急に呼び出されたにもかかわらず、[p]
+「いたいのいたいのとんでいけ」でなんとか痛みが治まったらしいひーさんが[r]無事に椅子に座ったのを確認した後、[p]
+慣れたようにそそくさと戻っていったヨウコという生徒会役員を見送る。[p]
+実際に「いたいのいたいのとんでいけ」で痛みがとんでいってしまったり、[p]
+ヨウコが机の上に置いていたぬいぐるみの腹が突然弾け飛んでしまったりしたが、[r]深く考えないことにした。[p]
 ひーさんの腰の痛みが引いて見学が続行できるならこの際何でもいい。[p]
 [_tb_end_text]
 
+[chara_show  name="ひーさん"  time="1000"  wait="true"  left="270"  top="114"  width="804"  height="1122"  storage="chara/2/ひーさん(通常).png"  ]
 [jump  storage="ed2.ks"  target=""  cond="f.HP==0"  ]
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *周囲を観察する
 
-[chara_show  name="ひーさん"  time="1000"  wait="true"  left="270"  top="114"  width="804"  height="1122"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #
 壁に沿うように、ひたすらにサーバが並んでいる。[p]
@@ -163,7 +170,7 @@
 *離れる
 
 [tb_eval  exp="f.HP-=1"  name="HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（驚きー口開け）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「わ！？」[p]
@@ -190,7 +197,7 @@
 [jump  storage="h2_6.ks"  target="*common1"  ]
 *common1
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「というわけで、説明を始めようと思う」[p]
@@ -199,22 +206,26 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #
-先程ですっかり味を占めたらしいひーさんは、机の上にスマートフォンとパンフレットを並べる。[p]
+先程ですっかり味を占めたらしいひーさんは、[r]机の上にスマートフォンとパンフレットを並べる。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #
-転ぶこともぎっくり腰になることもないし、知識までもたらしてくれるのだから、正直もうひーさんより遙かに頼もしい。[p]
+転ぶこともぎっくり腰になることもないし、知識までもたらしてくれるのだから、[r]正直ひーさんより遙かに頼もしい。[p]
 スマートフォンに関しては散々ひーさんの転倒に付き合わされたり落下の憂き目にあったりしているので、労りたいくらいである。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ひーさん
+「ええと、ねっとわーくせきゅりてぃのぺーじは、と」[p]
+
+
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
 [tb_start_text mode=1 ]
-#ひーさん
-「ええと、ねっとわーくせきゅりてぃのぺーじは、と」[p]
 「……まーた片仮名ばっかりじゃのぅ」[p]
-
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（驚きー口開け）.png"  ]
@@ -300,35 +311,33 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #
-先程の教室で開いて見ていた電子システム分野のページと見比べながらひーさんが言う。[p]
+先程の教室で開いて見ていた電子システム分野のページと見比べながら[r]ひーさんが言う。[p]
 確かに資格ではなくベンダー資格と表記の差が認められた。[p]
 スマートフォンへ指を伸ばし、心なしか丁寧に慎重にタップとスクロールをこなしたひーさんが、より傾げた首の角度をより大きくする。[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「会社が認定する資格？　あ、しすこ。さっき言ったやつ」[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #
 ふむふむと頷いているが、その表情は難しい。[p]
-今度はまたパンフレットに手を伸ばし、他の分野のページと見比べ、指で何かを数えるかなぞるかをしている。[p]
+今度はまたパンフレットに手を伸ばし、他の分野のページと見比べ、[r]指で何かを数えるかなぞるかをしている。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「ここにな、教育連携企業、と書いてあるんじゃが[r]……あるんじゃが、見事にみんな英語でな、」[p]
-「うん。まったく読めん。日本の企業なら日本の企業らしく日本語にしてくれんかのぅ……」[p]
+「ここにな、教育連携企業、と書いてあるんじゃが[r]……あるんじゃが、見事にみんな英語でな」[p]
+「うん。まったく読めん。[r]日本の企業なら日本の企業らしく日本語にしてくれんかのぅ……」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-示した先には確かに企業のロゴが複数載っているが、自分の記憶が正しければ外国の企業のものがそれなりにあるように思う。[p]
+示した先には確かに企業のロゴが複数載っているが、[r]自分の記憶が正しければ外国の企業のものがそれなりにあるように思う。[p]
 見覚えのあるロゴがいくつか散見された。[p]
 [_tb_end_text]
 
@@ -349,7 +358,7 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #
-部屋の隅で体操座りとまではいかないが、今にも指で「の」を書き始めそうなほどに沈痛な面持ちだ。[p]
+部屋の隅で体操座りとまではいかないが、[r]今にも指で「の」を書き始めそうなほどに沈痛な面持ちだ。[p]
 心なしか声も小さくなってきている。[p]
 [_tb_end_text]
 
@@ -364,7 +373,7 @@
 [s  ]
 *できる
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫ー口大開け）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（怒り泣き）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そんな……！　転校生にまで裏切られたらワシはどうすればいいんじゃ！？」[p]
@@ -373,10 +382,10 @@
 [jump  storage="h2_6.ks"  target="*common3"  ]
 *できない
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（驚きー口開け）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「じゃあなんでそんなに冷静なんじゃよぅ。」[p]
+「じゃあなんでそんなに冷静なんじゃよぅ」[p]
 
 [_tb_end_text]
 
@@ -398,7 +407,7 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
 [tb_start_text mode=1 ]
 #
-すっかり黒い雲を背負ってしまったひーさんには悪いが、ここにはひーさんの心を休めるお茶セットもないようだ。[p]
+すっかり黒い雲を背負ってしまったひーさんには悪いが、[r]ここにはひーさんの心を休めるお茶セットもないようだ。[p]
 ……仕方ないので声をかけようか。[p]
 [_tb_end_text]
 
@@ -408,7 +417,7 @@
 [s  ]
 *スマートフォンを借りる
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「え？　ああ、そうじゃな。うん。[wait time=500]見るよな」
@@ -421,7 +430,7 @@
 [s  ]
 *CD選択
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「よし……もうちょっとで元気を出すから待ってくれ」[p]
@@ -434,7 +443,7 @@
 [s  ]
 *次に行く
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そうじゃな、うん、[wait time=500]そろそろ行くか、うん[wait time=500]……」[p]
@@ -443,27 +452,29 @@
 [jump  storage="h2_6.ks"  target="*common4"  ]
 *見守る
 
-[tb_start_text mode=1 ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
+[tb_start_text mode=4 ]
 #
-……もしかしたらもう少しで立ち直るかもしれない。やはりしばらく待ってみよう。[p]
+……もしかしたらもう少しで立ち直るかもしれない。やはりしばらく待ってみよう。[l][p]
+#ひーさん
+「……………………
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
-#ひーさん
-「……………………優しいのぅ転校生。」[p]
+優しいのぅ転校生。」[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-
 「うむ、次に行くか」[p]
+#
 [_tb_end_text]
 
 [jump  storage="h2_6.ks"  target="*common4"  ]
 *common4
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #
 なんとか元気を出したひーさんを連れ、サーバーのあった教室を出てエレベーターのところまで向かう。[p]
@@ -471,15 +482,18 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #
 ……ここは2階だから自分としてはまったく降りることは苦ではないが、ひーさんは、と振り向く。[p]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[tb_start_text mode=1 ]
 ――今までの様子では考えられないほどの機敏さと正確さで、ひーさんがスマートフォンを操作していた。[p]
 別人かと疑うほどに素早い。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「会長！？　えれべーたーの点検とか聞いてないんじゃが！？」[p]
@@ -487,14 +501,14 @@
 
 [tb_start_text mode=1 ]
 #
-会長の話によると、エレベーターの点検についてはとうに知らせてあったことであったらしい。[p]
+会長の話によると、[r]エレベーターの点検についてはとうに知らせてあったことであったらしい。[p]
 予想はついていた。[p]
 が、一応見学の時間には被らないように予定してあったらしい。[p]
-それでも被ったということは、どう考えてもコンスタントに挟まれた休憩時間などによるものだろう。[p]
-まあ始まりからして行き当たりばったりの見学だったのだ。タイムテーブルなどあろうはずもない。[p]
+それでも被ったということは、[r]どう考えてもコンスタントに挟まれた休憩時間などによるものだろう。[p]
+まあ始まりからして行き当たりばったりの見学だったのだ。[r]タイムテーブルなどあろうはずもない。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（悲ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「階段……階段か……」[p]
@@ -537,10 +551,10 @@
 数回縋るような目を向けられたり、背負ってくれないかなとばかりに背後に回ろうとしたりしていたが、なんとか決心したらしく階段に向かっていった。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「骨は拾ってほしい」[p]
+「骨は……拾ってほしい……」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -555,14 +569,14 @@
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫ー口大開け）.png"  ]
 [tb_start_text mode=1 ]
 #
-紆余曲折、骨を折るような苦労を自分がしたり、ひーさんの骨を拾う羽目になりかけたりしながら、[p]
-階段を降りただけなのに山一つ上ったような精神的疲労を抱え、ようやく玄関ホールに辿り着いた。[p]
+紆余曲折、骨を折るような苦労を自分がしたり、[r]ひーさんの骨を拾う羽目になりかけたりしながら、[p]
+階段を降りただけなのに山一つ上ったような精神的疲労を抱え、[r]ようやく玄関ホールに辿り着いた。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「ほれ上じゃよ」[p]
+「ほれ、上じゃよ」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -571,23 +585,23 @@
 しっかり見ると、どうやら資格ごとに並んでいるらしい。[p]
 ……それにしても、ひーさんが随分遠い。[p]
 自分が立っている玄関ホールの中央あたり、その遙か後方、壁に背がつくほどの場所だ。[p]
-そんな素振りは今まで見せなかったが、もし老眼だったり、そうでなくとも視力があまり高くないのなら名前など読めないのではないだろうか。[p]
+そんな素振りは今まで見せなかったが、もし老眼だったり、そうでなくとも視力があまり高くないのなら、名前など読めないのではないだろうか。[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫ー口大開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「失礼な！　ワシは老眼じゃないぞ！　ただ見上げていたら首が疲れるし後ろに倒れるかもしれんじゃろ！？」[p]
+「失礼な！　ワシは老眼ではないぞ！　[r]じゃが見上げていたら首が疲れるし後ろに倒れるかもしれんじゃろ！？」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
 失礼に感じるポイントが謎すぎる。[p]
-ついさっきまで腰痛がどうこうとか階段が降りられないから背負ってくれとか言っていた人物とは思えない。[p]
+ついさっきまで腰痛がどうこうとか、[r]階段が降りられないから背負ってくれとか言っていた人物とは思えない。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（怒）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「まったく、転校生はどんどんワシに遠慮がなくなっていっておらんか？」[p]
@@ -599,10 +613,15 @@
 [s  ]
 *ひーさんに言われたくない
 
-[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
+[chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「え？　ワシも大概距離が近い？　そう？」[p]
+「え？　ワシも大概距離が近い？」[p]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+「そう？」[p]
 [_tb_end_text]
 
 [jump  storage="h2_6.ks"  target="*common6"  ]
@@ -633,19 +652,19 @@
 
 [tb_start_text mode=1 ]
 #ひーさん
-「なるべくぱそこんのことじゃないほうがいいが[r]あ、あと体を動かすことと英語以外な」[p]
-「そのへんのワシの苦手なことは転校生が助けておくれ。お相子というやつじゃよ」[p]
+「なるべくぱそこんのことじゃないほうがいいが……[r]あ、あと体を動かすことと英語以外な」[p]
+「そのへんのワシの苦手なことは転校生が助けておくれ。[r]お相子というやつじゃよ」[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-かなりこちらの負担が大きくないだろうかと思ったが、ひーさんは随分と自信満々に笑っている。[p]
+かなりこちらの負担が大きくないだろうかと思ったが、[r]ひーさんは随分と自信満々に笑っている。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「見学では運悪くワシの苦手なところばかりだったが、何もあれが世の中の全部というわけでもなし」[p]
+「見学では運悪くワシの苦手なところばかりだったが、[r]何もあれが世の中の全部というわけでもなし」[p]
 「ワシだって得意なことのひとつやふたつやみっつやよっつあるんじゃよ」[p]
 [_tb_end_text]
 
