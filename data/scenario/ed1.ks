@@ -4,7 +4,7 @@
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
 [iscript]
 $.ajax({
-url: 'http://localhost:3000/v1/player',
+url: 'https://camplus.herokuapp.com/v1/player',
 type: 'POST',
 data:{ 'player': { 'name': f.name } }
 }).done(function(data){
@@ -214,7 +214,7 @@ _　ワシの動き？」[p]
 [chara_hide_all  time="1000"  wait="true"  ]
 [iscript]
 $.ajax({
-url: 'http://localhost:3000/v1/player/'+f.player_id,
+url: 'https://camplus.herokuapp.com/v1/player/'+f.player_id,
 type: 'PUT',
 data: { 'system': f.sistemkaihatu, 'network': f.network, 'embeded': f.densisistem }
 }).done({ })
@@ -240,6 +240,6 @@ data: { 'system': f.sistemkaihatu, 'network': f.network, 'embeded': f.densisiste
 
 [chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
 [iscript]
-location.href = 'http://localhost:3001/player/' + f.player_id
+location.href = 'https://camplus-manage.netlify.com/player/' + f.player_id
 [endscript]
 

@@ -27,7 +27,7 @@
 *選択画面
 
 [iscript]
-location.href="http://localhost:3001/senario/select?is_maigo=true"
+location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=true"
 [endscript]
 
 [s  ]

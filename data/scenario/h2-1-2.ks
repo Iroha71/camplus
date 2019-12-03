@@ -23,7 +23,7 @@
 [_tb_end_text]
 
 [iscript]
-location.href="http://localhost:3001/senario/select?is_maigo=false"
+location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=false"
 [endscript]
 
 [s  ]
