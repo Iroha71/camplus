@@ -5,7 +5,7 @@
 [bg  time="1000"  method="fadeInUp"  storage="corridor-day.jpg"  ]
 [mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口少し）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「むり」[p]
@@ -34,7 +34,7 @@
 [_tb_end_text]
 
 [stopse  time="1000"  buf="0"  ]
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「あっ、会長？　いや申し訳ないんじゃがちょっと今日はもう無理じゃこれ。[r]別の日にするとか、別のところの見学に変えよう。な！」[p]
