@@ -220,7 +220,6 @@ data: { 'system': f.sistemkaihatu, 'network': f.network, 'embeded': f.densisiste
 }).done({ })
 [endscript]
 
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（悲）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=4 ]
 #ひーさん
