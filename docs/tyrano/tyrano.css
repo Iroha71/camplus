@@ -269,16 +269,20 @@ body{
 ---------------------------------------------- */
 
 /* black */
-.black {
-	color: #d7d7d7;
+/*.black {
+display:inline-block;
+	border-radius:20%;
+	font-size:13pt;
+	color: #bc8bd6;
 	border: solid 1px #333;
 	background: #333;
 	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
 	background: -moz-linear-gradient(top,  #666,  #000);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+
 }
 .black:hover {
-	background: #000;
+	background: #bc8bd6;
 	background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
 	background: -moz-linear-gradient(top,  #444,  #000);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
@@ -287,11 +291,33 @@ body{
 	color: #666;
 	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
 	background: -moz-linear-gradient(top,  #000,  #444);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');*/
+.black {
+  display: inline-block;
+  max-width: 300px;
+  
+  border: 2px solid #bc8bd6;
+  font-size: 30px;
+  color: #bc8bd6;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+  background-color: #FFFFFF;
+   text-align: center;
+
 }
 
+.black:hover {
+  background-color: #bc8bd6;
+  border-color: #bc8bd6;
+  color: #FFF;
+}
+
+
 /* gray */
-.gray {
+/*.gray {
 	color: #e9e9e9;
 	border: solid 1px #555;
 	background: #6e6e6e;
@@ -310,7 +336,37 @@ body{
 	background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
 	background: -moz-linear-gradient(top,  #575757,  #888);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+*/
+.gray{
+    width:150px;
+    height:35px;
+    line-height:35px;
 }
+.gray a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#D090D8;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:20px;
+    font-style:oblique;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    box-shadow:3px 3px 4px 1px #B074BD ;
+    transition: all 0.2s ease;
+}
+.gray a:hover{
+    background:#976AB3;
+    color:#FFFFFF;
+    margin-left:2px;
+    margin-top:3px;
+    box-shadow:none;
+}
+
+
 
 /* white */
 .white {

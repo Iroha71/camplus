@@ -8,14 +8,4 @@
 [iscript] 
 f['name']=''; 
 f['is_maigo']=''; 
-f['Interest']=''; 
-f['drink']=''; 
-f['HP']=4; 
-f['study']=''; 
-f['undou']=''; 
-f['densisistem']=0; 
-f['network']=0; 
-f['sistemkaihatu']=0; 
-f['if']='false'; 
-f['player_id']=17; 
 [endscript] 

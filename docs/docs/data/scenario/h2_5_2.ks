@@ -1,9 +1,7 @@
 [_tb_system_call storage=system/_h2_5_2.ks]
 
-[cm  ]
 *ネットワーク・セキュリティ分野
 
-[tb_eval  exp="f.network=1"  name="network"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -58,5 +56,10 @@
 また休憩することに決めたらしいひーさんが、[r]子鹿のように覚束ない足取りで椅子に座り直すとスマートフォンを手渡してくる。[p]間もなく湯飲みを両手で包んで動かなくなってしまった。[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#ひーさん
+「……うむ、まだマシになった。行くかの」[p]
+#
+[_tb_end_text]
+
 [s  ]
-[jump  storage="h2_6.ks"  target=""  ]
