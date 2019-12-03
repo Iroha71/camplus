@@ -51,7 +51,7 @@
 *input_start
 
 [edit  left="470"  top="270"  width="380"  height="40"  size="20"  maxchars="200"  name="f.name"  reflect="false"  ]
-[button  storage="s1_1.ks"  target="*input_submit"  graphic="title/button_start.gif"  width="250"  height="50"  name="img_16"  x="undefined"  y="undefined"  _clickable_img="undefined"  ]
+[button  storage="s1_1.ks"  target="*input_submit"  graphic="button/kettei.gif"  width="122"  height="38"  name="img_16"  x="600"  y="354"  _clickable_img="" name="img_17"  ]
 [s  ]
 *input_submit
 
@@ -71,8 +71,8 @@
 あなたの名前は[emb exp="f.name"]でよろしいですね？[p]
 [_tb_end_tyrano_code]
 
-[button  storage="s1_1.ks"  target="*ng"  graphic="title/button_start.gif"  width="250"  height="50"  x="200"  name="img_27"  ]
-[button  storage="s1_1.ks"  target="*ok"  graphic="title/button_load.gif"  width="250"  height="50"  name="img_28"  ]
+[glink  color="rosy"  storage="s1_1.ks"  size="20"  target="*ng"  x="592"  y="396"  width=""  height=""  _clickable_img=""  text="やり直す"  ]
+[glink  color="blue"  storage="s1_1.ks"  size="20"  target="*ok"  x="589"  y="303"  width=""  height=""  _clickable_img=""  text="決定する"  ]
 [s  ]
 *ng
 
@@ -168,5 +168,7 @@
 自分が困っているのは事実であり、[r]今日のの訪問日時も自分の予定の都合によるものの、[p]もしや自分一人のために休日にまでわざわざ生徒会を[r]呼び出したなんてことはないだろうか？[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[jump  storage="h2-1.ks"  target=""  cond="f.is_maigo=='true'"  ]
+[jump  storage="h2-1-2.ks"  target=""  cond="f.is_maigo=='false'"  ]
 [s  ]
