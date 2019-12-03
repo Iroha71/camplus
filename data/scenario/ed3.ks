@@ -3,7 +3,7 @@
 [cm  ]
 [tb_show_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  width="2894"  height="4093"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「さてさて。これで一応、一通り、
@@ -52,28 +52,36 @@
 茶柱が立ってもなおあんなに運がないのか……。[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=4 ]
 #ひーさん
-「他にはなあーー」[p]
+「他には
+
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="cannon2_(online-audio-converter.com).ogg"  ]
+[tb_start_text mode=1 ]
+なあーー」[p]
 #
 [_tb_end_text]
 
+[stopse  time="1000"  buf="0"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
 そこでひーさんの言葉は途切れた。[r]正確には別の音で塗り潰されたというほうが正しい。[p]
 言い表すなら、ばん、と何かが弾け飛ぶ音。[r]しかし存外鈍い音で、布や硝子などが爆ぜるような音ではなかった。[p]
 距離的にはそう遠くない。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-[font size=50]「なんじゃなんじゃ！？」[p]
+[font size=50]「なんじゃなんじゃ！？」 [resetfont][p]
 #
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 一号館から近い館はいくつかあるが、その筆頭は隣接している四号館である。[p]
-四号館の前にはそれを表す看板があり、それで中の施設などが分かるようになっているのだが[r]――その看板が、真ん中から吹き飛んでいた。[p]
+四号館の前にはそれを表す看板があり、それで中の施設などが分かるようになっているのだが[p]
+――その看板が、真ん中から吹き飛んでいた。[p]
 [_tb_end_text]
 
 [jump  storage="h2-1.ks"  target="*選択画面"  ]
