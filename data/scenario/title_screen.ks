@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
+*title_start
+
 [hidemenubutton]
 
 [tb_clear_images]

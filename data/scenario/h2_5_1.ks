@@ -333,7 +333,7 @@
 ひーさんが気を取り直すように、明るい声を出す。 [r] だが若干堅いような気もする。[p]
 [_tb_end_text]
 
-[jump  storage="h2_5_1.ks"  target="*プログラミング-好き"  cond="f.if=='true'"  ]
+[jump  storage="h2_5_1.ks"  target="*プログラム好き"  cond="f.if=='true'"  ]
 [jump  storage="h2_5_1.ks"  target="*プログラム好きじゃない"  cond="f.if=='false'"  ]
 *プログラム好き
 
