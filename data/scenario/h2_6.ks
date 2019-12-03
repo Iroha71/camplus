@@ -13,6 +13,8 @@
 [glink  color="black"  storage="h2_6.ks"  size="20"  text="ひーさんに注意を促す"  target="*ひーさんに注意を促す"  y="200"  x="540"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_6.ks"  size="20"  text="周囲を観察する"  target="*周囲を観察する"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
+*ひーさんに注意を促す
+
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -23,8 +25,6 @@
 #
 神妙な顔で頷いたひーさんの姿勢はほぼほぼへっぴり腰と言われるそれだ。 [r] 逆に危ない。[p]
 [_tb_end_text]
-
-*ひーさんに注意を促す
 
 [glink  color="black"  storage="h2_6.ks"  size="20"  text="ひーさんを心配する"  target="*ひーさんを心配する"  y="190"  x="540"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバを心配する"  target="*サーバを心配する"  y="300"  x="540"  width="200"  height="20"  ]
