@@ -10,9 +10,11 @@
 漁船に散らばる網のようにコードが散らばっている部屋、と言えば似ていないこともないかもしれないが、まあ似ていない。[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="ひーさんに注意を促す"  target="*ひーさんに注意を促す"  y="200"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="周囲を観察する"  target="*周囲を観察する"  y="340"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ひーさんに注意を促す"  target="*ひーさんに注意を促す"  y="200"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="周囲を観察する"  target="*周囲を観察する"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
+*ひーさんに注意を促す
+
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -24,11 +26,9 @@
 神妙な顔で頷いたひーさんの姿勢はほぼほぼへっぴり腰と言われるそれだ。 [r] 逆に危ない。[p]
 [_tb_end_text]
 
-*ひーさんに注意を促す
-
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="ひーさんを心配する"  target="*ひーさんを心配する"  y="190"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="サーバを心配する"  target="*サーバを心配する"  y="300"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="両方を心配する"  target="*両方を心配する"  y="410"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ひーさんを心配する"  target="*ひーさんを心配する"  y="190"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバを心配する"  target="*サーバを心配する"  y="300"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="両方を心配する"  target="*両方を心配する"  y="410"  x="540"  width="200"  height="20"  ]
 [s  ]
 *ひーさんを心配する
 
@@ -147,8 +147,8 @@
 ひーさんではないが、もし転んでしまったら大変なことになりそうだ。[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="近付く"  y="200"  target="*近付く"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  y="310"  text="離れる"  target="*離れる"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="近付く"  y="200"  target="*近付く"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  y="310"  text="離れる"  target="*離れる"  x="540"  width="200"  height="20"  ]
 [s  ]
 *近付く
 
@@ -229,10 +229,10 @@
 何かわかる言葉はあるか、とひーさんがパンフレットを開いてこちらに向けてくる。[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="540"  width="200"  height="20"  ]
 [glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  x="540"  y="420"  width="200"  height="20"  ]
 [s  ]
 *Linux
@@ -359,8 +359,8 @@
 「……そういう転校生は、英語ができるのか？　ここ、英語があるんじゃが」[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="できる"  target="*できる"  y="200"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="できない"  target="*できない"  y="340"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="できる"  target="*できる"  y="200"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="できない"  target="*できない"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
 *できる
 
@@ -402,9 +402,9 @@
 ……仕方ないので声をかけようか。[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="スマートフォンを借りる"  target="*スマートフォンを借りる"  y="190"  x="540"  width="210"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="次に行く"  y="300"  target="*次に行く"  x="540"  width="210"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="見守る"  y="410"  target="*見守る"  x="540"  width="210"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="スマートフォンを借りる"  target="*スマートフォンを借りる"  y="190"  x="540"  width="210"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="次に行く"  y="300"  target="*次に行く"  x="540"  width="210"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="見守る"  y="410"  target="*見守る"  x="540"  width="210"  height="20"  ]
 [s  ]
 *スマートフォンを借りる
 
@@ -414,10 +414,10 @@
 「え？　ああ、そうじゃな。うん。[wait time=500]見るよな」
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  target="*スマートフォンを借りる"  text="用語一覧を見る"  y="180"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  target="*スマートフォンを借りる"  text="カリキュラムを見る"  y="260"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="設定を管理する"  y="340"  target="*CD選択"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="自分のスマートフォンを出す"  target="*CD選択"  y="420"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  target="*スマートフォンを借りる"  text="用語一覧を見る"  y="180"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  target="*スマートフォンを借りる"  text="カリキュラムを見る"  y="260"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="設定を管理する"  y="340"  target="*CD選択"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="自分のスマートフォンを出す"  target="*CD選択"  y="420"  x="540"  width="200"  height="20"  ]
 [s  ]
 *CD選択
 
@@ -427,10 +427,10 @@
 「よし……もうちょっとで元気を出すから待ってくれ」[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="用語一覧を見る"  y="180"  target="*CD選択"  x="540"  width="250"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="カリキュラムを見る"  y="260"  target="*CD選択"  x="540"  width="250"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="設定を管理する"  y="340"  target="*common4"  x="540"  width="250"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="自分のスマートフォンを出す"  y="410"  target="*common4"  x="540"  width="270"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="用語一覧を見る"  y="180"  target="*CD選択"  x="540"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="カリキュラムを見る"  y="260"  target="*CD選択"  x="540"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="設定を管理する"  y="340"  target="*common4"  x="540"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="自分のスマートフォンを出す"  y="410"  target="*common4"  x="540"  width="270"  height="20"  ]
 [s  ]
 *次に行く
 
@@ -509,8 +509,8 @@
 たった1階分、しかも降りなのだが、ひーさんはまるで神社やお寺の長い石階段を前にしたように真剣かつ深刻な顔で悩んでいる。[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="手伝う"  target="*手伝う"  y="200"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="見守る"  target="*見守る２"  y="340"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="手伝う"  target="*手伝う"  y="200"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="見守る"  target="*見守る２"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
 *手伝う
 
@@ -597,9 +597,9 @@
 「まったく、転校生はどんどんワシに遠慮がなくなっていっておらんか？」[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="ひーさんに言われたくない"  target="*ひーさんに言われたくない"  y="190"  x="540"  width="240"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="そんなことはない"  target="*そんなことはない"  y="300"  x="540"  width="240"  height="20"  ]
-[glink  color="blue"  storage="h2_6.ks"  size="20"  text="まだ遠慮している"  target="*まだ遠慮している"  y="410"  x="540"  width="240"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ひーさんに言われたくない"  target="*ひーさんに言われたくない"  y="190"  x="540"  width="240"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="そんなことはない"  target="*そんなことはない"  y="300"  x="540"  width="240"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="まだ遠慮している"  target="*まだ遠慮している"  y="410"  x="540"  width="240"  height="20"  ]
 [s  ]
 *ひーさんに言われたくない
 

@@ -34,9 +34,9 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="システム開発分野"  target="*システム"  x="540"  y="190"  width="200"  height="20"  _clickable_img=""  ]
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="ネットワーク・セキュリティ分野"  target="*ネットワーク"  x="540"  y="300"  width="200"  height="20"  _clickable_img=""  ]
-[glink  color="black"  storage="h2_5.ks"  size="20"  text="どっちでもいい"  target="*どっちでもいい"  x="540"  y="410"  width="200"  height="200"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="システム開発分野"  target="*システム"  x="540"  y="190"  width="270"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="ネットワーク・セキュリティ分野"  target="*ネットワーク"  x="540"  y="300"  width="270"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_5.ks"  size="20"  text="どっちでもいい"  target="*どっちでもいい"  x="540"  y="410"  width="270"  height="20"  _clickable_img=""  ]
 [s  ]
 *システム
 

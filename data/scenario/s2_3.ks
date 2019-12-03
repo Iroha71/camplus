@@ -37,9 +37,9 @@
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [tb_image_show  time="500"  storage="default/SD/3.png"  width="690"  height="470"  x="314"  y="16"  _clickable_img=""  name="img_13"  ]
 [bg  time="1000"  method="crossfade"  storage="pc教室sd.png"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="190"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="300"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="伊藤？"  target="*伊藤？"  y="410"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="190"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="300"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="伊藤？"  target="*伊藤？"  y="410"  x="540"  width="200"  height="20"  ]
 [s  ]
 *ドローン？
 
@@ -57,8 +57,8 @@
 「あ、もしかしてそういう由来だったりするか？」[p]
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="否定する"  y="200"  target="*否定する"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="由来を教える"  y="340"  target="*由来を教える"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="否定する"  y="200"  target="*否定する"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="由来を教える"  y="340"  target="*由来を教える"  x="540"  width="200"  height="20"  ]
 [s  ]
 *否定する
 
@@ -198,8 +198,8 @@ I、T、O――並びが違うが、もしやIoTのことではないだろう�
 
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="200"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="340"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="ドローン？"  target="*ドローン？"  y="200"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="ミッツ？"  target="*ミッツ？"  y="340"  x="540"  width="200"  height="20"  ]
 [s  ]
 *common
 
@@ -215,8 +215,8 @@ I、T、O――並びが違うが、もしやIoTのことではないだろう�
 
 [_tb_end_text]
 
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="行く"  y="200"  target="*行く１"  x="540"  width="200"  height="20"  ]
-[glink  color="blue"  storage="s2_3.ks"  size="20"  text="ひーさんは？"  y="340"  target="*ひーさんは？"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="行く"  y="200"  target="*行く１"  x="540"  width="200"  height="20"  ]
+[glink  color="black"  storage="s2_3.ks"  size="20"  text="ひーさんは？"  y="340"  target="*ひーさんは？"  x="540"  width="200"  height="20"  ]
 [s  ]
 *行く１
 

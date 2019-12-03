@@ -20,7 +20,7 @@
 
 [tb_start_text mode=1 ]
 #
-つるり [l][r] あ、と思うのと同時に、勢いよくひーさんが滑った。[p]
+つるり [p] あ、と思うのと同時に、勢いよくひーさんが滑った。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="400"  cross="false"  storage="chara/2/ひーさん(驚き).png"  ]
@@ -32,8 +32,8 @@
 
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="駆け寄る"  target="*駆け寄る"  x="550"  y="300"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="歩み寄る"  target="*歩み寄る"  x="550"  y="410"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="駆け寄る"  target="*駆け寄る"  x="540"  y="200"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="歩み寄る"  target="*歩み寄る"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  ]
 [s  ]
 *駆け寄る
 
@@ -72,14 +72,14 @@
 #
 またすごい勢いだったなと思いながら床にべたりとくっついたひーさんに近寄る。[p]
 今度は先ほどのように床が柔らかいということもない。 [r] 流石に何もなかったとはいかないだろうか。[p]
-……それにしてもよく転ぶ人だ。このままでは見学が終わる前にひーさんの体力あたりが尽きてしまうのではないだろうか。[p]
+……それにしてもよく転ぶ人だ。このままでは、見学が終わる前に[r]ひーさんの体力あたりが尽きてしまうのではないだろうか。[p]
 
 [_tb_end_text]
 
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（泣き睨み）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「転校生、だんだん遠慮がなくなってきたのぅ [r] あいたたた……」[p]
+「転校生、だんだん遠慮がなくなってきたのぅ。 [r] あいたたた……」[p]
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
@@ -89,11 +89,11 @@
 [tb_start_text mode=1 ]
 #
 気を取り直して入った教室は、背の高いロッカーや棚に三方を囲まれていた。[r] 残る一方には黒板。[p]
-先ほど話していた教室はホワイトボードだったので、そういう意味でも「教室らしい」教室かもしれない。[p]
+先ほど話していた教室はホワイトボードだったので、[r]そういう意味でも「教室らしい」教室かもしれない。[p]
 
 [_tb_end_text]
 
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（真顔）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「あれじゃよ、どろーん」[p]
@@ -103,11 +103,16 @@
 #
 ひーさんの指の先には、確かにドローンが見える。[p]
 しかし、背の高い棚の、更にその一番上の段に保管されているのである。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[tb_start_text mode=1 ]
 ひーさんと自分の間になんともいえない空気が流れた。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="190"  width=""  height=""  _clickable_img=""  target="*ドローン-自分がやる"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんに任せる"  target="*ドローン-ひーさん任せ"  x="550"  y="220"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  target="*ドローン-自分がやる"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんに任せる"  target="*ドローン-ひーさん任せ"  x="550"  y="340"  width="200"  height="20"  ]
 [s  ]
 *ドローン-自分がやる
 
@@ -118,10 +123,14 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
 #
 ひーさんがずりずりと引き摺って持ってきてくれた椅子に乗り、そっとドローンを手に取る。[p]
+
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[tb_start_text mode=1 ]
 側の机に置くと、なぜか距離をとっていたひーさんがおそるおそるといった体で[r]近づいてきた。[p]
 ……もしかして自分が倒れるとでも思っていたのだろうか？[p]
 [_tb_end_text]
@@ -168,8 +177,8 @@
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="550&nbsp;"  y="200"  width=""  height=""  _clickable_img=""  target="*ドローン-ひーさん任せ-自分がやる"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんを担ぐ"  target="*ドローン-ひーさん任せ-担ぐ"  x="550"  y="340"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="自分がやる"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  target="*ドローン-ひーさん任せ-自分がやる"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ひーさんを担ぐ"  target="*ドローン-ひーさん任せ-担ぐ"  x="540"  y="340"  width="200"  height="20"  ]
 [s  ]
 *ドローン-ひーさん任せ-自分がやる
 
@@ -182,7 +191,7 @@
 
 [tb_start_text mode=1 ]
 #
-見るからにほっと息をついたひーさんが素早く持ってきた椅子に乗り、そっとドローンを[r]手に取る。[p]
+見るからにほっと息をついたひーさんが素早く持ってきた椅子に乗り、[r]そっとドローンを[r]手に取る。[p]
 側の机に置くと、なぜか距離をとっていたひーさんがおそるおそるといった体で[r]近づいてきた。[p]
 ……もしかして自分が倒れるとでも思っていたのだろうか？[p]
 [_tb_end_text]
@@ -211,15 +220,14 @@
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（泣き睨み）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（怒り泣き）.png"  ]
 [tb_start_text mode=1 ]
-
 #ひーさん
-「いや違うじゃろ？　それ違うじゃろ！？　待て転校生、落ち着け [l][r] あっ高い！　不安定！　下ろさんか！」[p]
+「いや違うじゃろ？　それ違うじゃろ！？　待て転校生、落ち着け、 [l][r] あっ高い！　不安定！　下ろさんか！」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（泣き睨み）.png"  ]
 [tb_start_text mode=1 ]
 #
 
@@ -282,38 +290,41 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-
 #
 #
-いかにドローンを取らずにすむようにばかり考えていたひーさんの完全に不意を突いた[r]一撃だった。[p]
-両手を後頭部に添えて蹲り、その姿勢が辛かったらしいひーさんがすぐに床に座り込むのを見て、手近な椅子を持ってきてドローンを棚から取った。[p]
+いかにドローンを取らずにすむかばかり考えていたひーさんの不意を[r]完全かつ見事に突いた一撃だった。[p]
+両手を後頭部に添えて蹲り、その姿勢が辛かったらしいひーさんがすぐに床に座り込むのを見て、手近な椅子を持ってきてドローンを棚から取る。[p]
 若干自業自得なところはあるが、流石にかわいそうだったので。[p]
 
 [_tb_end_text]
 
 *ドローン入手後
 
+[mask  time="1000"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
+[mask_off  time="1000"  effect="vanishOut"  ]
 [tb_start_text mode=1 ]
 #
 事態が七転八転したりしなかったりしたが、無事にドローンが手元にやってきた。[p]
-その横にはひーさんが「はるみ」と呼んでいたロボットや、「ブルーベリータルト」なんて言っていたものもある。 [p]
+その横にはひーさんが「はるみ」と呼んでいたロボットや、[r]「ブルーベリータルト」なんて言っていたものもある。 [p]
 ちなみに正式名称は「Palmi」と「Raspberry Pi」である。[r]全然違う。[p]
 それぞれの取扱説明書を読みながらある程度触ってみて、棚に置かれた他の機器など[r]にも話が及んだところで、ひーさんが「それで」と切り出した。[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+*三択選択
+
 [tb_start_text mode=1 ]
 #ひーさん
 「どれか気になるものはあったか？」[p]
 #
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*h2_4終了"  x="550"  y="180"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*h2_4終了"  x="550"  y="260"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*h2_4終了"  x="550"  y="340"  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="迷う"  target="*興味あるもの-迷う"  x="550"  y="420"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="ドローン"  target="*ドローン"  x="540"  y="180"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Palmi"  target="*ロボット"  x="540"  y="260"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="Raspberry&nbsp;Pi"  target="*ラズパイ"  x="540"  y="340"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="迷う"  target="*興味あるもの-迷う"  x="540"  y="420"  width="200"  height="20"  ]
 [s  ]
 *興味あるもの-迷う
 
@@ -335,41 +346,104 @@
 全く論点が違う。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="それぞれの特徴を思い出す"  target="*興味あるもの-特徴を思い出す"  x="550"  y="200"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="h2_4.ks"  size="20"  text="全部そうでもない"  target="*興味あるもの-なし"  x="550"  y="340"  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="それぞれの特徴を思い出す"  target="*興味あるもの-特徴を思い出す"  x="540"  y="200"  width="250"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_4.ks"  size="20"  text="全部そうでもない"  target="*興味あるもの-なし"  x="540"  y="340"  width="250"  height="20"  ]
 [s  ]
 *興味あるもの-特徴を思い出す
 
 [tb_start_text mode=1 ]
 #
 取扱説明書を捲りながら、ひーさんのあまり頼りにならない説明を思い出す。[p]
-※説明を出す[p]
 [_tb_end_text]
 
+[mask  time="300"  effect="fadeIn"  color="0xffffff"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[mask_off  time="300"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+『どろーんはちーさい飛行機とかへりこぷたーみたいなもんじゃろ？[r]　こう、なんじゃ、らじ……らじこん？　みたいな…』[p]
+[_tb_end_text]
+
+[mask  time="300"  effect="fadeIn"  color="0xffffff"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
+[mask_off  time="300"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+『ぱるみは分かりやすーくろぼっとじゃよな。ワシでも分かるくらいにろぼっと。[r]あとはー……そういえばずいぶんなお喋りさんじゃったな』[p]
+『踊るのも好きみたいじゃったし、そう考えてみれば随分かわいいやつじゃな』[p]
+[_tb_end_text]
+
+[mask  time="300"  effect="fadeIn"  color="0xffffff"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
+[mask_off  time="300"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+『らずべりーぱいって結局なんなんじゃ？　転校生、説明書読んだんじゃろ？』[p]
+『え？　ぱそこん？　いや、画面すらないじゃろ。[r]……そういうもの？　どういうものじゃ……』[p]
+[_tb_end_text]
+
+[mask  time="300"  effect="fadeIn"  color="0xffffff"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
+[mask_off  time="300"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+「どうじゃどうじゃ？」[p]
+#
+[_tb_end_text]
+
+[jump  storage="h2_4.ks"  target="*三択選択"  ]
 *興味あるもの-なし
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「そうかそうか。まあそういうこともあろう」[p]
-「じゃあ次……はどうするかのぅ」[p]
+「では次に行くかのぅ？」[p]
 [_tb_end_text]
 
+[jump  storage="h2_5.ks"  target="*2-5start"  ]
 *ドローン
 
 [tb_eval  exp="f.ED1='true'"  name="ED1"  cmd="="  op="t"  val="true"  val_2="undefined"  ]
 [tb_eval  exp="f.study='ドローン.'"  name="study"  cmd="="  op="t"  val="ドローン."  val_2="undefined"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+「どろーんか！　よいぞ！」[p]
+#
+[_tb_end_text]
+
 [jump  storage="h2_4.ks"  target="*h2_4終了"  ]
 *ロボット
 
 [tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [tb_eval  exp="f.study='ロボット.'"  name="study"  cmd="="  op="t"  val="ロボット."  val_2="undefined"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+「そうかそうか！　よしよしこの勢いじゃな！」[p]
+#
+[_tb_end_text]
+
 [jump  storage="h2_4.ks"  target="*h2_4終了"  ]
 *ラズパイ
 
 [tb_eval  exp="f.densisistem=2"  name="densisistem"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [tb_eval  exp="f.study='ＲＯＭ.'"  name="study"  cmd="="  op="t"  val="ＲＯＭ."  val_2="undefined"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+「おっ、あれか？[r]ワシはよう分からんが、転校生がよいなら何よりじゃ！」[p]
+#
+[_tb_end_text]
+
 [jump  storage="h2_4.ks"  target="*h2_4終了"  ]
 *h2_4終了
 
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+#ひーさん
+「よしよし！」[r][p]
+「この勢いのまま次に行くとしようかのぅ！」[p]
+[_tb_end_text]
+
+[mask  time="1000"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_5.ks"  target="*2-5start"  ]
