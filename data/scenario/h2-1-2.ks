@@ -1,7 +1,12 @@
-[_tb_system_call storage=system/_h2_1_2.ks]
+[_tb_system_call storage=system/_h2-1-2.ks]
 
+[hidemenubutton]
+
+[mask_off  time="1000"  effect="fadeOut"  ]
 [cm  ]
 *迷わなかった
+
+[plugin name="url_query_loader"]
 
 [bg  time="500"  method="crossfade"  storage="seitokai_hiru.jpg"  ]
 [chara_show  name="会長"  time="500"  wait="true"  storage="chara/1/会長（通常‐kuchi_）.png"  width="827"  height="1167"  left="268"  top="-3"  reflect="false"  ]
@@ -17,11 +22,18 @@
 #
 [_tb_end_text]
 
+[iscript]
+location.href="http://localhost:3001/senario/select?is_maigo=false"
+[endscript]
+
+[s  ]
+*selected
+
 [tb_hide_message_window  ]
+[mask  time="500"  effect="slideInLeft"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [chara_hide  name="会長"  time="500"  wait="true"  pos_mode="true"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [bg  time="500"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="500"  effect="slideOutRight"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 一号館に向かい、ようやくその建物の入り口に辿り着こうというところで、[r]そこに誰かがいるのが見えた。[p]
@@ -49,8 +61,8 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
-[glink  color="pink"  storage="h2_1_2.ks"  size="40"  target="*話しかける"  x="449"  y="198"  width="195"  height="40"  _clickable_img=""  text="話しかける"  ]
-[glink  color="pink"  storage="h2_1_2.ks"  size="40"  target="*様子を見る"  x="441"  y="335"  width="220"  height="50"  _clickable_img=""  text="様子を見る"  ]
+[glink  color="black"  storage="h2-1-2.ks"  size="20"  target="*話しかける"  x="540"  y="200"  width="200"  height="20"  _clickable_img=""  text="話しかける"  ]
+[glink  color="black"  storage="h2-1-2.ks"  size="20"  target="*様子を見る"  x="540"  y="340"  width="200"  height="20"  _clickable_img=""  text="様子を見る"  ]
 [s  ]
 *話しかける
 
@@ -58,16 +70,25 @@
 メール、と聞こえたが、一体何に困っているのだろうか？[p]
 [_tb_end_text]
 
-[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（困り）.png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
-[tb_start_text mode=1 ]
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん（緊迫）.png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
+[tb_start_text mode=3 ]
 #???
-「しばし待て、[r]ワシは今めーるを見なければならなくてだな……」[p]「む？」　[p]「誰じゃ？」　[p]「いやこの際誰でもいい！」[p]「今さっき届いためーるを見なければならんのじゃが、わかるか？」[p]「どうやればいいかわかるか?…[wait time=350]いやわかる！」[p]「自慢じゃないがワシよりすまーとふぉんを扱えん奴はここで会ったことがない！」[p]
+「しばし待て、[r]ワシは今めーるを見なければならなくてだな……」[p][r]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
+[tb_start_text mode=3 ]
+「む？」　[p]「誰じゃ？」[p][r]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口大開け）.png"  ]
+[tb_start_text mode=1 ]
+「いやこの際誰でもいい！」[p]「今さっき届いためーるを見なければならんのじゃが、わかるか？」[p]「どうやればいいかわかるか?　……[wait time=350]いやわかる！」[p]「自慢じゃないがワシよりすまーとふぉんを扱えん奴はここで会ったことがない！」[p]
 #
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [tb_start_text mode=1 ]
-色々と気になることも言っていたが、[r]反射的に目の前に差し出されたスマートフォンを掴んで画面を見る。[p]さっきの言葉が本当なら目の前の人物はメールを確認しようとしていたはずだが、[p]何故か開いていたのは地図アプリの上にカーソルが示しているのは...[wait time=500]インド洋だ。[p]何がどうしてそうなったのは分からないものの、[r]なるべく内容を見ないように通知センターを開いて相手にスマートフォンを返す。[p]
+色々と気になることも言っていたが、[r]反射的に目の前に差し出されたスマートフォンを掴んで画面を見る。[p]さっきの言葉が本当なら目の前の人物はメールを確認しようとしていたはずだが、[p]何故か開いていた地図アプリの上でカーソルが示しているのは……[wait time=500]インド洋だ。[p]何がどうしてそうなったのは分からないものの、[r]なるべく内容を見ないように通知センターを開いて相手にスマートフォンを返す。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（通常ー口開け）.png"  ]
@@ -78,7 +99,7 @@
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
-多分それじゃ。」[p]
+多分これじゃ。」[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
@@ -87,13 +108,18 @@
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[tb_start_text mode=3 ]
+……む、字が小さいのぅ、これ。」[p][r]
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
-........む、字が小さいのぅ、これ。」[p]「えーと、あ、会長から？[p]転校生の見学？そういえばこんなことも行って....おったか？」[p]
+「えーと、あ、会長から？[p]転校生の見学？そういえばこんなことも言って……おったか？」[p]
 #
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-相手が随分と小柄なので、[r]背を丸めてスマートフォンの画面に顔を近付けていると顔が見えない。[p]そんな状態の子の人が見ている連絡が会長ーーー[wait time=500][r]生徒会長からの連絡だとすると、彼女が一号館を担当している生徒会役員なのだろうか。[p]
+相手が随分と小柄なので、[r]背を丸めてスマートフォンの画面に顔を近付けていると顔が見えない。[p]そんな状態の子の人が見ている連絡が会長――[wait time=500][r]生徒会長からの連絡だとすると、彼女が一号館を担当している生徒会役員なのだろうか。[p]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
@@ -107,14 +133,14 @@
 「……しかしちゃんと見るとなじみのない顔じゃのぉ。しかも制服ですらないとは…」[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
 [tb_start_text mode=1 ]
-もしやもしや例の転校生だったりするか？？[p]
+「もしやもしや例の転校生だったりするか？」[p]
 #
 
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
 [jump  storage="h2_1_2.ks"  target="*common"  ]
 [s  ]
@@ -203,22 +229,22 @@
 #
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
-[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
+[mask  time="800"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
+[chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
 [jump  storage="h2_1_2.ks"  target="*common"  ]
 *common
 
-[bg  time="1000"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[bg  time="0"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [chara_show  name="ひーさん"  time="600"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1112"  left="270"  top="114"  ]
 [tb_start_text mode=3 ]
 #???
-「というわけで、一号館を担当している生徒会副会長ーー[wait time=600]通称ひーさんじゃ。[r]
+「というわけで、一号館を担当している生徒会副会長――[wait time=600]通称ひーさんじゃ。[r]
 
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 なんとでも好きに呼んでくれていいぞ！」[p]
 #
@@ -291,7 +317,7 @@
 ……なるほど、[wait time=250]会長が苦労するわけだ。[p]あの言い方からすると会長もこの状態はある程度予想していそうだが、[r]このことは頭に留めておこう。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（怒）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「なんじゃその、初手からちょっと駄目だなこの人、みたいな顔は。」[p]
@@ -330,13 +356,13 @@
 見開きのページに目次と少しの説明があったため、[r]まずはそれを読もうとしたところで、[p]ひーさんが突然勢いよくこちらを見た。[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 その目は見開かれ、緊迫した様子でわなわなと震えている[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「いかん、転校生。[wait time=500]どこかの教室に入ろう」[p]「いや入らなくてもいいから椅子に座ろう。[l]今すぐに」[p]
@@ -350,7 +376,7 @@
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「…[wait time=500]腰がやばい...」[p]
+「……[wait time=500]腰が、やばい……」[p]
 #
 [_tb_end_text]
 
@@ -358,7 +384,7 @@
 腰。[p]そうか、腰が。[p]……[wait time=500]腰?[p]
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（悲）.png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
 「転校生と見学のことにすっかり気を取られて忘れておった……」[p]「ワシはそのな、[l]腰痛持ちでな？」[p]「いかんぞ、今にもぎっくり来そうな不穏な感じがする……」[p]
@@ -369,11 +395,11 @@
 手を掴み、エレベーターへと自分を引っ張っていく……[p]というより、[p]手を繋いでなんとかバランスを取ろうとしているひーさんの背中は非常に頼りなく、[l][r]恐る恐るといった様子の歩みは極めてゆっくりだ[p]
 [_tb_end_text]
 
-[chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 ……[wait time=1000]なんだか、この後の見学がとても心配になった。[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="700"  effect="vanishIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_2.ks"  target=""  ]
 [s  ]
