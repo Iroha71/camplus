@@ -12,16 +12,17 @@
 
 ;=========変数宣言部分 
 [iscript] 
-f['name']=''; 
+f['name']='いろは'; 
 f['is_maigo']=''; 
 f['Interest']=''; 
 f['drink']=''; 
 f['HP']=4; 
 f['study']=''; 
 f['undou']=''; 
-f['densisistem']=''; 
-f['network']=''; 
-f['sistemkaihatu']=''; 
+f['densisistem']=0; 
+f['network']=0; 
+f['sistemkaihatu']=0; 
 f['if']='false'; 
 f['random']=0; 
+f['player_id']=''; 
 [endscript] 

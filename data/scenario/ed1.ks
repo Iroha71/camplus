@@ -2,6 +2,16 @@
 
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
+[iscript]
+$.ajax({
+url: 'http://localhost:3000/v1/player',
+type: 'POST',
+data:{ 'player': { 'name': f.name } }
+}).done(function(data){
+f.player_id = data.id
+})
+[endscript]
+
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -181,6 +191,14 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[iscript]
+$.ajax({
+url: 'http://localhost:3000/v1/player/'+f.player_id,
+type: 'PUT',
+data: { 'system': f.sistemkaihatu, 'network': f.network, 'embeded': f.densisistem }
+}).done({ })
+[endscript]
+
 [chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん（怒り泣き）.png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -190,3 +208,7 @@
 [_tb_end_text]
 
 [chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
+[iscript]
+location.href = 'http://localhost:3001/player/' + f.player_id
+[endscript]
+
