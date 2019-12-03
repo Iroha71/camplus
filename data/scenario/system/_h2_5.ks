@@ -1,4 +1,4 @@
-[preload  storage="./data/bgimage/57727011_p0.jpg"  ]
+[preload  storage="./data/bgimage/room.jpg"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（通常ー口少し）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（困り）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん(通常).png"  ]

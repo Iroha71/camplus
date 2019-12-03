@@ -3,12 +3,12 @@
 [cm  ]
 *2-5start
 
-[bg  time="1000"  method="crossfade"  storage="57727011_p0.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
 [chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=4 ]
 #ひーさん
-「ここは、えーと、電子しすてむの部屋でな [r] ちょいと前までは「組み込み」だとかいうワシに優しい名前だったんじゃが」[p]
+「ここはえーと、電子しすてむの部屋でな [r] ちょいと前までは「組み込み」だとかいうワシに優しい名前だったんじゃが」[p]
 
 
 

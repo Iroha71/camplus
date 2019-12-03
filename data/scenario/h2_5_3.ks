@@ -10,17 +10,21 @@
 「となると……
 [_tb_end_text]
 
-[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(通常).png"  ]
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（焦り）.png"  ]
 [tb_start_text mode=1 ]
 ねっとわーくのほうかのぅ」[p]「上り下りするのは大変じゃし。[r]あと正直しすてむ開発のほうはワシじゃと碌な説明ができん」[p]
 #
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-うんうんと頷いているのか唸っているのか[r]中間くらいの声を出していたひーさんが、[p]ぱ、[wait time=500]と顔を上げる。[p]清々しいほどに満面の笑みだ。[p]
+[tb_start_text mode=4 ]
+うんうんと頷いているのか唸っているのか[r]中間くらいの声を出していたひーさんが、[l]
 [_tb_end_text]
 
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜）.png"  ]
+[tb_start_text mode=1 ]
+ぱ、[wait time=500]と顔を上げる。[p]清々しいほどに満面の笑みだ。[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #ひーさん
 「とりあえず休憩するかの！」[p]

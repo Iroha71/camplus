@@ -8,7 +8,7 @@
 [chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「よし、ではそっちから先にやろう。鯖の部屋があるんじゃ」[p]
+「よし、ではそっちから先にやろう。[r]鯖の部屋があるんじゃ」[p]
 #
 [_tb_end_text]
 
@@ -76,5 +76,6 @@
 また休憩することに決めたらしいひーさんが、[r]子鹿のように覚束ない足取りで椅子に座り直すとスマートフォンを手渡してくる。[p]間もなく湯飲みを両手で包んで動かなくなってしまった。[p]
 [_tb_end_text]
 
+[mask  time="1000"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_6.ks"  target=""  ]
 [s  ]
