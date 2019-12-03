@@ -51,7 +51,7 @@
 *input_start
 
 [edit  left="470"  top="270"  width="380"  height="40"  size="20"  maxchars="200"  name="f.name"  reflect="false"  ]
-[button  storage="s1_1.ks"  target="*input_submit"  graphic="button/kettei.gif"  width="122"  height="38"  name="img_16"  x="600"  y="354"  _clickable_img="" name="img_17"  ]
+[button  storage="s1_1.ks"  target="*input_submit"  graphic="button/kettei.gif"  width="122"  height="38"  name="img_16"  x="600"  y="354"  _clickable_img="name"  ]
 [s  ]
 *input_submit
 
