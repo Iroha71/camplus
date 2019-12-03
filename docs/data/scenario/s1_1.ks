@@ -2,6 +2,7 @@
 
 *start
 
+[chara_hide_all  time="400"  wait="true"  ]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="school_corridor_a.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -11,10 +12,10 @@
 建物の外観そのものは新築というほどのものではなかったが[r]
 外観や周囲や小さな花壇もよく手入れされている。[p]
 言伝てくれた教師の言によればここは生徒会執行部専用の棟ということだから[r]
-生徒会の誰かに余程の綺麗好きか几帳面な人がいるだろうか？[p]
+生徒会の誰かに余程の綺麗好きか几帳面な人がいるのだろうか？[p]
 しかし職員室からここまでにもそれなりの距離があったものの[p]
 道中目立ったゴミどころか落ち葉もそう見かけなかったから[r]
-流石に清掃員を雇っているかもしてない。[p]
+流石に清掃員を雇っているかもしれない。[p]
 廊下の突き当たりに生徒会長室と掲げられた部屋がある。[p]
 ここが目的地で間違いないだろう。[p]
 転校生の自分に生徒会長がいったい何の用だろうかという疑問を抱きながら[r]
@@ -27,7 +28,7 @@
 #？？？
 「どうぞ」[p]
 #
-失礼しますと扉の向こうに声をかけ[r][p]
+失礼しますと扉の向こうに声をかけ、[r][p]
 引き戸の持ち手を引く。[p]
 扉の向こうでは、1人の人物がこちらを見ていた。[p]
 [_tb_end_text]
@@ -50,7 +51,7 @@
 *input_start
 
 [edit  left="470"  top="270"  width="380"  height="40"  size="20"  maxchars="200"  name="f.name"  reflect="false"  ]
-[button  storage="s1_1.ks"  target="*input_submit"  graphic="title/button_start.gif"  width="250"  height="50"  name="img_16"  x="undefined"  y="undefined"  _clickable_img="undefined"  ]
+[button  storage="s1_1.ks"  target="*input_submit"  graphic="button/kettei.gif"  width="122"  height="38"  name="img_16"  x="600"  y="354"  _clickable_img="name"  ]
 [s  ]
 *input_submit
 
@@ -70,8 +71,8 @@
 あなたの名前は[emb exp="f.name"]でよろしいですね？[p]
 [_tb_end_tyrano_code]
 
-[button  storage="s1_1.ks"  target="*ng"  graphic="title/button_start.gif"  width="250"  height="50"  x="200"  name="img_27"  ]
-[button  storage="s1_1.ks"  target="*ok"  graphic="title/button_load.gif"  width="250"  height="50"  name="img_28"  ]
+[glink  color="rosy"  storage="s1_1.ks"  size="20"  target="*ng"  x="592"  y="396"  width=""  height=""  _clickable_img=""  text="やり直す"  ]
+[glink  color="blue"  storage="s1_1.ks"  size="20"  target="*ok"  x="589"  y="303"  width=""  height=""  _clickable_img=""  text="決定する"  ]
 [s  ]
 *ng
 
@@ -109,9 +110,9 @@
 [chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（悲ー口閉じ）.png"  ]
 [tb_start_text mode=1 ]
 #会長
-「それは悪いことをしたわね。[wait time=500]・・・迎えを寄越せばよかったかしら」[p]
+「それは悪いことをしたわね。[wait time=500]……迎えを寄越せばよかったかしら」[p]
 #
-会長が視線を机の方へわずかに落としながら呟く。[r]と思うとすぐにカを上げて口を開いた。[p]
+会長が視線を机の方へわずかに落としながら呟く。[r]と思うとすぐに顔を上げて口を開いた。[p]
 
 [_tb_end_text]
 
@@ -150,22 +151,24 @@
 [tb_start_text mode=4 ]
 #会長
 「今回呼び出したのは他でもない。あなたがここに転校するにあたって、[r]専攻の選択に迷っているという話が耳に入ったからよ」[p]
-「確かにこの麻生学園に転校生っていうのは結構珍しいけれどだからといって[r]対策を何もしないのは良くないでしょう?」[p]
-「それで最近、あくまで施策ではあるけれど、それぞれの館――[r]
+「確かにこの麻生学園に転校生っていうのは結構珍しいけれど、だからといって[r]対策を何もしないのは良くないでしょう?」[p]
+「それで最近、あくまで試作ではあるけれど、それぞれの館――[r]
 ああ、ここは館ごとにやっていることが違うのは流石に知っているでしょうね？」[p]
 「それで、とりあえずってことで生徒会から1人ずつ館を担当させているの。」[p]
 「ちゃんと仕事をしているのならパンフレットなんかよりはずっと詳しいはずだから[r]
-彼女たちから説明を受けてついでに館内だとかも見てきなさい」[p]
+彼女たちから説明を受けて、ついでに館内だとかも見てきなさい」[p]
 [_tb_end_text]
 
 [chara_mod  name="会長"  time="600"  cross="true"  storage="chara/1/会長（通常）.png"  ]
 [tb_start_text mode=1 ]
 手元の書類を捌きながら、[r]偶にこちらの顔を見つつ早口で一気に言い切った会長に瞠目する。[p]
 会長が口を閉じるのに少し遅れて、ようやく言葉の内容を飲み込んだ。[p]
-会長の物言いは、決して優しいものではないが、[r]行っている内容はおちらにばかり利益がある話である。[p]
+会長の物言いは決して優しいものではないが、[r]言っている内容はこちらにばかり利益がある話である。[p]
 言うなれば自分一人のために生徒会全員を駆り出して[r]体験入学をやってくれるようなものだ。[p]
 自分が困っているのは事実であり、[r]今日のの訪問日時も自分の予定の都合によるものの、[p]もしや自分一人のために休日にまでわざわざ生徒会を[r]呼び出したなんてことはないだろうか？[p]
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[jump  storage="h2-1.ks"  target=""  cond="f.is_maigo=='true'"  ]
+[jump  storage="h2-1-2.ks"  target=""  cond="f.is_maigo=='false'"  ]
 [s  ]

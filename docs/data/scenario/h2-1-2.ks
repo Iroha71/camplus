@@ -142,7 +142,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=false"
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
-[jump  storage="h2_1_2.ks"  target="*common"  ]
+[jump  storage="h2-1-2.ks"  target="*common"  ]
 [s  ]
 *様子を見る
 
@@ -231,7 +231,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=false"
 
 [mask  time="800"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  storage=""  ]
 [chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
-[jump  storage="h2_1_2.ks"  target="*common"  ]
+[jump  storage="h2-1-2.ks"  target="*common"  ]
 *common
 
 [bg  time="0"  method="crossfade"  storage="syoukouguchi2.jpg"  ]
