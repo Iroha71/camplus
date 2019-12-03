@@ -198,5 +198,5 @@ location.href="http://localhost:3001/senario/select?is_maigo=true"
 [chara_hide  name="会長"  time="0"  wait="true"  pos_mode="true"  ]
 [chara_hide  name="ひーさん"  time="0"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
-[jump  storage="h2_1_2.ks"  target="*common"  ]
+[jump  storage="h2-1-2.ks"  target="*common"  ]
 [s  ]
