@@ -4,8 +4,9 @@
 *2-5start
 
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[mask_off  time="1000"  effect="puffOut"  ]
 [tb_show_message_window  ]
-[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
 [tb_start_text mode=4 ]
 #ひーさん
 「ここはえーと、電子しすてむの部屋でな [r] ちょいと前までは「組み込み」だとかいうワシに優しい名前だったんじゃが」[p]
