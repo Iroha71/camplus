@@ -42,7 +42,7 @@
 
 [tb_start_text mode=1 ]
 #
-もちろん、こちらの耳にも届くほどの怒号が響いた。[p]
+……[wait time=500]もちろん、こちらの耳にも届くほどの怒号が響いた。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]

@@ -57,15 +57,15 @@
 
 [playse  volume="100"  time="1000"  buf="0"  storage="cannon2_(online-audio-converter.com).ogg"  ]
 [tb_start_text mode=1 ]
-#ひーさん
-「他にはなあ――」[p]
+なあ――」[p]
 #
 [_tb_end_text]
 
 [stopse  time="1000"  buf="0"  ]
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん(驚き).png"  ]
 [tb_start_text mode=1 ]
-そこでひーさんの言葉は途切れた。[r]正確には別の音で塗り潰されたというほうが正しい。[p]言い表すなら、ばん、と何かが弾け飛ぶ音。[r]しかし存外鈍い音で、布や硝子などが爆ぜるような音ではなかった。[p]音を聴くかぎり、距離としてはそう遠くない。[p]
+そこでひーさんの言葉は途切れた。[r]正確には別の音で塗り潰されたというほうが正しい。[p]言い表すなら、ばん、と何かが弾け飛ぶ音。[r]しかしかなり鈍い音で、布や硝子が爆ぜるような音ではなかった。[p]
+厚みのある金属が爆発したような低い音だ。[r]音を聴くかぎり、距離としてはそう遠くない。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -74,7 +74,9 @@
 #
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
+咄嗟に外へ走り出す。[p]
 一号館から近い館はいくつかあるが、その筆頭は隣接している四号館である。[p]四号館の前にはそれを表す看板があり、[r]それで中の施設などが分かるようになっているのだが――[p]――その看板が、真ん中から吹き飛んでいた。[p]
 [_tb_end_text]
 
