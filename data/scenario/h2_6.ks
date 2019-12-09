@@ -248,7 +248,7 @@
 [s  ]
 *Linux
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -266,7 +266,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *シスコ
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -276,7 +276,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *ウェアラブルコンピュータ
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -287,7 +287,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *サーバー
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（怒）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
