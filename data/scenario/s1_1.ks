@@ -24,6 +24,8 @@
 
 [tb_hide_message_window  ]
 [tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="being_knocked1_(online-audio-converter.com).ogg"  ]
+[wait  time="1000"  ]
 [tb_start_text mode=1 ]
 #？？？
 「どうぞ」[p]
