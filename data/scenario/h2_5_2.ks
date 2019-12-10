@@ -82,6 +82,52 @@
 また休憩することに決めたらしいひーさんが、[r]子鹿のように覚束ない足取りで椅子に座り直すとスマートフォンを手渡してくる。[p]間もなく湯飲みを両手で包んで動かなくなってしまった。[p]
 [_tb_end_text]
 
+[chara_hide  name="ひーさん"  time="500"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+……とりあえず、見てみよう。[p]
+[_tb_end_text]
+
+*回復待ち
+
+[tb_image_show  time="1000"  storage="default/ASO_Phone.png"  width="239"  height="503"  x="544"  y="8"  _clickable_img=""  name="img_33"  ]
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  target="*用語一覧を見る"  text="用語一覧を見る"  x="540"  width="200"  y="190"  ]
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  text="カリキュラムを見る"  target="*カリキュラムを見る"  x="540"  width="200"  y="300"  ]
+[glink  color="black"  storage="h2_5_2.ks"  size="20"  target="*自分のスマートフォンを出す"  text="自分のスマートフォンを出す"  x="540"  width="200"  y="410"  ]
+[s  ]
+*カリキュラムを見る
+
+[tb_image_hide  time="1000"  ]
+[tb_start_text mode=1 ]
+……ひーさんはまだ回復しそうにない。[p]
+[_tb_end_text]
+
+[jump  storage="h2_5_2.ks"  target="*回復待ち"  ]
+*用語一覧を見る
+
+[tb_image_hide  time="1000"  ]
+[tb_start_text mode=1 ]
+……ひーさんはまだ回復しそうにない。[p]
+[_tb_end_text]
+
+[jump  storage="h2_5_2.ks"  target="*回復待ち"  ]
+*自分のスマートフォンを出す
+
+[tb_image_hide  time="1000"  ]
+[jump  storage="h2_5_2.ks"  target="*回復"  ]
+*回復
+
+[chara_show  name="ひーさん"  time="500"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  reflect="false"  ]
+[tb_start_text mode=4 ]
+#ひーさん
+「……うむ[wait time=500]、まだマシになった。
+[_tb_end_text]
+
+[chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（喜ー口閉じ）.png"  ]
+[tb_start_text mode=1 ]
+行くかの」[p]
+#
+[_tb_end_text]
+
 [mask  time="1000"  effect="puffIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
 [jump  storage="h2_6.ks"  target=""  ]
 [s  ]

@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_h2_6.ks]
 
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [cm  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [bg  time="1000"  method="crossfade"  storage="493790f4fe9dff61.jpg"  ]
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -240,11 +240,11 @@
 何かわかる言葉はあるか、とひーさんがパンフレットを開いてこちらに向けてくる。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  x="540"  y="420"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="515"  width="250"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  x="515"  y="420"  width="250"  height="20"  ]
 [s  ]
 *Linux
 
