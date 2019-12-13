@@ -15,7 +15,7 @@ f.player_id = data.id
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-最初は一人で歩いていたせいか、清潔さだけが印象強かった廊下が[r]今は随分温かみを感じる。[p]
+最初は一人で歩いていたせいか、冷たいほどの清潔さだけが印象強かった廊下が[r]今は随分温かみを感じる。[p]
 二人で歩いていることによる気分のものか、隣でふわふわ揺れるひーさんの髪による[r]視覚効果かなにかかまでは分からないが。[p]
 [_tb_end_text]
 
@@ -79,15 +79,17 @@ f.player_id = data.id
 
 [tb_start_text mode=1 ]
 #会長
-「どうだったか軽く聞かせてくれる？」[p]
+「どうだったか、軽く聞かせてくれる？」[p]
 #
 [_tb_end_text]
 
+[mask  time="500"  effect="fadeIn"  color="0x000000"  graphic="転換/タイトル背景2.png"  ]
+[chara_hide  name="会長"  time="1000"  wait="true"  pos_mode="true"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 [tb_start_text mode=4 ]
 軽く説明し終わったところで
 [_tb_end_text]
 
-[chara_hide  name="会長"  time="1000"  wait="false"  pos_mode="true"  ]
 [tb_start_text mode=4 ]
 ひーさんの声に呼ばれて給湯室に向かうと、
 [_tb_end_text]
@@ -129,7 +131,7 @@ f.player_id = data.id
 
 [tb_start_text mode=1 ]
 #会長
-「聞いた限りでは希望もある程度固まっているみたいだし。[r]ええ、本当に良かったわ」[p]「少なくとも転校生のほうは恙なく終わりそうね」[p]
+「聞いた限りでは希望もある程度固まっているみたいだし。[r]ええ、本当に良かったわ」[p]「少なくとも転校生のほうはつつがなく終わりそうね」[p]
 「じゃあ、どうだった？　ひーさんの働きは」[p]
 #
 

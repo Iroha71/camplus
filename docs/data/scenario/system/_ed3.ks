@@ -1,6 +1,1 @@
-[preload  storage="./data/bgimage/seitokai_hiru.jpg"  ]
-[preload  storage="./data/fgimage/chara/2/ひーさん（焦り）.png"  ]
-[preload  storage="./data/fgimage/chara/2/ひーさん（緊迫）.png"  ]
-[preload  storage="./data/fgimage/chara/2/ひーさん（緊迫ー口大開け）.png"  ]
-[preload  storage="./data/fgimage/chara/2/ひーさん(驚き).png"  ]
 [return]

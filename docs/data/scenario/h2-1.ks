@@ -86,7 +86,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=true"
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-相変わらずつんとした顔だが、徐々に赤くなっているために迫力がない。[p]
+相変わらずつんとした顔だが、徐々に赤くなっていっているので迫力がない。[p]
 [_tb_end_text]
 
 [chara_mod  name="会長"  time="260"  cross="true"  storage="chara/1/会長（照-lv.2）.png"  ]
@@ -189,7 +189,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=true"
 それだけ叫ぶように言って、会長は素早く走り去ってしまった。[p]その際に勢いよく翻った澄んだ色のツインテールは[r]会長の動揺を表すようだ。[p]
 それを二人で見送る。[p]ちらりと窺い見た隣の小柄な人物はやけにいい笑顔だ。[p]
 #???
-「いや本当につんでれじゃなぁ会長は。見ていて面白いのぅ」[p]
+「いやあ本当につんでれじゃなあ会長は。見ていて面白いのぅ」[p]
 #
 [_tb_end_text]
 
