@@ -1,3 +1,5 @@
 [preload  storage="./data/fgimage/chara/2/ひーさん（喜）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん(驚き).png"  ]
+[preload  storage="./data/fgimage/default/ASO_Phone.png"  ]
+[preload  storage="./data/fgimage/chara/2/ひーさん（喜ー口閉じ）.png"  ]
 [return]

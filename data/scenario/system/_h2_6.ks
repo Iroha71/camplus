@@ -16,7 +16,7 @@
 [preload  storage="./data/fgimage/chara/2/ひーさん（真顔）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（緊迫ー口大開け）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（怒り泣き）.png"  ]
-[preload  storage="./data/fgimage/chara/2/ひーさん（通常ー口少し）.png"  ]
 [preload  storage="./data/bgimage/rouka.jpg"  ]
+[preload  storage="./data/fgimage/chara/2/ひーさん（通常ー口少し）.png"  ]
 [preload  storage="./data/fgimage/chara/2/ひーさん（楽）.png"  ]
 [return]

@@ -330,7 +330,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=false"
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-こちらが見やすいように差し出してくるので、[r]二人並んで一冊のパンフレットを見る。[p]ほれ、[wait time=250]とひーさんが示す指の先には、[r]鮮やかに色分けされたいくつかのワード規則正しく並んでいた。[p]
+こちらが見やすいように差し出してくるので、[r]二人並んで一冊のパンフレットを見る。[p]ほれ、[wait time=250]とひーさんが示す指の先には、[r]鮮やかに色分けされたいくつかのワードが規則正しく並んでいた。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -387,7 +387,7 @@ location.href="https://camplus-manage.netlify.com/senario/select?is_maigo=false"
 [chara_mod  name="ひーさん"  time="600"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
-「転校生と見学のことにすっかり気を取られて忘れておった……」[p]「ワシはそのな、[l]腰痛持ちでな？」[p]「いかんぞ、今にもぎっくり来そうな不穏な感じがする……」[p]
+「転校生と見学のことにすっかり気を取られて忘れておった……」[p]「ワシはそのな、[l]腰痛持ちでな？」[p]「いかんぞ、今にも腰がぎっくり来そうな不穏な感じがする……！」[p]
 #
 [_tb_end_text]
 

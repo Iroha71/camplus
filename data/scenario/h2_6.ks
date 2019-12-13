@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/_h2_6.ks]
 
-[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [cm  ]
+[chara_show  name="ひーさん"  time="1000"  wait="true"  storage="chara/2/ひーさん(通常).png"  width="804"  height="1122"  left="270"  top="114"  ]
 [bg  time="1000"  method="crossfade"  storage="493790f4fe9dff61.jpg"  ]
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -240,15 +240,15 @@
 何かわかる言葉はあるか、とひーさんがパンフレットを開いてこちらに向けてくる。[p]
 [_tb_end_text]
 
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="540"  width="200"  height="20"  ]
-[glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  x="540"  y="420"  width="200"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="Linux"  target="*Linux"  y="140"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="シスコ"  target="*シスコ"  y="210"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ウェアラブルコンピュータ"  y="280"  target="*ウェアラブルコンピュータ"  x="515"  width="250"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="サーバー"  y="350"  target="*サーバー"  x="515"  width="250"  height="20"  ]
+[glink  color="black"  storage="h2_6.ks"  size="20"  text="ない"  target="*common2"  x="515"  y="420"  width="250"  height="20"  ]
 [s  ]
 *Linux
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（真顔）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -266,7 +266,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *シスコ
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（緊迫ー口開け）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -276,7 +276,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *ウェアラブルコンピュータ
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（困り）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
@@ -287,7 +287,7 @@
 [jump  storage="h2_6.ks"  target="*common2"  ]
 *サーバー
 
-[tb_eval  exp="f.network+=1"  name="network"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.network+=2"  name="network"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
 [chara_mod  name="ひーさん"  time="1000"  cross="true"  storage="chara/2/ひーさん（怒）.png"  ]
 [tb_start_text mode=1 ]
 #ひーさん
