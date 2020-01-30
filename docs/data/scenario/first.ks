@@ -195,9 +195,10 @@ f.preload_images = [
 "tyrano/images/system/_builder/bg_base_menu_menu_menu_menu_menu_menu_menu_menu_menu_menu_menu.png",
 "tyrano/images/system/_builder/bg_base_save.png",
 "tyrano/images/system/_builder/menu_button_save_menu.png",
+"data/video/camplus.ogv"
 ]
 [endscript]
-[preload storage="&f.preload_images"]
+[preload storage="&f.preload_images" wait="true"]
 
 [freeimage layer="2"]
 
